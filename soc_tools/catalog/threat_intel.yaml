@@ -1,0 +1,90 @@
+category:
+  id: threat_intel
+  name: "Threat Intelligence"
+  description: "Threat intelligence platform for checking indicators of compromise (IOCs) including domains, IPs, file hashes, URLs, and email addresses against known threats."
+
+data_scope:
+  - attack_ground_truth
+  - process_events
+  - email_events
+  - login_events
+
+functions:
+  lookup_domain:
+    capability: threat_intel.lookup_domain
+    description: "Check a domain against threat intelligence. Returns verdict (malicious/unknown) and any associated attack campaigns, each labelled with the activity the domain was previously reported for."
+    parameters:
+      domain:
+        type: string
+        required: true
+        description: "Domain name to check (e.g. 'evil-phishing.com')"
+
+  lookup_ip:
+    capability: threat_intel.lookup_ip
+    description: "Check an IP address against threat intelligence. Returns verdict and associated attack campaigns, each labelled with the activity the IP was previously reported for."
+    parameters:
+      ip_address:
+        type: string
+        required: true
+        description: "IP address to check (e.g. '41.203.76.145')"
+
+  lookup_hash:
+    capability: threat_intel.lookup_hash
+    description: "Check a file hash against threat intelligence. Returns verdict, first seen date, number of affected hosts, and associated campaigns labelled with the activity the hash was previously reported for."
+    parameters:
+      file_hash:
+        type: string
+        required: true
+        description: "SHA256 or other file hash to check"
+
+  lookup_url:
+    capability: threat_intel.lookup_url
+    description: "Check a URL against threat intelligence. Returns verdict, associated attacks labelled with previously reported activity, and how many emails contained this URL."
+    parameters:
+      url:
+        type: string
+        required: true
+        description: "URL to check"
+
+  lookup_email_address:
+    capability: threat_intel.lookup_email_address
+    description: "Check an email address against threat intelligence. Shows if it's internal, campaigns it is associated with (labelled with previously reported activity), and total emails sent."
+    parameters:
+      email:
+        type: string
+        required: true
+        description: "Email address to check"
+
+  lookup_filename:
+    capability: threat_intel.lookup_filename
+    description: "Check a filename against threat intelligence. Searches for known malicious filenames in attack campaigns (labelled with previously reported activity), process events, and email attachments."
+    parameters:
+      filename:
+        type: string
+        required: true
+        description: "Filename to check (e.g. 'malware.exe', 'invoice.pdf')"
+
+  get_known_iocs:
+    capability: threat_intel.get_known_iocs
+    description: "List all known indicators of compromise from threat intelligence feeds. Can filter by IOC type."
+    parameters:
+      ioc_type:
+        type: string
+        required: false
+        enum: [domain, ip, hash, url, email, filename]
+        description: "Filter by IOC type. Omit to list all."
+
+platforms:
+  virustotal:
+    name: "VirusTotal / AbuseIPDB"
+    vendor: "Multiple"
+    prefix: "ti"
+    description: "Threat intelligence platform for checking indicators of compromise (IOCs) including domains, IPs, file hashes, URLs, and email addresses against known threats."
+    functions:
+      - lookup_domain
+      - lookup_ip
+      - lookup_hash
+      - lookup_url
+      - lookup_email_address
+      - lookup_filename
+      - get_known_iocs

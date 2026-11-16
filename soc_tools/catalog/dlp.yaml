@@ -1,0 +1,71 @@
+category:
+  id: dlp
+  name: "Data Loss Prevention"
+  description: "Data Loss Prevention (DLP) and Insider Risk Management (IRM) platform providing alerts for policy violations, sensitive data handling, and insider threat indicators."
+
+data_scope:
+  - file_events
+  - print_events
+  - email_events
+  - employees
+
+functions:
+  get_dlp_alerts:
+    capability: dlp.get_dlp_alerts
+    description: "Get DLP alerts triggered by policy violations such as sensitive data sharing, unauthorized file transfers, or classification breaches. Search by user or policy name."
+    parameters:
+      employee_id:
+        type: string
+        required: false
+        description: "Filter by employee ID"
+      policy_name:
+        type: string
+        required: false
+        description: "Filter by DLP policy name (substring match)"
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  get_irm_alerts:
+    capability: dlp.get_irm_alerts
+    description: "Get Insider Risk Management (IRM) alerts for suspicious insider activity such as bulk downloads, unusual file access patterns, print activity, and data exfiltration indicators. Search by user or policy name."
+    parameters:
+      employee_id:
+        type: string
+        required: false
+        description: "Filter by employee ID"
+      policy_name:
+        type: string
+        required: false
+        description: "Filter by IRM policy name (substring match)"
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+platforms:
+  purview:
+    name: "Microsoft Purview"
+    vendor: "Microsoft"
+    prefix: "purview"
+    description: "Data Loss Prevention (DLP) and Insider Risk Management (IRM) platform providing alerts for policy violations, sensitive data handling, and insider threat indicators."
+    functions:
+      - get_dlp_alerts
+      - get_irm_alerts
