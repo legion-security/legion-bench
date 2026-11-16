@@ -1,0 +1,228 @@
+category:
+  id: cnapp
+  name: "Cloud Native Application Protection Platform"
+  description: "Cloud security platform combining CSPM (Cloud Security Posture Management), CWPP (Cloud Workload Protection Platform), and Cloud Threat Detection. Provides visibility into cloud resources, vulnerabilities, misconfigurations, and threats."
+
+data_scope:
+  - cloud_instances
+  - cloud_containers
+  - cloud_vulnerabilities
+  - cloud_misconfigurations
+  - cloud_threats
+  - cloud_events
+
+functions:
+  search_resource:
+    capability: cnapp.search_resource
+    description: "Search for cloud resources (instances, containers) or cloud identities (IAM roles, service principals). Returns resource details including network configuration, permissions, and associated findings."
+    parameters:
+      resource_id:
+        type: string
+        required: false
+        description: "Cloud resource ID (instance ID, container ID) to search for"
+      identity:
+        type: string
+        required: false
+        description: "Cloud identity to search for (IAM role name, service principal)"
+      provider:
+        type: string
+        required: false
+        description: "Filter by cloud provider (e.g. 'aws', 'azure', 'gcp')"
+      resource_type:
+        type: string
+        required: false
+        description: "Filter by resource type (e.g. 'instance', 'container')"
+
+  search_vulnerabilities:
+    capability: cnapp.search_vulnerabilities
+    description: "Search for cloud vulnerabilities by resource, severity, or CVE. Returns vulnerability details including affected packages and remediation information."
+    parameters:
+      resource_id:
+        type: string
+        required: false
+        description: "Filter by resource ID"
+      cve_id:
+        type: string
+        required: false
+        description: "Search by CVE identifier (e.g. 'CVE-2024-1234')"
+      severity:
+        type: string
+        required: false
+        enum: [critical, high, medium, low]
+        description: "Filter by severity level"
+      provider:
+        type: string
+        required: false
+        description: "Filter by cloud provider"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  search_misconfigurations:
+    capability: cnapp.search_misconfigurations
+    description: "Search for cloud misconfigurations by resource, category, or severity. Covers CSPM findings like open security groups, public buckets, missing encryption, etc."
+    parameters:
+      resource_id:
+        type: string
+        required: false
+        description: "Filter by resource ID"
+      category:
+        type: string
+        required: false
+        description: "Filter by misconfiguration category (e.g. 'networking', 'encryption', 'access_control', 'logging')"
+      severity:
+        type: string
+        required: false
+        enum: [critical, high, medium, low]
+        description: "Filter by severity level"
+      provider:
+        type: string
+        required: false
+        description: "Filter by cloud provider"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  get_threat_details:
+    capability: cnapp.get_threat_details
+    description: "Get cloud threat detection details. Search by cloud identity or resource to find suspicious activities, unauthorized access, cryptomining, data exfiltration, and other cloud-specific threats."
+    parameters:
+      resource_id:
+        type: string
+        required: false
+        description: "Filter by resource ID"
+      identity:
+        type: string
+        required: false
+        description: "Filter by cloud identity (IAM role, service principal, username)"
+      threat_type:
+        type: string
+        required: false
+        description: "Filter by threat type (e.g. 'unauthorized_access', 'cryptomining', 'data_exfiltration')"
+      severity:
+        type: string
+        required: false
+        enum: [critical, high, medium, low]
+        description: "Filter by severity level"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  search_cloud_events:
+    capability: cnapp.search_cloud_events
+    description: "Search cloud API event logs (CloudTrail, Azure Activity Log, GCP Audit Log). Find specific API calls by instance, identity, event name, source IP, or time range."
+    parameters:
+      instance_id:
+        type: string
+        required: false
+        description: "Filter by cloud instance ID"
+      identity:
+        type: string
+        required: false
+        description: "Filter by IAM identity (role, service principal, or user email)"
+      event_name:
+        type: string
+        required: false
+        description: "Filter by API event name (e.g. 'GetObject', 'AssumeRole', 'CreateTrainingJob')"
+      event_source:
+        type: string
+        required: false
+        description: "Filter by event source service (e.g. 's3.amazonaws.com', 'Microsoft.Storage')"
+      event_category:
+        type: string
+        required: false
+        enum: [management, data, network, auth, monitoring]
+        description: "Filter by event category"
+      provider:
+        type: string
+        required: false
+        description: "Filter by cloud provider ('aws', 'azure', 'gcp')"
+      source_ip:
+        type: string
+        required: false
+        description: "Filter by source IP address"
+      time_start:
+        type: string
+        required: false
+        description: "Start of time range (ISO 8601 format)"
+      time_end:
+        type: string
+        required: false
+        description: "End of time range (ISO 8601 format)"
+      response_status:
+        type: string
+        required: false
+        enum: [Success, Failed, AccessDenied]
+        description: "Filter by response status"
+      read_only:
+        type: boolean
+        required: false
+        description: "Filter by read-only flag (true for read operations, false for write)"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 100)"
+
+  get_cloud_identity_activity:
+    capability: cnapp.get_cloud_identity_activity
+    description: "Get all cloud API activity for a specific IAM identity. Use this to investigate compromised service accounts or track suspicious identity behavior across instances."
+    parameters:
+      identity:
+        type: string
+        required: true
+        description: "IAM identity to search for (role name, service principal, or user email)"
+      time_start:
+        type: string
+        required: false
+        description: "Start of time range (ISO 8601 format)"
+      time_end:
+        type: string
+        required: false
+        description: "End of time range (ISO 8601 format)"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 100)"
+
+  get_cloud_event_summary:
+    capability: cnapp.get_cloud_event_summary
+    description: "Get a summary of cloud API events grouped by event name with counts and time ranges. Useful for baselining normal activity patterns and detecting anomalies."
+    parameters:
+      instance_id:
+        type: string
+        required: false
+        description: "Filter by cloud instance ID"
+      identity:
+        type: string
+        required: false
+        description: "Filter by IAM identity"
+      provider:
+        type: string
+        required: false
+        description: "Filter by cloud provider ('aws', 'azure', 'gcp')"
+      time_start:
+        type: string
+        required: false
+        description: "Start of time range (ISO 8601 format)"
+      time_end:
+        type: string
+        required: false
+        description: "End of time range (ISO 8601 format)"
+
+platforms:
+  wiz:
+    name: "Wiz"
+    vendor: "Wiz"
+    prefix: "cnapp"
+    description: "Cloud security platform combining CSPM, CWPP, and Cloud Threat Detection. Provides visibility into cloud resources, vulnerabilities, misconfigurations, and threats."
+    functions:
+      - search_resource
+      - search_vulnerabilities
+      - search_misconfigurations
+      - get_threat_details
+      - search_cloud_events
+      - get_cloud_identity_activity
+      - get_cloud_event_summary

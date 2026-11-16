@@ -1,0 +1,155 @@
+category:
+  id: identity
+  name: "Identity and Access Management"
+  description: "Identity and access management service providing user directory, sign-in logs, MFA status, group management, and admin audit logs."
+
+data_scope:
+  - login_events
+  - mfa_events
+  - admin_actions
+  - employees
+  - groups
+  - group_members
+  - devices
+
+functions:
+  lookup_user:
+    capability: identity.lookup_user
+    description: "Look up a user in the directory by ID, email address, or display name. Returns profile details, department, title, accounts, and authorisations."
+    parameters:
+      user_ref:
+        type: string
+        required: true
+        description: "User ID, email address, or display name to search for"
+
+  sign_in_logs:
+    capability: identity.get_sign_in_logs
+    description: "Get sign-in logs showing authentication events. Shows IP addresses, success/failure, MFA status, apps accessed, and geographic information."
+    parameters:
+      employee_id:
+        type: string
+        required: false
+        description: "Filter by employee ID"
+      email:
+        type: string
+        required: false
+        description: "Filter by email address (will resolve to employee ID)"
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+      success:
+        type: boolean
+        required: false
+        description: "Filter by authentication success (true) or failure (false)"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  mfa_activity:
+    capability: identity.get_mfa_activity
+    description: "Get MFA activity for a user including push notifications, approvals, denials, device registrations, and code entries."
+    parameters:
+      employee_id:
+        type: string
+        required: false
+        description: "Filter by employee ID"
+      action:
+        type: string
+        required: false
+        enum: [push_sent, push_approved, push_denied, device_registered, device_removed, code_entered, code_failed]
+        description: "Filter by MFA action type"
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+
+  get_user_groups:
+    capability: identity.get_user_groups
+    description: "Get all security and distribution groups a user is a member of, including each group's authorisations."
+    parameters:
+      user_ref:
+        type: string
+        required: true
+        description: "User ID or email address"
+
+  get_group_members:
+    capability: identity.get_group_members
+    description: "List all members of a security or distribution group."
+    parameters:
+      group_ref:
+        type: string
+        required: true
+        description: "Group ID or group name"
+
+  user_audit_log:
+    capability: identity.get_user_audit_log
+    description: "Get audit log of user actions such as group changes, role assignments, password resets, and account modifications."
+    parameters:
+      employee_id:
+        type: string
+        required: false
+        description: "Filter by the employee who performed the action"
+      action:
+        type: string
+        required: false
+        description: "Filter by action type (e.g. 'add_to_group', 'password_reset')"
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+      limit:
+        type: integer
+        required: false
+        description: "Maximum results (default 50)"
+
+  user_access_review:
+    capability: identity.get_user_access_review
+    description: "Comprehensive access review for a user showing all groups, authorisations, devices, and recent admin changes affecting their account."
+    parameters:
+      user_ref:
+        type: string
+        required: true
+        description: "User ID or email address"
+
+  risky_users:
+    capability: identity.get_risky_users
+    description: "Identify users with risky sign-in patterns including failed logins, MFA denials, and impossible travel indicators."
+    parameters:
+      time_start:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp lower bound"
+      time_end:
+        type: string
+        required: false
+        description: "ISO 8601 timestamp upper bound"
+
+platforms:
+  entra_id:
+    name: "Microsoft Entra ID"
+    vendor: "Microsoft"
+    prefix: "entra"
+    description: "Identity and access management service providing user directory, sign-in logs, MFA status, group management, and admin audit logs."
+    functions:
+      - lookup_user
+      - sign_in_logs
+      - mfa_activity
+      - get_user_groups
+      - get_group_members
+      - user_audit_log
+      - user_access_review
+      - risky_users

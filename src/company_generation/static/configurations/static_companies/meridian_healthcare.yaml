@@ -1,0 +1,3862 @@
+overall:
+  employees: 300
+  names:
+    first: ['Liam', 'Noah', 'Oliver', 'Theodore', 'James', 'Henry', 'Mateo', 'Elijah', 'Lucas', 'William', 'Benjamin', 'Levi', 'Ezra', 'Sebastian', 'Jack', 'Daniel', 'Samuel', 'Michael', 'Ethan', 'Asher', 'John', 'Hudson', 'Luca', 'Leo', 'Elias', 'Owen', 'Alexander', 'Dylan', 'Santiago', 'Julian', 'David', 'Joseph', 'Matthew', 'Luke', 'Jackson', 'Maverick', 'Miles', 'Wyatt', 'Thomas', 'Isaac', 'Jacob', 'Mason', 'Gabriel', 'Anthony', 'Carter', 'Logan', 'Aiden', 'Grayson', 'Caleb', 'Cooper', 'Olivia', 'Emma', 'Amelia', 'Charlotte', 'Ava', 'Sophia', 'Isabella', 'Mia', 'Evelyn', 'Harper', 'Luna', 'Camila', 'Gianna', 'Elizabeth', 'Ella', 'Scarlett', 'Emily', 'Avery', 'Sofia', 'Mila', 'Aria', 'Hazel', 'Layla', 'Abigail', 'Chloe', 'Nora', 'Lily', 'Eleanor', 'Zoey', 'Hannah', 'Grace', 'Victoria', 'Riley', 'Penelope', 'Ivy', 'Isla', 'Aurora', 'Addison', 'Bella', 'Violet', 'Stella', 'Natalie', 'Leah', 'Savannah', 'Audrey', 'Brooklyn', 'Claire', 'Skylar', 'Ruby', 'Alice', 'Wei', 'Yuki', 'Raj', 'Priya', 'Amit', 'Chen', 'Ming', 'Kenji', 'Arjun', 'Sanjay', 'Ananya', 'Ravi', 'Deepak', 'Mei', 'Hiroshi', 'Takeshi', 'Yusuf', 'Omar', 'Ahmed', 'Fatima', 'Zara', 'Ling', 'Jin', 'Hao', 'Yan', 'Pavel', 'Dmitri', 'Alexei', 'Mikhail', 'Natasha', 'Irina', 'Lars', 'Erik', 'Ingrid', 'Klaus', 'Hans', 'Greta', 'Pierre', 'Jean', 'Marie', 'Sophie', 'Carlos', 'Diego', 'Rosa', 'Elena', 'Marco', 'Lucia', 'Antonio', 'Giuseppe', 'Francesca']
+    last: ['Smith', 'Gomez', 'Johnson', 'Phillips', 'Williams', 'Evans', 'Brown', 'Turner', 'Jones', 'Diaz', 'Garcia', 'Parker', 'Miller', 'Cruz', 'Davis', 'Edwards', 'Rodriguez', 'Collins', 'Martinez', 'Reyes', 'Hernandez', 'Stewart', 'Lopez', 'Morris', 'Gonzalez', 'Morales', 'Wilson', 'Murphy', 'Anderson', 'Cook', 'Thomas', 'Rogers', 'Taylor', 'Gutierrez', 'Moore', 'Ortiz', 'Jackson', 'Morgan', 'Martin', 'Cooper', 'Lee', 'Peterson', 'Perez', 'Bailey', 'Thompson', 'Reed', 'White', 'Kelly', 'Harris', 'Howard', 'Sanchez', 'Ramos', 'Clark', 'Kim', 'Ramirez', 'Cox', 'Lewis', 'Ward', 'Robinson', 'Richardson', 'Walker', 'Watson', 'Young', 'Brooks', 'Allen', 'Chavez', 'King', 'Wood', 'Wright', 'James', 'Scott', 'Bennett', 'Torres', 'Gray', 'Nguyen', 'Mendoza', 'Hill', 'Ruiz', 'Flores', 'Hughes', 'Green', 'Price', 'Adams', 'Alvarez', 'Nelson', 'Castillo', 'Baker', 'Sanders', 'Hall', 'Patel', 'Rivera', 'Myers', 'Campbell', 'Long', 'Mitchell', 'Ross', 'Carter', 'Foster', 'Roberts', 'Jimenez', 'Zhang', 'Wang', 'Li', 'Chen', 'Liu', 'Yang', 'Huang', 'Wu', 'Zhou', 'Sun', 'Tanaka', 'Yamamoto', 'Suzuki', 'Sato', 'Watanabe', 'Sharma', 'Singh', 'Kumar', 'Gupta', 'Mehta', 'Shah', 'Verma', 'Reddy', 'Iyer', 'Nair', 'Muller', 'Schmidt', 'Weber', 'Schneider', 'Fischer', 'Petrov', 'Ivanov', 'Smirnov', 'Dubois', 'Laurent', 'Rossi', 'Ferrari', 'Romano', 'Fernandez', 'Sanchez', 'Andersson', 'Johansson', 'Larsson', 'Eriksson']
+  department_distribution:
+    Clinical Operations: 0.30
+    Nursing: 0.15
+    Administration: 0.10
+    IT: 0.05
+    Finance & Billing: 0.08
+    HR: 0.05
+    Compliance & Risk: 0.04
+    Pharmacy: 0.04
+    Laboratory: 0.05
+    Radiology: 0.03
+    Patient Services: 0.03
+    Executive: 0.03
+    Facilities: 0.05
+  department_categories:
+    Clinical Operations: professional_clinical
+    Nursing: professional_clinical
+    Administration: business_operations
+    IT: tech_ops
+    Finance & Billing: business_finance
+    HR: people_hr
+    Compliance & Risk: professional_legal
+    Pharmacy: professional_clinical
+    Laboratory: professional_clinical
+    Radiology: professional_clinical
+    Patient Services: people_support
+    Executive: leadership
+    Facilities: business_operations
+  role_distribution:
+    Clinical Operations:
+      Chief Medical Officer: 0.01
+      Medical Director: 0.03
+      Attending Physician: 0.20
+      Resident: 0.15
+      Nurse Practitioner: 0.12
+      Physician Assistant: 0.10
+      Medical Assistant: 0.20
+      Clinical Coordinator: 0.05
+      Surgeon: 0.04
+      Hospitalist: 0.05
+      Clinical Informaticist: 0.05
+    Nursing:
+      Chief Nursing Officer: 0.02
+      Nursing Director: 0.05
+      Nurse Manager: 0.10
+      Charge Nurse: 0.10
+      Registered Nurse: 0.35
+      Licensed Practical Nurse: 0.20
+      Certified Nursing Assistant: 0.13
+      Nurse Educator: 0.05
+    Administration:
+      VP Administration: 0.03
+      Administrative Director: 0.05
+      Office Manager: 0.10
+      Administrative Coordinator: 0.15
+      Medical Secretary: 0.20
+      Receptionist: 0.20
+      Medical Records Clerk: 0.12
+      Health Information Manager: 0.08
+      Credentialing Specialist: 0.07
+    IT:
+      Chief Information Officer: 0.05
+      IT Director: 0.08
+      IT Manager: 0.12
+      Systems Administrator: 0.18
+      Network Engineer: 0.12
+      IT Support Specialist: 0.20
+      Clinical Systems Analyst: 0.15
+      Help Desk Technician: 0.10
+    Finance & Billing:
+      VP Finance: 0.03
+      Finance Director: 0.05
+      Billing Manager: 0.08
+      Senior Billing Specialist: 0.12
+      Billing Specialist: 0.20
+      Medical Coder: 0.18
+      Accounts Receivable Specialist: 0.10
+      Financial Analyst: 0.08
+      Revenue Cycle Analyst: 0.08
+      Accountant: 0.08
+    HR:
+      VP Human Resources: 0.05
+      HR Director: 0.08
+      HR Manager: 0.12
+      HR Generalist: 0.20
+      Recruiter: 0.15
+      Benefits Coordinator: 0.10
+      Training Coordinator: 0.10
+      Payroll Specialist: 0.10
+      Employee Relations Specialist: 0.10
+    Compliance & Risk:
+      Chief Compliance Officer: 0.05
+      Compliance Director: 0.08
+      Compliance Manager: 0.12
+      Compliance Analyst: 0.20
+      Risk Manager: 0.12
+      Privacy Officer: 0.10
+      Quality Assurance Specialist: 0.18
+      Internal Auditor: 0.15
+    Pharmacy:
+      Pharmacy Director: 0.08
+      Clinical Pharmacist: 0.25
+      Staff Pharmacist: 0.25
+      Pharmacy Technician: 0.30
+      Pharmacy Intern: 0.12
+    Laboratory:
+      Lab Director: 0.05
+      Lab Manager: 0.08
+      Senior Lab Technologist: 0.15
+      Medical Lab Technologist: 0.25
+      Lab Technician: 0.25
+      Phlebotomist: 0.15
+      Pathologist: 0.07
+    Radiology:
+      Radiology Director: 0.08
+      Radiologist: 0.20
+      Senior Radiology Technologist: 0.15
+      Radiology Technologist: 0.30
+      MRI Technologist: 0.15
+      CT Technologist: 0.12
+    Patient Services:
+      Patient Services Director: 0.08
+      Patient Services Manager: 0.12
+      Patient Access Representative: 0.25
+      Patient Advocate: 0.15
+      Social Worker: 0.15
+      Care Coordinator: 0.15
+      Interpreter: 0.10
+    Executive:
+      CEO: 0.05
+      Chief Medical Officer: 0.05
+      Chief Nursing Officer: 0.05
+      Chief Financial Officer: 0.05
+      Chief Information Officer: 0.05
+      Chief Operating Officer: 0.05
+      Chief Compliance Officer: 0.05
+      VP Administration: 0.05
+      VP Human Resources: 0.05
+      VP Finance: 0.05
+      Chief of Staff: 0.10
+      Executive Assistant: 0.25
+      Board Secretary: 0.05
+      Strategy Director: 0.10
+    Facilities:
+      Facilities Director: 0.05
+      Facilities Manager: 0.10
+      Maintenance Supervisor: 0.10
+      Maintenance Technician: 0.25
+      Biomedical Equipment Technician: 0.15
+      Environmental Services Supervisor: 0.08
+      Environmental Services Worker: 0.20
+      Safety Officer: 0.07
+  role_managers:
+    Clinical Operations:
+      Chief Medical Officer: CEO
+      Medical Director: Chief Medical Officer
+      Attending Physician: Medical Director
+      Resident: Attending Physician
+      Nurse Practitioner: Medical Director
+      Physician Assistant: Attending Physician
+      Medical Assistant: Clinical Coordinator
+      Clinical Coordinator: Medical Director
+      Surgeon: Medical Director
+      Hospitalist: Medical Director
+      Clinical Informaticist: Medical Director
+    Nursing:
+      Chief Nursing Officer: CEO
+      Nursing Director: Chief Nursing Officer
+      Nurse Manager: Nursing Director
+      Charge Nurse: Nurse Manager
+      Registered Nurse: Charge Nurse
+      Licensed Practical Nurse: Charge Nurse
+      Certified Nursing Assistant: Registered Nurse
+      Nurse Educator: Nursing Director
+    Administration:
+      VP Administration: Chief Operating Officer
+      Administrative Director: VP Administration
+      Office Manager: Administrative Director
+      Administrative Coordinator: Office Manager
+      Medical Secretary: Office Manager
+      Receptionist: Office Manager
+      Medical Records Clerk: Health Information Manager
+      Health Information Manager: Administrative Director
+      Credentialing Specialist: Administrative Director
+    IT:
+      Chief Information Officer: CEO
+      IT Director: Chief Information Officer
+      IT Manager: IT Director
+      Systems Administrator: IT Manager
+      Network Engineer: IT Manager
+      IT Support Specialist: IT Manager
+      Clinical Systems Analyst: IT Director
+      Help Desk Technician: IT Support Specialist
+    Finance & Billing:
+      VP Finance: Chief Financial Officer
+      Finance Director: VP Finance
+      Billing Manager: Finance Director
+      Senior Billing Specialist: Billing Manager
+      Billing Specialist: Senior Billing Specialist
+      Medical Coder: Billing Manager
+      Accounts Receivable Specialist: Finance Director
+      Financial Analyst: Finance Director
+      Revenue Cycle Analyst: Finance Director
+      Accountant: Finance Director
+    HR:
+      VP Human Resources: Chief Operating Officer
+      HR Director: VP Human Resources
+      HR Manager: HR Director
+      HR Generalist: HR Manager
+      Recruiter: HR Manager
+      Benefits Coordinator: HR Manager
+      Training Coordinator: HR Director
+      Payroll Specialist: HR Manager
+      Employee Relations Specialist: HR Director
+    Compliance & Risk:
+      Chief Compliance Officer: CEO
+      Compliance Director: Chief Compliance Officer
+      Compliance Manager: Compliance Director
+      Compliance Analyst: Compliance Manager
+      Risk Manager: Compliance Director
+      Privacy Officer: Chief Compliance Officer
+      Quality Assurance Specialist: Compliance Manager
+      Internal Auditor: Compliance Director
+    Pharmacy:
+      Pharmacy Director: Chief Medical Officer
+      Clinical Pharmacist: Pharmacy Director
+      Staff Pharmacist: Pharmacy Director
+      Pharmacy Technician: Staff Pharmacist
+      Pharmacy Intern: Clinical Pharmacist
+    Laboratory:
+      Lab Director: Chief Medical Officer
+      Lab Manager: Lab Director
+      Senior Lab Technologist: Lab Manager
+      Medical Lab Technologist: Senior Lab Technologist
+      Lab Technician: Senior Lab Technologist
+      Phlebotomist: Lab Manager
+      Pathologist: Lab Director
+    Radiology:
+      Radiology Director: Chief Medical Officer
+      Radiologist: Radiology Director
+      Senior Radiology Technologist: Radiology Director
+      Radiology Technologist: Senior Radiology Technologist
+      MRI Technologist: Senior Radiology Technologist
+      CT Technologist: Senior Radiology Technologist
+    Patient Services:
+      Patient Services Director: Chief Operating Officer
+      Patient Services Manager: Patient Services Director
+      Patient Access Representative: Patient Services Manager
+      Patient Advocate: Patient Services Manager
+      Social Worker: Patient Services Director
+      Care Coordinator: Patient Services Manager
+      Interpreter: Patient Services Manager
+    Executive:
+      CEO: null
+      Chief Medical Officer: CEO
+      Chief Nursing Officer: CEO
+      Chief Financial Officer: CEO
+      Chief Information Officer: CEO
+      Chief Operating Officer: CEO
+      Chief Compliance Officer: CEO
+      VP Administration: Chief Operating Officer
+      VP Human Resources: Chief Operating Officer
+      VP Finance: Chief Financial Officer
+      Chief of Staff: CEO
+      Executive Assistant: Chief of Staff
+      Board Secretary: CEO
+      Strategy Director: CEO
+    Facilities:
+      Facilities Director: Chief Operating Officer
+      Facilities Manager: Facilities Director
+      Maintenance Supervisor: Facilities Manager
+      Maintenance Technician: Maintenance Supervisor
+      Biomedical Equipment Technician: Facilities Manager
+      Environmental Services Supervisor: Facilities Manager
+      Environmental Services Worker: Environmental Services Supervisor
+      Safety Officer: Facilities Director
+
+company:
+  id: meridian_healthcare
+  name: Meridian Healthcare Partners
+  domain: meridianhcp.com
+  description: >
+    Meridian Healthcare Partners is a regional healthcare network operating hospitals,
+    outpatient clinics, and specialty care centers in the northeastern United States.
+    They provide a full range of medical services including primary care, surgery,
+    radiology, pharmacy, and laboratory services. The organization is HIPAA-regulated,
+    uses electronic health record (EHR) systems extensively, and employs physicians,
+    nurses, and allied health professionals alongside administrative and IT staff.
+  locations:
+    - US-BOS-HQ
+    - US-HFD
+    - US-PVD
+
+departments:
+  - name: Clinical Operations
+  - name: Nursing
+  - name: Administration
+  - name: IT
+  - name: Finance & Billing
+  - name: HR
+  - name: Compliance & Risk
+  - name: Pharmacy
+  - name: Laboratory
+  - name: Radiology
+  - name: Patient Services
+  - name: Executive
+  - name: Facilities
+
+groups:
+  # Clinical Groups
+  - id: grp_physicians
+    name: Physicians Group
+    description: All attending physicians, surgeons, and hospitalists
+    member_roles: [Clinical Operations - Attending Physician, Clinical Operations - Surgeon, Clinical Operations - Hospitalist, Clinical Operations - Medical Director]
+    authorisations:
+      - Epic EHR - admin
+      - Cerner - admin
+      - Dragon Medical - operator
+      - Imprivata - operator
+      - Microsoft Teams - operator
+      - Zoom - operator
+      - Citrix - operator
+      - OneDrive - operator
+
+  - id: grp_advanced_practice
+    name: Advanced Practice Providers
+    description: Nurse practitioners and physician assistants
+    member_roles: [Clinical Operations - Nurse Practitioner, Clinical Operations - Physician Assistant]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - operator
+      - Dragon Medical - operator
+      - Imprivata - operator
+      - Microsoft Teams - operator
+      - Vocera - operator
+      - Citrix - operator
+
+  - id: grp_nursing_leadership
+    name: Nursing Leadership
+    description: Nursing directors, managers, and charge nurses
+    member_roles: [Nursing - Chief Nursing Officer, Nursing - Nursing Director, Nursing - Nurse Manager, Nursing - Charge Nurse, Nursing - Nurse Educator]
+    authorisations:
+      - Epic EHR - admin
+      - Cerner - operator
+      - QGenda - admin
+      - Kronos - admin
+      - Vocera - admin
+      - Microsoft Teams - operator
+      - SharePoint - operator
+      - Workday - reader
+
+  - id: grp_nursing_staff
+    name: Nursing Staff
+    description: Registered nurses, LPNs, and CNAs
+    member_roles: [Nursing - Registered Nurse, Nursing - Licensed Practical Nurse, Nursing - Certified Nursing Assistant]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - operator
+      - Vocera - operator
+      - Imprivata - operator
+      - Kronos - operator
+      - Microsoft Teams - operator
+
+  - id: grp_clinical_informatics
+    name: Clinical Informatics Team
+    description: Clinical informaticists and clinical systems analysts
+    member_roles: [Clinical Operations - Clinical Informaticist, IT - Clinical Systems Analyst]
+    authorisations:
+      - Epic EHR - admin
+      - Cerner - admin
+      - MEDITECH - admin
+      - Power BI - operator
+      - SharePoint - operator
+      - Microsoft Teams - operator
+      - Citrix - admin
+
+  # IT and Security Groups
+  - id: grp_it_admins
+    name: IT Administrators
+    description: Core IT administration team
+    member_roles: [IT - Chief Information Officer, IT - IT Director, IT - IT Manager, IT - Systems Administrator]
+    authorisations:
+      - Okta - admin
+      - Active Directory - admin
+      - CrowdStrike - admin
+      - Imprivata - admin
+      - Citrix - admin
+      - Microsoft 365 - admin
+      - Microsoft Teams - admin
+      - SharePoint - admin
+      - Epic EHR - admin
+      - Cerner - admin
+
+  - id: grp_it_support
+    name: IT Support and Help Desk
+    description: IT support specialists and help desk technicians
+    member_roles: [IT - IT Support Specialist, IT - Help Desk Technician, IT - Network Engineer]
+    authorisations:
+      - Okta - operator
+      - Active Directory - operator
+      - CrowdStrike - operator
+      - Imprivata - operator
+      - Citrix - operator
+      - Microsoft Teams - operator
+      - Microsoft 365 - operator
+
+  # Finance and Billing Groups
+  - id: grp_billing_team
+    name: Billing and Revenue Cycle
+    description: Billing specialists, coders, and revenue cycle analysts
+    member_roles: [Finance & Billing - Billing Manager, Finance & Billing - Senior Billing Specialist, Finance & Billing - Billing Specialist, Finance & Billing - Medical Coder, Finance & Billing - Revenue Cycle Analyst, Finance & Billing - Accounts Receivable Specialist]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - reader
+      - QuickBooks - operator
+      - ADP - operator
+      - Microsoft 365 - operator
+      - Microsoft Teams - operator
+      - SharePoint - operator
+
+  - id: grp_finance_leadership
+    name: Finance Leadership
+    description: Finance department leadership
+    member_roles: [Finance & Billing - VP Finance, Finance & Billing - Finance Director, Finance & Billing - Financial Analyst, Finance & Billing - Accountant]
+    authorisations:
+      - QuickBooks - admin
+      - Concur - admin
+      - ADP - admin
+      - Power BI - admin
+      - Workday - operator
+      - Microsoft 365 - operator
+      - Microsoft Teams - operator
+      - SharePoint - operator
+
+  # Compliance and Administration Groups
+  - id: grp_compliance_team
+    name: Compliance and Risk Team
+    description: Compliance officers, analysts, and auditors
+    member_roles: [Compliance & Risk - Chief Compliance Officer, Compliance & Risk - Compliance Director, Compliance & Risk - Compliance Manager, Compliance & Risk - Compliance Analyst, Compliance & Risk - Risk Manager, Compliance & Risk - Privacy Officer, Compliance & Risk - Quality Assurance Specialist, Compliance & Risk - Internal Auditor]
+    authorisations:
+      - Compliancy Group - admin
+      - Healthicity - admin
+      - Epic EHR - reader
+      - Power BI - operator
+      - SharePoint - operator
+      - Microsoft Teams - operator
+      - Microsoft 365 - operator
+      - DocuSign - operator
+
+  - id: grp_admin_staff
+    name: Administrative Staff
+    description: Administrative coordinators, secretaries, and records staff
+    member_roles: [Administration - Office Manager, Administration - Administrative Coordinator, Administration - Medical Secretary, Administration - Receptionist, Administration - Medical Records Clerk, Administration - Health Information Manager, Administration - Credentialing Specialist]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - reader
+      - Microsoft 365 - operator
+      - Microsoft Teams - operator
+      - SharePoint - operator
+      - Zoom - operator
+      - OneDrive - operator
+
+  # Pharmacy and Lab Groups
+  - id: grp_pharmacy_team
+    name: Pharmacy Team
+    description: Pharmacists and pharmacy technicians
+    member_roles: [Pharmacy - Pharmacy Director, Pharmacy - Clinical Pharmacist, Pharmacy - Staff Pharmacist, Pharmacy - Pharmacy Technician, Pharmacy - Pharmacy Intern]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - operator
+      - MEDITECH - operator
+      - Microsoft Teams - operator
+      - Imprivata - operator
+      - Citrix - operator
+
+  - id: grp_lab_team
+    name: Laboratory Team
+    description: Lab technologists, technicians, and pathologists
+    member_roles: [Laboratory - Lab Director, Laboratory - Lab Manager, Laboratory - Senior Lab Technologist, Laboratory - Medical Lab Technologist, Laboratory - Lab Technician, Laboratory - Phlebotomist, Laboratory - Pathologist]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - operator
+      - Philips IntelliSpace - operator
+      - Microsoft Teams - operator
+      - Imprivata - operator
+      - Citrix - operator
+
+  - id: grp_radiology_team
+    name: Radiology Team
+    description: Radiologists and radiology technologists
+    member_roles: [Radiology - Radiology Director, Radiology - Radiologist, Radiology - Senior Radiology Technologist, Radiology - Radiology Technologist, Radiology - MRI Technologist, Radiology - CT Technologist]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - operator
+      - Philips IntelliSpace - admin
+      - Microsoft Teams - operator
+      - Imprivata - operator
+      - Citrix - operator
+
+  # HR Group
+  - id: grp_hr_team
+    name: Human Resources Team
+    description: Full HR department
+    member_roles: [HR - VP Human Resources, HR - HR Director, HR - HR Manager, HR - HR Generalist, HR - Recruiter, HR - Benefits Coordinator, HR - Training Coordinator, HR - Payroll Specialist, HR - Employee Relations Specialist]
+    authorisations:
+      - Workday - admin
+      - ADP - admin
+      - BambooHR - admin
+      - Kronos - operator
+      - Microsoft 365 - operator
+      - Microsoft Teams - operator
+      - SharePoint - operator
+      - Zoom - operator
+      - DocuSign - operator
+
+  # Leadership Groups
+  - id: grp_c_suite
+    name: C-Suite
+    description: Executive leadership team
+    member_roles: [Executive - CEO, Executive - Chief Medical Officer, Executive - Chief Nursing Officer, Executive - Chief Financial Officer, Executive - Chief Information Officer, Executive - Chief Operating Officer, Executive - Chief Compliance Officer]
+    authorisations:
+      - Epic EHR - admin
+      - Microsoft Teams - admin
+      - Microsoft 365 - admin
+      - SharePoint - admin
+      - Zoom - admin
+      - Power BI - admin
+      - Workday - admin
+      - DocuSign - admin
+      - Okta - reader
+      - CrowdStrike - reader
+      - Tableau - admin
+
+  - id: grp_exec_staff
+    name: Executive Staff
+    description: Executive assistants and support staff
+    member_roles: [Executive - VP Administration, Executive - VP Human Resources, Executive - VP Finance, Executive - Chief of Staff, Executive - Executive Assistant, Executive - Board Secretary, Executive - Strategy Director]
+    authorisations:
+      - Microsoft Teams - operator
+      - Microsoft 365 - operator
+      - SharePoint - operator
+      - Zoom - operator
+      - OneDrive - operator
+      - Concur - operator
+      - DocuSign - operator
+
+  # Patient Services Group
+  - id: grp_patient_services
+    name: Patient Services Team
+    description: Patient access, advocacy, and care coordination
+    member_roles: [Patient Services - Patient Services Director, Patient Services - Patient Services Manager, Patient Services - Patient Access Representative, Patient Services - Patient Advocate, Patient Services - Social Worker, Patient Services - Care Coordinator, Patient Services - Interpreter]
+    authorisations:
+      - Epic EHR - operator
+      - Cerner - reader
+      - Microsoft Teams - operator
+      - Microsoft 365 - operator
+      - Zoom - operator
+
+  # Facilities Group
+  - id: grp_facilities_team
+    name: Facilities and Maintenance
+    description: Facilities management and maintenance staff
+    member_roles: [Facilities - Facilities Director, Facilities - Facilities Manager, Facilities - Maintenance Supervisor, Facilities - Maintenance Technician, Facilities - Biomedical Equipment Technician, Facilities - Environmental Services Supervisor, Facilities - Environmental Services Worker, Facilities - Safety Officer]
+    authorisations:
+      - Microsoft Teams - operator
+      - Microsoft 365 - operator
+      - Kronos - operator
+      - SharePoint - reader
+
+networks:
+  - id: net_bos_hq
+    cidr: 10.0.0.0/16
+    location: US-BOS-HQ
+    name: meridian-hq-boston
+  - id: net_hfd
+    cidr: 10.1.0.0/16
+    location: US-HFD
+    name: meridian-hartford
+  - id: net_pvd
+    cidr: 10.2.0.0/16
+    location: US-PVD
+    name: meridian-providence
+
+devices:
+  count: 350
+  network_distribution:
+    net_bos_hq: 0.50
+    net_hfd: 0.25
+    net_pvd: 0.25
+
+mailboxes:
+  distribution_lists:
+    # Clinical Lists
+    - address: physicians@meridianhcp.com
+      members_from_group: grp_physicians
+      delegate_count: 3
+    - address: nursing@meridianhcp.com
+      members_from_department: Nursing
+      delegate_count: 4
+    - address: clinical-ops@meridianhcp.com
+      members_from_department: Clinical Operations
+      delegate_count: 5
+
+    # Support Department Lists
+    - address: pharmacy@meridianhcp.com
+      members_from_group: grp_pharmacy_team
+      delegate_count: 2
+    - address: lab@meridianhcp.com
+      members_from_group: grp_lab_team
+      delegate_count: 2
+    - address: radiology@meridianhcp.com
+      members_from_group: grp_radiology_team
+      delegate_count: 2
+
+    # Business Lists
+    - address: billing@meridianhcp.com
+      members_from_group: grp_billing_team
+      delegate_count: 3
+    - address: finance@meridianhcp.com
+      members_from_department: Finance & Billing
+      delegate_count: 2
+    - address: compliance@meridianhcp.com
+      members_from_group: grp_compliance_team
+      delegate_count: 2
+
+    # Corporate Lists
+    - address: hr@meridianhcp.com
+      members_from_department: HR
+      delegate_count: 2
+    - address: it@meridianhcp.com
+      members_from_department: IT
+      delegate_count: 3
+    - address: admin@meridianhcp.com
+      members_from_department: Administration
+      delegate_count: 2
+
+    # Leadership Lists
+    - address: exec@meridianhcp.com
+      members_from_group: grp_c_suite
+      delegate_count: 1
+    - address: all-staff@meridianhcp.com
+      members_from_department: Executive
+      delegate_count: 2
+
+    # Patient Services
+    - address: patient-services@meridianhcp.com
+      members_from_group: grp_patient_services
+      delegate_count: 2
+
+    # Facilities
+    - address: facilities@meridianhcp.com
+      members_from_group: grp_facilities_team
+      delegate_count: 2
+
+applications:
+  internal:
+    - name: Patient Portal
+      type: patient_engagement
+      criticality: critical
+      owner_department: Clinical Operations
+    - name: Clinical Dashboard
+      type: analytics
+      criticality: critical
+      owner_department: Clinical Operations
+    - name: Staff Intranet
+      type: knowledge_base
+      criticality: medium
+      owner_department: IT
+    - name: Lab Information System
+      type: laboratory
+      criticality: high
+      owner_department: Laboratory
+  external:
+    # Communication & Collaboration
+    - name: Microsoft Teams
+      type: communication
+      sso: true
+    - name: Zoom
+      type: communication
+      sso: true
+    - name: Microsoft 365
+      type: productivity
+      sso: true
+    # EHR / Clinical Systems
+    - name: Epic EHR
+      type: ehr
+      sso: true
+    - name: Cerner
+      type: ehr
+      sso: true
+    - name: MEDITECH
+      type: ehr
+      sso: true
+    # Identity & Security
+    - name: Okta
+      type: idp
+      sso: true
+    - name: Active Directory
+      type: directory
+      sso: true
+    - name: CrowdStrike
+      type: edr
+      sso: true
+    - name: Imprivata
+      type: clinical_sso
+      sso: true
+    # File Storage
+    - name: SharePoint
+      type: file_storage
+      sso: true
+    - name: OneDrive
+      type: file_storage
+      sso: true
+    # HR & Payroll
+    - name: Workday
+      type: hris
+      sso: true
+    - name: ADP
+      type: payroll
+      sso: true
+    - name: BambooHR
+      type: hris
+      sso: true
+    # Finance & Expense
+    - name: QuickBooks
+      type: accounting
+      sso: true
+    - name: Concur
+      type: expense
+      sso: true
+    # Analytics & Reporting
+    - name: Power BI
+      type: analytics
+      sso: true
+    - name: Tableau
+      type: analytics
+      sso: true
+    # Clinical & Communication
+    - name: Vocera
+      type: clinical_communication
+      sso: false
+    - name: Philips IntelliSpace
+      type: medical_imaging
+      sso: true
+    - name: Dragon Medical
+      type: clinical_dictation
+      sso: false
+    # Compliance
+    - name: Compliancy Group
+      type: compliance
+      sso: true
+    - name: Healthicity
+      type: compliance
+      sso: true
+    # Scheduling
+    - name: QGenda
+      type: scheduling
+      sso: true
+    - name: Kronos
+      type: workforce_management
+      sso: true
+    # Other
+    - name: DocuSign
+      type: e_signature
+      sso: true
+    - name: Citrix
+      type: virtual_desktop
+      sso: true
+
+# ---------- Generation config: temporal model, confounders ----------
+generation_config:
+  location_timezones:
+    US-BOS-HQ: -5.0
+    US-HFD: -5.0
+    US-PVD: -5.0
+  temporal:
+    window_days: 30
+    circadian:
+      concentration: 2.5
+    weekly_weights:
+      default:            [1.0, 1.0, 1.0, 1.0, 1.0, 0.15, 0.10]
+      clinical:           [1.0, 1.0, 1.0, 1.0, 1.0, 0.70, 0.60]
+      nursing:            [1.0, 1.0, 1.0, 1.0, 1.0, 0.80, 0.75]
+      laboratory:         [1.0, 1.0, 1.0, 1.0, 1.0, 0.50, 0.40]
+      radiology:          [1.0, 1.0, 1.0, 1.0, 1.0, 0.40, 0.30]
+      pharmacy:           [1.0, 1.0, 1.0, 1.0, 1.0, 0.50, 0.40]
+      executive:          [1.0, 1.0, 1.0, 1.0, 1.0, 0.20, 0.08]
+      it:                 [1.0, 1.0, 1.0, 1.0, 1.0, 0.20, 0.10]
+
+  confounders:
+    enabled: true
+    types:
+      - name: late_night_work
+        rate: 0.10
+        eligible_roles: ["*Director*", "*VP*", "*Chief*", "*Senior*", "*Manager*", "*Attending*", "*Surgeon*"]
+        effect:
+          duration_events: { mean: 3, std: 1 }
+
+      - name: travel_login
+        rate: 0.04
+        eligible_roles: ["*VP*", "*Director*", "*Chief*", "*Executive*", "*Sales*"]
+        effect:
+          duration_events: { mean: 2, std: 1 }
+          unknown_device_probability: 0.5
+
+      - name: bulk_file_operation
+        rate: 0.05
+        eligible_roles: ["*Billing*", "*Compliance*", "*HR*", "*Manager*", "*Director*", "*Health Information*"]
+        effect:
+          file_count_multiplier: { mean: 4.0, std: 1.5 }
+
+      - name: failed_login_cluster
+        rate: 0.06
+        eligible_roles: ["*"]
+        effect:
+          failure_count: { mean: 4, std: 2 }
+          followed_by_success: true
+
+  bursts:
+    enabled: true
+    types:
+      - name: patient_surge
+        probability: 0.03
+        duration_days: { mean: 5, std: 2 }
+        intensity_multiplier: { mean: 2.0, std: 0.4 }
+        affected_event_types: [logins, app_events, email_events]
+        department_bias: [Clinical Operations, Nursing, Emergency Medicine]
+      - name: regulatory_audit
+        probability: 0.02
+        duration_days: { mean: 10, std: 3 }
+        intensity_multiplier: { mean: 1.8, std: 0.3 }
+        affected_event_types: [file_events, email_events, app_events]
+        department_bias: [Compliance, Health Information Management, Administration]
+      - name: quarter_end
+        probability: 0.04
+        duration_days: { mean: 5, std: 1 }
+        intensity_multiplier: { mean: 1.8, std: 0.3 }
+        affected_event_types: [email_events, file_events, app_events]
+        department_bias: [Finance, Revenue Cycle, Administration]
+
+# Role-based behavior baselines with variation
+role_policies:
+  # ===== CLINICAL OPERATIONS ROLES =====
+  "Clinical Operations - Chief Medical Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:00-10:00", "12:00-15:00", "17:00-22:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 120, std: 30 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "zoom", "powerpoint", "dragon"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "zoom.us", "teams.microsoft.com", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Clinical Operations - Medical Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["06:00-09:00", "12:00-14:00", "17:00-21:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 90, std: 22 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "zoom", "dragon", "powerbi"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "zoom.us", "teams.microsoft.com", "pubmed.ncbi.nlm.nih.gov"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Clinical Operations - Attending Physician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["06:00-08:00", "11:00-13:00", "14:00-16:00", "18:00-20:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 15 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx", "jpg"]
+      process_baseline: ["chrome", "epic", "dragon", "outlook", "teams", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "pubmed.ncbi.nlm.nih.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Resident":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["05:30-07:00", "12:00-13:00", "17:00-19:00", "22:00-01:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "pptx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 8.0, std: 2.4 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "pubmed.ncbi.nlm.nih.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Nurse Practitioner":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["06:30-08:00", "12:00-13:00", "16:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "epic", "dragon", "outlook", "teams", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Physician Assistant":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["06:30-08:00", "12:00-13:00", "16:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Medical Assistant":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["07:00-08:30", "12:00-13:00", "16:30-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 20, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Clinical Coordinator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["07:30-09:30", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams", "excel", "sharepoint", "qgenda"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "sharepoint.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Surgeon":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["05:30-07:00", "12:00-13:00", "17:00-19:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "jpg", "dicom"]
+      process_baseline: ["chrome", "epic", "dragon", "outlook", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "pubmed.ncbi.nlm.nih.gov"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Hospitalist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["06:00-08:00", "12:00-14:00", "18:00-20:00", "22:00-00:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "epic", "dragon", "outlook", "teams", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Clinical Operations - Clinical Informaticist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.25, std: 0.08 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv", "json", "docx"]
+      process_baseline: ["chrome", "epic", "cerner", "outlook", "teams", "powerbi", "excel", "sql-client"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "sharepoint.com", "app.powerbi.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== NURSING ROLES =====
+  "Nursing - Chief Nursing Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["06:00-09:00", "12:00-14:00", "16:00-20:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 100, std: 25 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "zoom", "powerpoint", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "zoom.us", "teams.microsoft.com", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Nursing - Nursing Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.25, std: 0.08 }
+        hours: ["06:00-08:30", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "qgenda", "kronos", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Nursing - Nurse Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["06:00-08:00", "12:00-14:00", "16:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 65, std: 16 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "qgenda", "kronos", "vocera"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Nursing - Charge Nurse":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "epic", "outlook", "vocera", "teams", "imprivata", "kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Nursing - Registered Nurse":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["06:00-07:00", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 25, std: 8 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["epic", "vocera", "outlook", "imprivata", "chrome"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Nursing - Licensed Practical Nurse":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["06:00-07:00", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 18, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["epic", "vocera", "outlook", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 1.6 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Nursing - Certified Nursing Assistant":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.01, std: 0.01 }
+        hours: ["06:00-07:00", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 10, std: 4 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "vocera", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Nursing - Nurse Educator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["07:00-09:00", "10:00-12:00", "14:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "powerpoint", "sharepoint", "epic"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com", "nursingworld.org"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== ADMINISTRATION ROLES =====
+  "Administration - VP Administration":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:00-09:30", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 85, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "word", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Administration - Administrative Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.22, std: 0.08 }
+        hours: ["07:30-09:30", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 70, std: 18 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "word", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Administration - Office Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["07:30-09:30", "12:00-13:30", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "word", "epic", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Administration - Administrative Coordinator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-13:30", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "word", "epic"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Administration - Medical Secretary":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["08:00-10:00", "12:00-13:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "epic", "word", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Administration - Receptionist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["07:30-09:00", "12:00-13:00", "16:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 30, std: 8 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Administration - Medical Records Clerk":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "epic", "outlook", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Administration - Health Information Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "csv"]
+      process_baseline: ["chrome", "epic", "outlook", "teams", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Administration - Credentialing Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "word", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "sharepoint.com", "npdb.hrsa.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== IT ROLES =====
+  "IT - Chief Information Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:30-10:00", "12:00-15:00", "17:00-22:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 110, std: 28 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "powerpoint", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "IT - IT Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.40, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-15:00", "17:00-21:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "okta", "activedirectory", "crowdstrike"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "okta.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "IT - IT Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-15:00", "17:00-20:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 65, std: 16 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "okta", "activedirectory", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 8.0, std: 2.4 }
+      net_baseline: ["mail.meridianhcp.com", "okta.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "IT - Systems Administrator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.38, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-16:00", "18:00-22:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 8.0, std: 3.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 7.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "ps1", "sh", "log"]
+      process_baseline: ["chrome", "powershell", "terminal", "okta", "activedirectory", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 14.0, std: 4.0 }
+      net_baseline: ["okta.meridianhcp.com", "ad.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 18.0, std: 6.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.2 }
+      app_baseline:
+        avg_events_per_day: { mean: 15.0, std: 5.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.5, std: 0.2 }
+
+  "IT - Network Engineer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.40, std: 0.10 }
+        hours: ["06:00-10:00", "14:00-18:00", "20:00-23:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 8.0, std: 3.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 7.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "cfg", "log", "pcap"]
+      process_baseline: ["chrome", "terminal", "wireshark", "putty", "securecrt", "crowdstrike"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 14.0, std: 4.0 }
+      net_baseline: ["meraki.cisco.com", "paloaltonetworks.com", "okta.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 18.0, std: 6.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.2 }
+      app_baseline:
+        avg_events_per_day: { mean: 15.0, std: 5.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.5, std: 0.2 }
+
+  "IT - IT Support Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["08:00-12:00", "13:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 8.0, std: 3.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 7.0, std: 2.0 }
+        typical_attachments: ["pdf", "png", "jpg", "xlsx", "docx"]
+      process_baseline: ["chrome", "teams", "okta", "imprivata", "zoom", "slack", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.0 }
+      net_baseline: ["okta.meridianhcp.com", "teams.microsoft.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 18.0, std: 6.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.2 }
+      app_baseline:
+        avg_events_per_day: { mean: 15.0, std: 5.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.5, std: 0.2 }
+
+  "IT - Clinical Systems Analyst":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.28, std: 0.08 }
+        hours: ["07:30-10:00", "12:00-15:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 8.0, std: 3.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 7.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv", "docx", "json"]
+      process_baseline: ["chrome", "epic", "cerner", "outlook", "teams", "excel", "sql-client"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 18.0, std: 6.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.2 }
+      app_baseline:
+        avg_events_per_day: { mean: 15.0, std: 5.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.5, std: 0.2 }
+
+  "IT - Help Desk Technician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-12:00", "13:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 8.0, std: 3.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 7.0, std: 2.0 }
+        typical_attachments: ["pdf", "png", "jpg", "xlsx"]
+      process_baseline: ["chrome", "teams", "okta", "imprivata", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.2 }
+      net_baseline: ["okta.meridianhcp.com", "teams.microsoft.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 18.0, std: 6.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.2 }
+      app_baseline:
+        avg_events_per_day: { mean: 15.0, std: 5.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.5, std: 0.2 }
+
+  # ===== FINANCE & BILLING ROLES =====
+  "Finance & Billing - VP Finance":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "pptx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "powerbi", "quickbooks"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "app.powerbi.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Finance & Billing - Finance Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.28, std: 0.08 }
+        hours: ["07:30-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 65, std: 16 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "quickbooks", "adp", "powerbi"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "app.powerbi.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Finance & Billing - Billing Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["07:30-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "csv"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "excel", "quickbooks"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Finance & Billing - Senior Billing Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 4.0, std: 1.5 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 8.0, std: 2.5 }
+        typical_attachments: ["pdf", "xlsx", "csv", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.5, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Finance & Billing - Billing Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "epic", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Finance & Billing - Medical Coder":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "epic", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "aapc.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Finance & Billing - Accounts Receivable Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "quickbooks", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Finance & Billing - Financial Analyst":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "powerbi", "quickbooks"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "app.powerbi.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Finance & Billing - Revenue Cycle Analyst":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "epic", "excel", "powerbi", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "app.powerbi.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Finance & Billing - Accountant":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "quickbooks", "excel", "teams", "adp"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== HR ROLES =====
+  "HR - VP Human Resources":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:00-09:30", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "workday", "adp", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "HR - HR Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.25, std: 0.08 }
+        hours: ["07:30-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 65, std: 16 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "workday", "adp", "bamboohr", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "HR - HR Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "workday", "adp", "kronos", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "HR - HR Generalist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "workday", "bamboohr", "adp"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "HR - Recruiter":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-11:00", "13:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "workday", "bamboohr"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "linkedin.com", "indeed.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "HR - Benefits Coordinator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "workday", "adp"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "HR - Training Coordinator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "powerpoint", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "zoom.us", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "HR - Payroll Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "outlook", "adp", "kronos", "excel", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "adp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "HR - Employee Relations Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "workday", "word", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== COMPLIANCE & RISK ROLES =====
+  "Compliance & Risk - Chief Compliance Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.40, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-14:00", "16:00-20:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 90, std: 22 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "compliancy-group", "healthicity", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "hhs.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Compliance & Risk - Compliance Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:30-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 70, std: 18 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "compliancy-group", "healthicity", "sharepoint", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "hhs.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Compliance & Risk - Compliance Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.22, std: 0.08 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "compliancy-group", "healthicity", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Compliance & Risk - Compliance Analyst":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "compliancy-group", "healthicity", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Compliance & Risk - Risk Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.22, std: 0.08 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "sharepoint", "compliancy-group"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Compliance & Risk - Privacy Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.28, std: 0.08 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "compliancy-group", "healthicity", "sharepoint", "epic"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "hhs.gov", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Compliance & Risk - Quality Assurance Specialist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "csv"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Compliance & Risk - Internal Auditor":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "csv", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "sharepoint", "healthicity"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== PHARMACY ROLES =====
+  "Pharmacy - Pharmacy Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "meditech", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "fda.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Pharmacy - Clinical Pharmacist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["06:30-08:00", "12:00-13:00", "16:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "epic", "meditech", "outlook", "teams", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Pharmacy - Staff Pharmacist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:30-08:00", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 4.0, std: 1.5 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 30, std: 8 }
+        avg_events_per_day: { mean: 8.0, std: 2.5 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["chrome", "epic", "meditech", "outlook", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "uptodate.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.5, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Pharmacy - Pharmacy Technician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["06:30-07:30", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 15, std: 5 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "meditech", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Pharmacy - Pharmacy Intern":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["07:00-08:00", "12:00-13:00", "16:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 12, std: 4 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["epic", "meditech", "chrome", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== LABORATORY ROLES =====
+  "Laboratory - Lab Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.22, std: 0.08 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "excel", "sharepoint", "philips-intellispace"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Laboratory - Lab Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["06:30-08:30", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "excel", "philips-intellispace"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Laboratory - Senior Lab Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 4.0, std: 1.5 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 30, std: 8 }
+        avg_events_per_day: { mean: 8.0, std: 2.5 }
+        typical_attachments: ["pdf", "xlsx", "csv"]
+      process_baseline: ["chrome", "epic", "outlook", "philips-intellispace", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 8.0, std: 2.4 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.5, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Laboratory - Medical Lab Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 20, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx"]
+      process_baseline: ["epic", "philips-intellispace", "outlook", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 8.0, std: 2.4 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Laboratory - Lab Technician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 15, std: 5 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "philips-intellispace", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Laboratory - Phlebotomist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.01, std: 0.01 }
+        hours: ["06:00-07:00", "14:00-15:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 10, std: 4 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Laboratory - Pathologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["07:00-09:00", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "jpg", "dicom"]
+      process_baseline: ["chrome", "epic", "outlook", "philips-intellispace", "dragon", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "pubmed.ncbi.nlm.nih.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== RADIOLOGY ROLES =====
+  "Radiology - Radiology Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 55, std: 14 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "philips-intellispace", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Radiology - Radiologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["07:00-09:00", "12:00-14:00", "16:00-20:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "dicom", "jpg"]
+      process_baseline: ["chrome", "epic", "philips-intellispace", "dragon", "outlook", "imprivata", "citrix"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "pubmed.ncbi.nlm.nih.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Radiology - Senior Radiology Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 4.0, std: 1.5 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 25, std: 8 }
+        avg_events_per_day: { mean: 8.0, std: 2.5 }
+        typical_attachments: ["pdf", "xlsx"]
+      process_baseline: ["epic", "philips-intellispace", "outlook", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.5, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Radiology - Radiology Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["06:00-07:30", "14:00-15:30", "22:00-23:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 18, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "philips-intellispace", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Radiology - MRI Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["06:30-08:00", "14:00-15:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 18, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "philips-intellispace", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Radiology - CT Technologist":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["06:30-08:00", "14:00-15:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 18, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["epic", "philips-intellispace", "imprivata"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  # ===== PATIENT SERVICES ROLES =====
+  "Patient Services - Patient Services Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["07:30-09:30", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 60, std: 15 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "epic", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Patient Services - Patient Services Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["07:30-09:30", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Patient Services - Patient Access Representative":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["07:30-09:30", "12:00-13:30", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 30, std: 8 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["chrome", "epic", "outlook", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["epic.meridianhcp.com", "mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Patient Services - Patient Advocate":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "word"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Patient Services - Social Worker":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.10, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "word", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Patient Services - Care Coordinator":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 45, std: 12 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "docx", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "epic", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.8, std: 2.0 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  "Patient Services - Interpreter":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.03, std: 0.02 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 20, std: 6 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.05, std: 0.03 }
+
+  # ===== EXECUTIVE ROLES =====
+  "Executive - CEO":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.55, std: 0.12 }
+        hours: ["05:30-10:00", "12:00-15:00", "17:00-23:00"]
+        asn: [7922, 20001, 13335, 15169, 16509, 21928]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios", "United Airlines WiFi", "Delta WiFi"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 150, std: 35 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "powerpoint", "zoom", "teams"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "zoom.us", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Medical Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:00-10:00", "12:00-15:00", "17:00-22:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 120, std: 30 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "zoom", "powerpoint", "dragon"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "zoom.us", "teams.microsoft.com", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Nursing Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["06:00-09:00", "12:00-14:00", "16:00-20:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 100, std: 25 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "epic", "teams", "zoom", "powerpoint", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "epic.meridianhcp.com", "zoom.us", "teams.microsoft.com", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Financial Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:30-10:00", "12:00-15:00", "17:00-21:00"]
+        asn: [7922, 20001, 13335, 15169, 16509]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios", "Hotel WiFi"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 110, std: 28 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "powerbi", "quickbooks"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "app.powerbi.com", "zoom.us", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Information Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:30-10:00", "12:00-15:00", "17:00-22:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 110, std: 28 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "powerpoint", "okta", "crowdstrike"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Operating Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.45, std: 0.12 }
+        hours: ["06:00-10:00", "12:00-15:00", "17:00-21:00"]
+        asn: [7922, 20001, 13335, 15169, 16509]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios", "Hotel WiFi"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 110, std: 28 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "powerpoint", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "zoom.us", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief Compliance Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.40, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-14:00", "16:00-20:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 90, std: 22 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "compliancy-group", "healthicity", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "hhs.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - VP Administration":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:00-09:30", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 85, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "word", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "zoom.us", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - VP Human Resources":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:00-09:30", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "workday", "adp", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "workday.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - VP Finance":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["07:00-10:00", "12:00-14:00", "16:00-19:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 80, std: 20 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "pptx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "excel", "powerbi", "quickbooks"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "app.powerbi.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Chief of Staff":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.35, std: 0.10 }
+        hours: ["06:30-10:00", "12:00-15:00", "17:00-21:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 100, std: 25 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "sharepoint", "powerpoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "zoom.us", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Executive Assistant":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["07:00-12:00", "13:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 120, std: 30 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx", "pptx", "ics"]
+      process_baseline: ["chrome", "outlook", "calendar", "zoom", "teams", "concur", "docusign"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "zoom.us", "teams.microsoft.com", "concur.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Board Secretary":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.20, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "docx", "xlsx", "pptx"]
+      process_baseline: ["chrome", "outlook", "teams", "word", "docusign", "zoom"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "docusign.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  "Executive - Strategy Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.30, std: 0.10 }
+        hours: ["07:30-10:00", "12:00-15:00", "17:00-20:00"]
+        asn: [7922, 20001, 13335, 15169]
+        isps: ["Comcast", "Charter", "AT&T", "Verizon Fios"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 70, std: 18 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "pptx", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "zoom", "powerpoint", "excel", "powerbi"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "zoom.us", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 6.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.2, std: 0.1 }
+
+  # ===== FACILITIES ROLES =====
+  "Facilities - Facilities Director":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.18, std: 0.06 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-18:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 50, std: 12 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Facilities - Facilities Manager":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["06:30-09:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 5.0, std: 2.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 40, std: 10 }
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      network_baseline:
+        avg_events_per_day: { mean: 12.0, std: 4.5 }
+      device_baseline:
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      app_baseline:
+        avg_events_per_day: { mean: 12.5, std: 3.8 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.3, std: 0.15 }
+
+  "Facilities - Maintenance Supervisor":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:00-08:00", "12:00-13:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 25, std: 8 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 3.2, std: 1.2 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Facilities - Maintenance Technician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.02, std: 0.01 }
+        hours: ["06:00-07:30", "12:00-13:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 12, std: 4 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["outlook", "teams", "kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Facilities - Biomedical Equipment Technician":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.08, std: 0.04 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 25, std: 8 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Facilities - Environmental Services Supervisor":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.05, std: 0.03 }
+        hours: ["06:00-08:00", "12:00-13:00", "15:00-17:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 20, std: 6 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx"]
+      process_baseline: ["chrome", "outlook", "teams", "kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.8 }
+      net_baseline: ["mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Facilities - Environmental Services Worker":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.01, std: 0.01 }
+        hours: ["06:00-07:00", "14:00-15:00", "22:00-23:00"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 5, std: 3 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf"]
+      process_baseline: ["kronos"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 1.2, std: 0.4 }
+      net_baseline: ["mail.meridianhcp.com", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+  "Facilities - Safety Officer":
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.12, std: 0.05 }
+        hours: ["07:00-09:00", "12:00-14:00", "15:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 35, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams", "excel", "sharepoint"]
+      process_event_baseline:
+        avg_events_per_day: { mean: 4.0, std: 1.6 }
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "osha.gov", "meridianhcp.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+# Default baseline policy for roles not explicitly defined
+defaults:
+  baseline_policy:
+    baselines:
+      login_baseline:
+        vpn_pct: { mean: 0.15, std: 0.06 }
+        hours: ["08:00-10:00", "12:00-14:00", "16:00-17:30"]
+        asn: [7922, 20001, 13335]
+        isps: ["Comcast", "Charter", "AT&T"]
+        avg_events_per_day: { mean: 3.0, std: 1.0 }
+      email_baseline:
+        avg_inbound_per_day: { mean: 30, std: 10 }
+        avg_events_per_day: { mean: 6.0, std: 2.0 }
+        trusted_domains: ["meridianhcp.com"]
+        typical_attachments: ["pdf", "xlsx", "docx"]
+      process_baseline: ["chrome", "outlook", "teams"]
+      net_baseline: ["mail.meridianhcp.com", "teams.microsoft.com", "sharepoint.com"]
+      file_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      network_baseline:
+        avg_events_per_day: { mean: 9.0, std: 3.0 }
+      device_baseline:
+        avg_events_per_day: { mean: 2.0, std: 0.7 }
+      app_baseline:
+        avg_events_per_day: { mean: 10.0, std: 3.0 }
+      admin_baseline:
+        avg_events_per_day: { mean: 0.03, std: 0.02 }
+
+# Post-processing noise configuration
+noise_config:
+  enabled: true
+  numeric_noise_pct: 0.05
