@@ -1,0 +1,87 @@
+"""ReAct agent -- explicit Thought/Action/Observation reasoning traces.
+
+The system prompt forces the model to emit a Thought before every Action
+(tool call). Same loop as Direct, but the prompt structure encourages
+explicit reasoning on every turn.
+"""
+
+import logging
+
+import litellm
+
+from agents.base import (
+    CONTINUE_NUDGE,
+    BaseAgent,
+    InvestigationResult,
+    ToolCallRecord,
+    process_tool_calls,
+)
+from agents.prompts import build_initial_message
+from agents.prompts.react import SYSTEM_PROMPT
+
+logger = logging.getLogger(__name__)
+
+
+class ReActAgent(BaseAgent):
+    """ReAct agent with explicit Thought-Action-Observation cycle."""
+
+    def __init__(self, model: str, registry, scenario: dict, max_turns: int = 15):
+        super().__init__(model, registry, scenario)
+        self.max_turns = max_turns
+
+    def run(self) -> InvestigationResult:
+        messages = [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {
+                "role": "user",
+                "content": build_initial_message(self.scenario, self._get_tool_summaries())
+                + "\n\nInvestigate this alert. Begin with your first **Thought**.",
+            },
+        ]
+        tools = self.registry.get_llm_tools()
+        tool_call_records: list[ToolCallRecord] = []
+        llm_calls = 0
+        last_content = ""
+        tool_calls_here = 0
+        nudged = False
+
+        for turn in range(self.max_turns):
+            turn_label = f"[Turn {turn + 1}/{self.max_turns}]"
+
+            response = litellm.completion(
+                model=self.model, messages=messages, tools=tools, tool_choice="auto",
+            )
+            llm_calls += 1
+            message = response.choices[0].message
+            messages.append(message.model_dump(exclude_none=True))
+            last_content = message.content or ""
+
+            if not message.tool_calls:
+                # A bare "**Thought**:" turn is rule-1 compliance, not a conclusion.
+                if tool_calls_here == 0 and not nudged:
+                    nudged = True
+                    messages.append({"role": "user", "content": CONTINUE_NUDGE})
+                    continue
+                break
+
+            tool_calls_here += len(message.tool_calls)
+            print(f"\n{turn_label} — {len(message.tool_calls)} tool call(s)")
+            print("-" * 50)
+
+            process_tool_calls(
+                self.registry, message, messages, tool_call_records, turn_label=turn_label,
+            )
+        else:
+            print(f"\n[!] Agent reached max_turns ({self.max_turns}) without finishing")
+
+        return InvestigationResult(
+            report=last_content,
+            tool_calls=tool_call_records,
+            llm_calls=llm_calls,
+            messages=messages,
+            metadata={
+                "agent_type": "react",
+                "model": self.model,
+                "max_turns": self.max_turns,
+            },
+        )
