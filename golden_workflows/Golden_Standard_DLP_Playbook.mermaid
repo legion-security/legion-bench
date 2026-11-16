@@ -1,0 +1,112 @@
+```mermaid
+flowchart TD
+    subgraph PHASE1["🚀 INITIATION"]
+        START([🔔 START<br/>Control: DLP Platform<br/>• Receive alert<br/>• Identify channel<br/>• Record ID/timestamp])
+        EXTRACT[📋 EXTRACT DETAILS<br/>Control: DLP Platform<br/>• Policy name/rules<br/>• Violation preview<br/>• User/Destination<br/>• File info/severity]
+    end
+
+    subgraph PHASE2A["👤 USER CONTEXT"]
+        USER[👤 USER DETAILS<br/>Control: IAM<br/>• Name, email, dept<br/>• Role, manager<br/>• Groups, access level]
+        RISK[🚨 RISK SIGNALS<br/>Control: HR/IAM<br/>⚠️ CRITICAL:<br/>• Leavers group?<br/>• Notice period?<br/>• HR flags?<br/>• Prior violations?]
+        HISTORY[📜 DLP HISTORY<br/>Control: SIEM<br/>• 90-day incidents<br/>• Patterns<br/>• Repeat offender?]
+    end
+
+    subgraph PHASE2B["🎯 DESTINATION"]
+        DOMAIN[🔍 DESTINATION REP<br/>Control: OSINT<br/>• Business relationship<br/>• Legitimacy check]
+        TRUSTED[✅ TRUSTED 3RD PARTY<br/>Control: GRC<br/>• Approved vendor?<br/>• Contract status?]
+        URL[🌐 URL/IP REP<br/>Control: Threat Intel<br/>• Risk score<br/>🔴 Flag: gmail/yahoo<br/>🔴 Flag: competitor]
+        BREACH[⚠️ BREACH CHECK<br/>Control: Threat Intel<br/>• Recent breaches?<br/>• Data compromised?]
+    end
+
+    subgraph PHASE2C["📄 CONTENT"]
+        FILE[📄 FILE ANALYSIS<br/>Control: DLP<br/>• Download file<br/>• Verify policy match<br/>• Check encryption]
+        EVENTS[📊 SECURITY EVENTS<br/>Control: SIEM<br/>• Login/VPN/Location<br/>🔴 Flag: after-hours<br/>🔴 Flag: unusual]
+    end
+
+    subgraph PHASE2D["📡 CHANNEL-SPECIFIC"]
+        ENDPOINT[💻 ENDPOINT<br/>Control: MDM/EDR<br/>• Device authorized?<br/>• USB whitelist?<br/>• Corporate/BYOD?]
+        CLOUD[☁️ CLOUD/COLLAB<br/>Control: CASB<br/>• Sharing scope?<br/>🔴 External sharing?<br/>🔴 Public link?]
+    end
+
+    subgraph PHASE3["🧠 DECISION"]
+        DECISION{🧠 8-STEP FRAMEWORK<br/>1. Background Analytics?<br/>2. User Risk?<br/>3. Policy Match?<br/>4. Destination Legit?<br/>5. Channel Risk?<br/>6. Data Sensitivity?<br/>7. Business Justified?<br/>8. Final Decision}
+    end
+
+    subgraph PATHS["🔀 CLASSIFICATION"]
+        TP[🔴 TRUE POSITIVE<br/>• Sensitive data<br/>• Unauthorized dest<br/>• No justification]
+        BENIGN[🟢 BENIGN<br/>• Trusted dest<br/>• Role-appropriate<br/>• Business context]
+        FP[🟡 FALSE POSITIVE<br/>• No policy match<br/>• Regex only<br/>• System-generated]
+        ESC[⚪ ESCALATE<br/>• Conflicting signals<br/>• Encrypted content]
+    end
+
+    subgraph TP_RESPONSE["🔴 TP RESPONSE"]
+        STATUS_TP[📝 Status: TP]
+        CONTAIN[🛡️ CONTAINMENT<br/>📧 Quarantine/Recall<br/>💻 Block USB/Print<br/>☁️ Revoke link<br/>🌐 Block IP]
+        NOTIFY_MGR[📧 NOTIFY MANAGER<br/>• Incident details<br/>• Required actions]
+        NOTIFY_USER[📧 NOTIFY USER<br/>• What happened<br/>• Policy guidance]
+    end
+
+    subgraph OTHER_RESP["OTHER RESPONSES"]
+        STATUS_B[📝 Status: Benign]
+        STATUS_FP[📝 Status: False Positive]
+        FP_TUNE[📝 POLICY TUNING<br/>• Log FP reason<br/>• Improvement rec<br/>• Exclusion rules]
+    end
+
+    subgraph PHASE6["📝 DOCUMENTATION"]
+        SUMMARIZE[📄 SUMMARIZE<br/>• User context<br/>• Data context<br/>• Decision rationale<br/>• Actions taken]
+        COMMENT[💬 ADD COMMENT<br/>Control: DLP<br/>• Document findings]
+        TICKET[🎫 UPDATE TICKET<br/>Control: ITSM<br/>• Resolution status]
+    end
+
+    subgraph RISK_MODEL["📊 RISK SCORING"]
+        RS[RISK FACTORS<br/>━━━━━━━━━━━━<br/>👤 User: 25%<br/>📄 Data: 30%<br/>🎯 Dest: 25%<br/>⚡ Behavior: 20%<br/>━━━━━━━━━━━━<br/>🔴 ≥70 Urgent<br/>🟡 40-69 Standard<br/>🟢 <40 Low]
+    end
+
+    ENDNODE([🏁 END])
+
+    START --> EXTRACT
+    EXTRACT --> USER & RISK & HISTORY
+    EXTRACT --> DOMAIN & TRUSTED & URL & BREACH
+    EXTRACT --> FILE & EVENTS
+    EXTRACT --> ENDPOINT & CLOUD
+    USER & RISK & HISTORY --> DECISION
+    DOMAIN & TRUSTED & URL & BREACH --> DECISION
+    FILE & EVENTS --> DECISION
+    ENDPOINT & CLOUD --> DECISION
+    DECISION --> TP & BENIGN & FP & ESC
+    TP --> STATUS_TP --> CONTAIN --> NOTIFY_MGR --> NOTIFY_USER --> SUMMARIZE
+    BENIGN --> STATUS_B --> SUMMARIZE
+    FP --> STATUS_FP --> FP_TUNE --> SUMMARIZE
+    ESC --> SUMMARIZE
+    SUMMARIZE --> COMMENT --> TICKET --> ENDNODE
+
+    classDef start fill:#d1fae5,stroke:#059669,color:#065f46
+    classDef extract fill:#dbeafe,stroke:#3b82f6,color:#1e40af
+    classDef user fill:#e0e7ff,stroke:#6366f1,color:#4338ca
+    classDef risk fill:#fce7f3,stroke:#db2777,color:#9d174d
+    classDef dest fill:#fef3c7,stroke:#f59e0b,color:#b45309
+    classDef content fill:#ecfccb,stroke:#84cc16,color:#4d7c0f
+    classDef channel fill:#ccfbf1,stroke:#0d9488,color:#115e59
+    classDef decision fill:#fef3c7,stroke:#d97706,stroke-width:3px,color:#92400e
+    classDef tp fill:#fee2e2,stroke:#ef4444,color:#b91c1c
+    classDef benign fill:#d1fae5,stroke:#22c55e,color:#166534
+    classDef fp fill:#fef9c3,stroke:#eab308,color:#a16207
+    classDef esc fill:#f3f4f6,stroke:#6b7280,color:#374151
+    classDef doc fill:#f8fafc,stroke:#64748b,color:#475569
+    classDef riskbox fill:#fff1f2,stroke:#fb7185,color:#be123c
+
+    class START,ENDNODE start
+    class EXTRACT extract
+    class USER,HISTORY user
+    class RISK risk
+    class DOMAIN,TRUSTED,URL,BREACH dest
+    class FILE,EVENTS content
+    class ENDPOINT,CLOUD channel
+    class DECISION decision
+    class TP,STATUS_TP,CONTAIN,NOTIFY_MGR,NOTIFY_USER tp
+    class BENIGN,STATUS_B benign
+    class FP,STATUS_FP,FP_TUNE fp
+    class ESC esc
+    class SUMMARIZE,COMMENT,TICKET doc
+    class RS riskbox
+```

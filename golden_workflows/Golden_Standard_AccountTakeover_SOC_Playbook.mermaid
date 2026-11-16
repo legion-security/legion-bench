@@ -1,0 +1,202 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#1a1a2e', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0ea5e9', 'lineColor': '#0ea5e9', 'secondaryColor': '#16213e', 'tertiaryColor': '#0f3460', 'fontFamily': 'Segoe UI', 'fontSize': '13px'}}}%%
+
+flowchart TD
+    %% ============================================================
+    %% PHASE 1: TRIAGE
+    %% ============================================================
+    subgraph P1["🔔 PHASE 1: TRIAGE"]
+        direction TB
+        START([🚨 Account Takeover Alert Received]) --> EXTRACT_ALERT["📋 Extract Alert Metadata<br/>─────────────────<br/>• Alert source, type & severity<br/>• Alert trigger: unfamiliar sign-in,<br/>&nbsp;&nbsp;risky user, brute-force, impossible<br/>&nbsp;&nbsp;travel, TI feed IP match,<br/>&nbsp;&nbsp;anomalous token, restricted travel<br/>• Target user (UPN / email)<br/>• Source IP address<br/>• Sign-in timestamp<br/>• Application accessed<br/>• User agent string<br/>• Device ID / device name<br/>• Risk detection type<br/>• Correlation ID / session ID"]
+
+        EXTRACT_ALERT --> P1_FORK[ ]
+
+        P1_FORK --> USER_CONTEXT["👤 Extract User Context<br/>from <b>Identity Provider / Directory</b><br/>─────────────────<br/>• Full name & job title<br/>• Department & manager<br/>• Employee type (FTE / contractor)<br/>• Office location & country<br/>• Group memberships<br/>• Privilege level (admin, VIP,<br/>&nbsp;&nbsp;finance, exec)<br/>• MFA methods registered<br/>• Authentication methods on file<br/>• Account creation date<br/>• Last password set timestamp"]
+
+        P1_FORK --> SIGNIN_CONTEXT["🔑 Extract Risky Sign-In Details<br/>from <b>Identity Provider</b><br/>─────────────────<br/>• Risk level & risk state<br/>• Risk detail (e.g. user performed<br/>&nbsp;&nbsp;password reset, admin confirmed)<br/>• Detection type<br/>• Password result (success / failure)<br/>• MFA result & MFA method used<br/>• Conditional access policies applied<br/>• Device compliance status<br/>• Managed vs. unmanaged device"]
+
+        USER_CONTEXT --> P1_JOIN[ ]
+        SIGNIN_CONTEXT --> P1_JOIN
+    end
+
+    %% ============================================================
+    %% PHASE 2: ENRICHMENT
+    %% ============================================================
+    subgraph P2["🔍 PHASE 2: ENRICHMENT"]
+        direction TB
+
+        P2_START[ ] --> P2_FORK[ ]
+
+        %% --- IP Enrichment ---
+        P2_FORK --> IP_REP["🌐 Check Source IP Reputation<br/>in <b>Threat Intelligence Platform</b><br/>(multiple sources)"]
+
+        P2_FORK --> IP_GEO["🌐 Check IP Geolocation<br/>in <b>Geolocation Service</b><br/>─────────────────<br/>• Country, city, region<br/>• ISP / ASN / organization<br/>• Hosting / datacenter IP?"]
+
+        P2_FORK --> IP_VPN["🌐 Detect VPN / Proxy / TOR<br/>in <b>VPN Detection Service</b><br/>─────────────────<br/>• VPN provider identified?<br/>• Proxy / TOR exit node?<br/>• iCloud Private Relay?<br/>• Risk score"]
+
+        P2_FORK --> IP_TI_FEED["🌐 Check IP on TI & IOFA Feeds<br/>in <b>Threat Intelligence Platform</b><br/>─────────────────<br/>• Known malicious IP?<br/>• Part of botnet / C2?<br/>• Listed on abuse databases?"]
+
+        P2_FORK --> IP_OSINT["🌐 Web Search on Source IP<br/>via <b>OSINT / Web Search</b><br/>─────────────────<br/>• ASN owner & hosting company<br/>• Reported as abusive?<br/>• Associated with known attacks?"]
+
+        %% --- User History Enrichment ---
+        P2_FORK --> SIGNIN_LOGS["👤 Extract User Sign-In Logs<br/>from <b>Identity Provider</b><br/>─────────────────<br/>• Sign-in history (24h–7d)<br/>• Locations, IPs, user agents<br/>• Device IDs<br/>• Failures & interruptions<br/>• Has user signed in from this<br/>&nbsp;&nbsp;IP / country before?"]
+
+        P2_FORK --> AUDIT_LOGS["👤 Extract User Audit Logs<br/>from <b>Identity Provider</b><br/>─────────────────<br/>• Password changes / resets<br/>• MFA method updates<br/>• Device registrations<br/>• App consent grants<br/>• Mail forwarding rule changes<br/>• Delegate / permission changes"]
+
+        P2_FORK --> RISK_DETECTIONS["👤 Extract Risk Detections<br/>from <b>Identity Protection</b><br/>─────────────────<br/>• All active risk detections<br/>• Detection types & timestamps<br/>• Risk level per detection<br/>• Sign-in client for each"]
+
+        P2_FORK --> BREACH_CHECK["👤 Check Credential Exposure<br/>in <b>Breach Database</b><br/>─────────────────<br/>• Known breached credentials?<br/>• Exposed in data dumps?"]
+
+        IP_REP --> P2_JOIN[ ]
+        IP_GEO --> P2_JOIN
+        IP_VPN --> P2_JOIN
+        IP_TI_FEED --> P2_JOIN
+        IP_OSINT --> P2_JOIN
+        SIGNIN_LOGS --> P2_JOIN
+        AUDIT_LOGS --> P2_JOIN
+        RISK_DETECTIONS --> P2_JOIN
+        BREACH_CHECK --> P2_JOIN
+    end
+
+    %% ============================================================
+    %% PHASE 3: SCOPING & IDENTIFICATION
+    %% ============================================================
+    subgraph P3["🕵️ PHASE 3: SCOPING & IDENTIFICATION"]
+        direction TB
+
+        P3_START[ ] --> P3_FORK_A[ ]
+
+        P3_FORK_A --> IP_ORG_HISTORY["📊 Search IP Usage Across Organization<br/>in <b>SIEM</b> & <b>Identity Provider</b><br/>─────────────────<br/>• Other users who signed in<br/>&nbsp;&nbsp;from same IP / IP range<br/>• Is this a shared corporate IP,<br/>&nbsp;&nbsp;VPN concentrator, or ISP NAT?<br/>• Historical sign-in volume<br/>&nbsp;&nbsp;from this IP"]
+
+        P3_FORK_A --> USER_IP_HISTORY["📊 Search User's Historical IP<br/>& Location Patterns<br/>in <b>SIEM</b> & <b>Identity Provider</b><br/>─────────────────<br/>• Countries signed in from<br/>&nbsp;&nbsp;in last 3–12 months<br/>• ISP / network providers used<br/>• Typical sign-in times<br/>• VPN usage history"]
+
+        P3_FORK_A --> ADV_HUNTING_SIGNIN["📊 Advanced Sign-In Analysis<br/>in <b>SIEM / Advanced Hunting</b><br/>─────────────────<br/>• Sign-ins around alert timestamp<br/>• Brokered app identification<br/>&nbsp;&nbsp;(what app was actually accessed)<br/>• Concurrent / overlapping sessions<br/>• Impossible travel detection<br/>• Token anomaly analysis"]
+
+        P3_FORK_A --> ENDPOINT_SIGNALS["📊 Check Endpoint Signals<br/>in <b>EDR Console</b><br/>─────────────────<br/>• Device associated with user<br/>• Active detections on device<br/>• Is IP associated with<br/>&nbsp;&nbsp;company-owned device?<br/>• EDR alerts post sign-in"]
+
+        P3_FORK_A --> PHISHING_CORRELATION["📊 Check for Phishing Correlation<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• URLs clicked by user in hour<br/>&nbsp;&nbsp;before risky sign-in<br/>• Phishing emails delivered<br/>&nbsp;&nbsp;to user recently<br/>• If correlated: trigger<br/>&nbsp;&nbsp;Phishing Playbook"]
+
+        P3_FORK_A --> HISTORICAL_INCIDENTS["📊 Search Historical Incidents<br/>in <b>ITSM / SOAR Platform</b><br/>─────────────────<br/>• Prior incidents for this user<br/>• Prior incidents from this IP<br/>• Previously remediated?"]
+
+        IP_ORG_HISTORY --> P3_JOIN_A[ ]
+        USER_IP_HISTORY --> P3_JOIN_A
+        ADV_HUNTING_SIGNIN --> P3_JOIN_A
+        ENDPOINT_SIGNALS --> P3_JOIN_A
+        PHISHING_CORRELATION --> P3_JOIN_A
+        HISTORICAL_INCIDENTS --> P3_JOIN_A
+
+        P3_JOIN_A --> SCOPE_UPDATE["📝 Finalize Scope<br/>─────────────────<br/>• Confirmed sign-in or blocked?<br/>• IP classification: corporate /<br/>&nbsp;&nbsp;VPN / residential / hosting /<br/>&nbsp;&nbsp;malicious<br/>• Location: expected vs. anomalous<br/>• Device: managed vs. unmanaged<br/>• MFA: passed, bypassed, or absent<br/>• Account changes post sign-in<br/>• Credential compromise confirmed?<br/>• Phishing as root cause?<br/>• Lateral movement indicators<br/>• Other affected accounts from<br/>&nbsp;&nbsp;same IP"]
+    end
+
+    %% ============================================================
+    %% PHASE 4: VERDICT
+    %% ============================================================
+    subgraph P4["⚖️ PHASE 4: VERDICT"]
+        direction TB
+        DECISION{"🧠 Triage Decision<br/>─────────────────<br/>Weigh all enrichment &<br/>investigation evidence:<br/>• IP reputation & geolocation<br/>• VPN / proxy / TOR detection<br/>• User's historical sign-in patterns<br/>• Device managed vs. unmanaged<br/>• MFA result & method<br/>• Audit log changes post sign-in<br/>• Credential exposure status<br/>• Phishing correlation<br/>• Endpoint detection signals<br/>• Impossible travel / token anomaly"}
+
+        DECISION -- "🔴 Compromised" --> TP_COMP["🔴 COMPROMISED ACCOUNT<br/>─────────────────<br/>• Confirmed unauthorized access<br/>• Document: source IP, location,<br/>&nbsp;&nbsp;application accessed, actions taken<br/>&nbsp;&nbsp;by attacker (password change, MFA<br/>&nbsp;&nbsp;update, mail rules, data access,<br/>&nbsp;&nbsp;lateral movement)<br/>• Note if VIP / exec / admin<br/>• Note root cause: phishing,<br/>&nbsp;&nbsp;credential stuffing, brute-force,<br/>&nbsp;&nbsp;token theft, session hijack<br/>• Proceed to Containment"]
+
+        DECISION -- "🟡 Suspicious" --> SUSPICIOUS["🟡 SUSPICIOUS — ESCALATE<br/>─────────────────<br/>• Indicators present but<br/>&nbsp;&nbsp;insufficient for confirmation<br/>• Escalate to Senior Analyst<br/>&nbsp;&nbsp;or IR Team<br/>• Document findings so far"]
+
+        DECISION -- "🟢 Benign" --> FP["🟢 BENIGN / FALSE POSITIVE<br/>─────────────────<br/>• Legitimate user activity<br/>• Document rationale: known VPN,<br/>&nbsp;&nbsp;expected travel, managed device,<br/>&nbsp;&nbsp;corporate IP, user self-remediated<br/>• Note tuning recommendations:<br/>&nbsp;&nbsp;VPN allowlist, location baseline,<br/>&nbsp;&nbsp;policy adjustment"]
+    end
+
+    %% ============================================================
+    %% PHASE 5: CONTAINMENT & ERADICATION
+    %% ============================================================
+    subgraph P5["🛡️ PHASE 5: CONTAINMENT & ERADICATION"]
+        direction TB
+
+        CONTAIN_START[ ] --> C_FORK_A[ ]
+
+        C_FORK_A --> REVOKE_SESSIONS["🔑 Revoke All User Sessions<br/>in <b>Identity Provider</b><br/>─────────────────<br/>• Invalidate all refresh tokens<br/>• Force re-authentication<br/>• Terminate active sessions<br/>&nbsp;&nbsp;across all applications"]
+
+        C_FORK_A --> RESET_CREDENTIALS["🔑 Force Password Reset<br/>via <b>Identity Provider / ITSM</b><br/>─────────────────<br/>• Reset password immediately<br/>• Require new password at<br/>&nbsp;&nbsp;next sign-in<br/>• Reset via ITSM ticket if<br/>&nbsp;&nbsp;self-service unavailable"]
+
+        C_FORK_A --> REVIEW_MFA["🔑 Review & Remediate MFA<br/>in <b>Identity Provider</b><br/>─────────────────<br/>• Remove unauthorized MFA<br/>&nbsp;&nbsp;methods registered by attacker<br/>• Re-register legitimate MFA<br/>• Enforce MFA on all sign-ins"]
+
+        C_FORK_A --> REVIEW_ACCOUNT_CHANGES["🔍 Remediate Account Changes<br/>in <b>Identity Provider</b> &<br/><b>Email Security Control</b><br/>─────────────────<br/>• Remove malicious mail<br/>&nbsp;&nbsp;forwarding rules<br/>• Remove malicious inbox rules<br/>• Revoke unauthorized OAuth<br/>&nbsp;&nbsp;app consents<br/>• Remove unauthorized delegates<br/>• Revert permission changes"]
+
+        REVOKE_SESSIONS --> C_JOIN_A[ ]
+        RESET_CREDENTIALS --> C_JOIN_A
+        REVIEW_MFA --> C_JOIN_A
+        REVIEW_ACCOUNT_CHANGES --> C_JOIN_A
+
+        C_JOIN_A --> C_FORK_B[ ]
+
+        C_FORK_B --> BLOCK_IP["🚫 Block Attacker IP<br/>in <b>Firewall</b>, <b>Web Proxy</b><br/>& <b>Conditional Access</b><br/>─────────────────<br/>• Block source IP at perimeter<br/>• Add to named location blocklist<br/>• Update conditional access<br/>&nbsp;&nbsp;policies if needed"]
+
+        C_FORK_B --> CONTAIN_ENDPOINT["🔒 Contain Affected Endpoints<br/>via <b>EDR Console</b><br/>─────────────────<br/>• Isolate if malware detected<br/>• Scan for persistence mechanisms<br/>• If admin-level compromise:<br/>&nbsp;&nbsp;full wipe & reimage"]
+
+        C_FORK_B --> UPDATE_RISK_STATE["📋 Update User Risk State<br/>in <b>Identity Protection</b><br/>─────────────────<br/>• Confirm compromise<br/>• Or dismiss risk if benign<br/>&nbsp;&nbsp;(after containment complete)"]
+
+        BLOCK_IP --> C_JOIN_B[ ]
+        CONTAIN_ENDPOINT --> C_JOIN_B
+        UPDATE_RISK_STATE --> C_JOIN_B
+    end
+
+    %% ============================================================
+    %% PHASE 6: POST-INCIDENT
+    %% ============================================================
+    subgraph P6["📋 PHASE 6: POST-INCIDENT"]
+        direction TB
+
+        P6_FORK[ ] --> NOTIFY_STAKEHOLDERS["📢 Notify Stakeholders<br/>─────────────────<br/>• Security team / SOC<br/>• IT administrators<br/>• User's manager<br/>• IR team (if VIP / exec)<br/>• Legal / compliance<br/>&nbsp;&nbsp;(if data accessed / exfiltrated)<br/>• Affected business units"]
+
+        P6_FORK --> RECOMMEND["💡 Document Recommendations<br/>─────────────────<br/>• Conditional access policy gaps<br/>• MFA enforcement improvements<br/>• VPN allowlist / baseline updates<br/>• Detection rule tuning<br/>• Location / travel policy updates<br/>• SIEM & identity protection<br/>&nbsp;&nbsp;rule improvements<br/>• User awareness training needs<br/>• Playbook & runbook updates"]
+
+        NOTIFY_STAKEHOLDERS --> P6_JOIN[ ]
+        RECOMMEND --> P6_JOIN
+
+        P6_JOIN --> SUMMARY["📝 Generate Investigation Summary<br/>─────────────────<br/>• Full alert & sign-in details<br/>• User context & privilege level<br/>• IP enrichment results<br/>• Sign-in & audit log findings<br/>• Scope: accounts & endpoints<br/>&nbsp;&nbsp;affected<br/>• Root cause identification<br/>• Verdict & rationale<br/>• All containment actions taken<br/>• Recommendations"]
+
+        SUMMARY --> TICKET_UPDATE["🎫 Update & Close Case<br/>in <b>ITSM / SOAR Platform</b><br/>─────────────────<br/>• Attach full summary & notes<br/>• Set final classification:<br/>&nbsp;&nbsp;True Positive / False Positive<br/>• Set root cause<br/>• Record MTTD, MTTR, MTTC"]
+
+        TICKET_UPDATE --> CLOSE(["✅ Close Investigation"])
+    end
+
+    %% ============================================================
+    %% PHASE CONNECTIONS
+    %% ============================================================
+    P1_JOIN --> P2_START
+    P2_JOIN --> P3_START
+    SCOPE_UPDATE --> DECISION
+
+    TP_COMP --> CONTAIN_START
+    C_JOIN_B --> P6_FORK
+
+    SUSPICIOUS --> SUMMARY
+    FP --> P6_FORK
+
+    %% ============================================================
+    %% STYLING
+    %% ============================================================
+    style P1 fill:#1a1a2e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P2 fill:#16213e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P3 fill:#0f3460,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P4 fill:#1a1a2e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P5 fill:#16213e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P6 fill:#0f3460,stroke:#0ea5e9,stroke-width:2px,color:#fff
+
+    style START fill:#0ea5e9,stroke:#0ea5e9,color:#fff
+    style DECISION fill:#0ea5e9,stroke:#fff,color:#fff
+    style TP_COMP fill:#c0392b,stroke:#e74c3c,color:#fff
+    style SUSPICIOUS fill:#f39c12,stroke:#f1c40f,color:#000
+    style FP fill:#27ae60,stroke:#2ecc71,color:#fff
+    style CLOSE fill:#27ae60,stroke:#2ecc71,color:#fff
+
+    style P1_FORK fill:none,stroke:none
+    style P1_JOIN fill:none,stroke:none
+    style P2_START fill:none,stroke:none
+    style P2_FORK fill:none,stroke:none
+    style P2_JOIN fill:none,stroke:none
+    style P3_START fill:none,stroke:none
+    style P3_FORK_A fill:none,stroke:none
+    style P3_JOIN_A fill:none,stroke:none
+    style CONTAIN_START fill:none,stroke:none
+    style C_FORK_A fill:none,stroke:none
+    style C_JOIN_A fill:none,stroke:none
+    style C_FORK_B fill:none,stroke:none
+    style C_JOIN_B fill:none,stroke:none
+    style P6_FORK fill:none,stroke:none
+    style P6_JOIN fill:none,stroke:none

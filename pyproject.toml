@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "legion-bench"
+version = "0.1.0"
+description = "LEGION: benchmarking language agents on sparse-signal SOC investigation under adversarial noise"
+authors = ["Legion Security"]
+readme = "README.md"
+packages = [
+  { include = "twin" },
+  { include = "company_generation", from = "src" },
+  { include = "attacks", from = "src" },
+  { include = "soc_tools", from = "src" },
+  { include = "agents", from = "src" },
+  { include = "baselines", from = "src" },
+  { include = "evaluation", from = "src" },
+  { include = "bench", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = "^2.2.0"
+numpy = "*"
+PyYAML = "^6.0.2"
+litellm = "^1.80.11"
+tqdm = "^4.67.1"
+
+[tool.poetry.scripts]
+legion-generate-company-static = "company_generation.static.company_static_generator:main"
+legion-enrich-events = "company_generation.variable.enrich_events_cli:main"
+legion-generate-constants = "company_generation.variable.generate_company_constants:main"
+legion-run = "bench.run_evaluation:main"
+legion-run-baseline = "bench.run_baseline:main"
+legion-report = "bench.report:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

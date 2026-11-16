@@ -1,0 +1,241 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#1a1a2e', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0ea5e9', 'lineColor': '#0ea5e9', 'secondaryColor': '#16213e', 'tertiaryColor': '#0f3460', 'fontFamily': 'Segoe UI', 'fontSize': '13px'}}}%%
+
+flowchart TD
+    %% ============================================================
+    %% PHASE 1: TRIAGE
+    %% ============================================================
+    subgraph P1["🔔 PHASE 1: TRIAGE"]
+        direction TB
+        START([🚨 Phishing Alert Received]) --> EXTRACT_ALERT["📋 Extract Alert / Email Metadata<br/>─────────────────<br/>• Alert source & severity<br/>• Sender address & display name<br/>• Sender domain & sender IP<br/>• Recipient address(es)<br/>• Subject line<br/>• Email message ID / network ID<br/>• Embedded URLs (decode if wrapped<br/>&nbsp;&nbsp;by Proofpoint, SafeLinks, etc.)<br/>• Attachment file names, types,<br/>&nbsp;&nbsp;hashes (SHA256)<br/>• Email headers (raw)"]
+
+        EXTRACT_ALERT --> P1_FORK[ ]
+
+        P1_FORK --> EXTRACT_RECIPIENT["👤 Recipient Context<br/>from <b>Identity Provider / Directory</b><br/>─────────────────<br/>• Role, department & job title<br/>• Privilege level & group membership<br/>• Manager & contact info<br/>• MFA methods registered<br/>• Recent sign-in logs<br/>• Recent audit logs<br/>• High-value target?<br/>&nbsp;&nbsp;(exec, finance, admin, IT)"]
+
+        P1_FORK --> AUTH_CHECK["🔐 Analyze Email Authentication<br/>─────────────────<br/>• SPF result (pass / fail / softfail)<br/>• DKIM result (pass / fail)<br/>• DMARC result (pass / fail / none)<br/>• Envelope vs. header sender<br/>&nbsp;&nbsp;mismatch (spoofing indicator)"]
+
+        P1_FORK --> DELIVERY_STATUS["📬 Check Delivery Status<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Delivered / quarantined / blocked<br/>• Delivery location: inbox, junk,<br/>&nbsp;&nbsp;quarantine, dropped<br/>• Post-delivery actions applied<br/>• Gateway classification:<br/>&nbsp;&nbsp;phish, spam, malware, clean"]
+
+        EXTRACT_RECIPIENT --> P1_JOIN[ ]
+        AUTH_CHECK --> P1_JOIN
+        DELIVERY_STATUS --> P1_JOIN
+    end
+
+    %% ============================================================
+    %% PHASE 2: ENRICHMENT
+    %% ============================================================
+    subgraph P2["🔍 PHASE 2: ENRICHMENT"]
+        direction TB
+
+        P2_START[ ] --> P2_FORK[ ]
+
+        %% --- Sender Enrichment ---
+        P2_FORK --> SENDER_DOMAIN_REP["📧 Check Sender Domain Reputation<br/>in <b>Malware Analysis Platform</b> &<br/><b>Threat Intelligence Platform</b>"]
+
+        P2_FORK --> SENDER_DOMAIN_OSINT["📧 Search Sender Domain<br/>via <b>Web / OSINT Search</b> &<br/><b>WHOIS Lookup</b><br/>─────────────────<br/>• Known legitimate business?<br/>• Domain registration date & age<br/>• Registrar & ownership<br/>• Known mail provider<br/>&nbsp;&nbsp;(Gmail, Outlook, Yahoo)?<br/>• Subdomain analysis"]
+
+        P2_FORK --> SENDER_DOMAIN_HISTORY["📧 Check Sender Domain History<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Historical email volume<br/>&nbsp;&nbsp;to/from this domain<br/>• Prior phishing/spam detections<br/>&nbsp;&nbsp;from this domain<br/>• Past delivery actions<br/>&nbsp;&nbsp;(delivered vs. blocked ratio)<br/>• SPF/DKIM/DMARC pass history"]
+
+        P2_FORK --> SENDER_IP_REP["🌐 Check Sender IP Reputation<br/>in <b>Threat Intelligence Platform</b><br/>& <b>IP Abuse Database</b>"]
+
+        P2_FORK --> SENDER_IP_HISTORY["🌐 Check Sender IP History<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Historical phishing from this IP<br/>• Delivery action breakdown<br/>• Volume of mail from this IP"]
+
+        P2_FORK --> SENDER_IP_GEO["🌐 Check Sender IP Geolocation<br/>& VPN Detection<br/>in <b>Geolocation Service</b>"]
+
+        %% --- URL Enrichment ---
+        P2_FORK --> URL_REP["🔗 Check URL Reputation<br/>in <b>Malware Analysis Platform</b>"]
+
+        P2_FORK --> URL_SANDBOX["🔗 Scan URL in Sandbox<br/>in <b>URL Sandbox Scanner</b> (private)<br/>─────────────────<br/>• Redirect chain & landing page<br/>• Landing page screenshot<br/>• Credential harvesting form?<br/>• Brand impersonation detected?<br/>• Scripts & exploit detection<br/>• Site technology<br/>&nbsp;&nbsp;(custom phish kit, WordPress, etc.)"]
+
+        P2_FORK --> URL_CATEGORY["🔗 Check URL Categorization<br/>in <b>DNS Security / Web Filter</b><br/>─────────────────<br/>• Already blocked?<br/>• Current category"]
+
+        P2_FORK --> URL_SIMILARITY["🔗 Check HTML Similarity<br/>in <b>Phishing Detection Platform</b><br/>─────────────────<br/>• Compare landing page to<br/>&nbsp;&nbsp;known brand login pages<br/>• Detect credential phishing kits<br/>• Similarity score to known phish"]
+
+        %% --- Attachment Enrichment ---
+        P2_FORK --> ATTACH_HASH_REP["📎 Check Attachment Hash Reputation<br/>in <b>Malware Analysis Platform</b>"]
+
+        P2_FORK --> ATTACH_SANDBOX["📎 Detonate Attachment in Sandbox<br/>in <b>Malware Sandbox</b> (private)<br/>─────────────────<br/>• Behavioral analysis<br/>• Network callbacks<br/>• Dropped files & macros<br/>• Malware family identification<br/>• Phish kit identification"]
+
+        P2_FORK --> BODY_ANALYSIS["📎 Analyze Email Body & Content<br/>in <b>AI / Analyst Workbench</b><br/>─────────────────<br/>• Social engineering tactics<br/>• Impersonation indicators<br/>• Urgency / pressure language<br/>• Brand spoofing signals<br/>• QR code extraction & analysis<br/>• Phone numbers in body (TOAD)<br/>• Domains referenced in body"]
+
+        SENDER_DOMAIN_REP --> P2_JOIN[ ]
+        SENDER_DOMAIN_OSINT --> P2_JOIN
+        SENDER_DOMAIN_HISTORY --> P2_JOIN
+        SENDER_IP_REP --> P2_JOIN
+        SENDER_IP_HISTORY --> P2_JOIN
+        SENDER_IP_GEO --> P2_JOIN
+        URL_REP --> P2_JOIN
+        URL_SANDBOX --> P2_JOIN
+        URL_CATEGORY --> P2_JOIN
+        URL_SIMILARITY --> P2_JOIN
+        ATTACH_HASH_REP --> P2_JOIN
+        ATTACH_SANDBOX --> P2_JOIN
+        BODY_ANALYSIS --> P2_JOIN
+    end
+
+    %% ============================================================
+    %% PHASE 3: SCOPING & IDENTIFICATION
+    %% ============================================================
+    subgraph P3["🕵️ PHASE 3: SCOPING & IDENTIFICATION"]
+        direction TB
+
+        P3_START[ ] --> P3_FORK_A[ ]
+
+        %% --- Campaign & Blast Radius (parallel) ---
+        P3_FORK_A --> CAMPAIGN_SEARCH["📊 Search for Campaign Indicators<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Query by sender address<br/>• Query by sender domain<br/>• Query by subject line<br/>• Query by attachment hash<br/>• Identify all recipients who<br/>&nbsp;&nbsp;received the same email<br/>• Check for known campaign<br/>&nbsp;&nbsp;(previously remediated sender)"]
+
+        P3_FORK_A --> SENT_TO_ORG["📊 Search Inbound Emails from Sender<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• All emails from sender domain<br/>&nbsp;&nbsp;in last 30 days<br/>• All emails with matching<br/>&nbsp;&nbsp;attachment types from domain<br/>• Quarantined vs. delivered ratio"]
+
+        P3_FORK_A --> OUTBOUND_CHECK["📊 Search Outbound Emails to Sender<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Legitimate business relationship?<br/>• Prior correspondence history<br/>• Bidirectional communication?"]
+
+        P3_FORK_A --> SIMILAR_INCIDENTS["📊 Search Historical Incidents<br/>in <b>ITSM / SOAR Platform</b><br/>─────────────────<br/>• Prior incidents from sender<br/>• Prior incidents from domain<br/>• Previously remediated?"]
+
+        CAMPAIGN_SEARCH --> P3_JOIN_A[ ]
+        SENT_TO_ORG --> P3_JOIN_A
+        OUTBOUND_CHECK --> P3_JOIN_A
+        SIMILAR_INCIDENTS --> P3_JOIN_A
+
+        %% --- User Action & Endpoint Investigation (parallel) ---
+        P3_JOIN_A --> P3_FORK_B[ ]
+
+        P3_FORK_B --> USER_ACTIONS["👤 Validate User Actions<br/>─────────────────<br/>• Email read / opened?<br/>• Links clicked?<br/>• Attachments downloaded / opened?<br/>• Credentials submitted?<br/>• Reply sent to attacker?<br/>• Forwarded to others?"]
+
+        P3_FORK_B --> CLICK_INVESTIGATION["🖱️ Investigate URL Clicks<br/>in <b>Email Security Control</b> &<br/><b>Web Proxy / Gateway Logs</b><br/>─────────────────<br/>• Who clicked and when<br/>• Click source IP & user agent<br/>• Landing page reached?<br/>• Proxy verdict: allowed / blocked<br/>• Data submitted to page?"]
+
+        P3_FORK_B --> ENDPOINT_CHECK["🖥️ Investigate Affected Endpoints<br/>in <b>EDR Console</b><br/>─────────────────<br/>• Process spawned from email<br/>&nbsp;&nbsp;client or browser?<br/>• File writes after attachment open<br/>• Suspicious network connections<br/>• Signs of malware execution<br/>• If infection suspected:<br/>&nbsp;&nbsp;trigger Malware Playbook"]
+
+        P3_FORK_B --> SIGNIN_CHECK["🔑 Check for Credential Compromise<br/>in <b>Identity Provider</b><br/>─────────────────<br/>• Anomalous sign-in activity<br/>&nbsp;&nbsp;after click timestamp<br/>• New MFA registrations<br/>• Impossible travel detections<br/>• Mail forwarding rules created<br/>• Inbox rules created<br/>• OAuth / app consents added<br/>• Delegates or permissions changed"]
+
+        USER_ACTIONS --> P3_JOIN_B[ ]
+        CLICK_INVESTIGATION --> P3_JOIN_B
+        ENDPOINT_CHECK --> P3_JOIN_B
+        SIGNIN_CHECK --> P3_JOIN_B
+
+        %% --- Scope Finalization ---
+        P3_JOIN_B --> SCOPE_UPDATE["📝 Finalize Scope<br/>─────────────────<br/>• Total recipients who received<br/>• Recipients who opened / clicked<br/>• Recipients who submitted<br/>&nbsp;&nbsp;credentials or data<br/>• Affected endpoints<br/>• Affected mailboxes<br/>• Complete IOC inventory<br/>• Campaign identified: yes / no<br/>• Credential compromise confirmed?<br/>• Malware infection confirmed?"]
+    end
+
+    %% ============================================================
+    %% PHASE 4: VERDICT
+    %% ============================================================
+    subgraph P4["⚖️ PHASE 4: VERDICT"]
+        direction TB
+        DECISION{"🧠 Triage Decision<br/>─────────────────<br/>Weigh all enrichment &<br/>investigation evidence:<br/>• Email authentication results<br/>• Sender domain age & reputation<br/>• Sender IP history & geolocation<br/>• URL sandbox & similarity score<br/>• Attachment sandbox verdict<br/>• Email body analysis<br/>• Social engineering signals<br/>• User actions taken<br/>• Credential compromise signals<br/>• Campaign scope & blast radius"}
+
+        DECISION -- "🔴 Malicious" --> TP_PHISH["🔴 MALICIOUS<br/>─────────────────<br/>• Confirmed phishing attack<br/>• Sub-type: credential phishing,<br/>&nbsp;&nbsp;spear phish, whaling, BEC,<br/>&nbsp;&nbsp;malware delivery, TOAD,<br/>&nbsp;&nbsp;invoice / payment fraud,<br/>&nbsp;&nbsp;extortion, scam<br/>• Document: sender, campaign scope,<br/>&nbsp;&nbsp;users who clicked / submitted,<br/>&nbsp;&nbsp;credential compromise status,<br/>&nbsp;&nbsp;malware infection status<br/>• Proceed to Containment"]
+
+        DECISION -- "🟠 Spam / Bulk" --> TP_SPAM["🟠 SPAM / BULK<br/>─────────────────<br/>• Unsolicited but not malicious<br/>• Document: sender, volume,<br/>&nbsp;&nbsp;recipients affected<br/>• Note tuning opportunities<br/>&nbsp;&nbsp;for spam filters"]
+
+        DECISION -- "🟢 Benign" --> FP["🟢 BENIGN / FALSE POSITIVE<br/>─────────────────<br/>• Legitimate business email<br/>• Document rationale:<br/>&nbsp;&nbsp;why this is benign<br/>• Note tuning / exclusion<br/>&nbsp;&nbsp;recommendations"]
+
+        DECISION -- "🟡 Inconclusive" --> ESCALATE["🟡 ESCALATE<br/>─────────────────<br/>• Insufficient evidence to<br/>&nbsp;&nbsp;determine verdict<br/>• Escalate to Senior Analyst<br/>&nbsp;&nbsp;or IR Team<br/>• Document findings so far"]
+    end
+
+    %% ============================================================
+    %% PHASE 5: CONTAINMENT & ERADICATION
+    %% ============================================================
+    subgraph P5["🛡️ PHASE 5: CONTAINMENT & ERADICATION"]
+        direction TB
+
+        CONTAIN_START[ ] --> C_FORK_A[ ]
+
+        %% --- Email & IOC Remediation (parallel) ---
+        C_FORK_A --> PURGE_EMAILS["🗑️ Purge Phishing Emails<br/>from <b>Email Security Control</b><br/>─────────────────<br/>• Search & purge by sender,<br/>&nbsp;&nbsp;subject, message ID<br/>• Delete from all recipient<br/>&nbsp;&nbsp;inboxes, junk & quarantine<br/>• Delete downloaded attachments<br/>&nbsp;&nbsp;from endpoints via <b>EDR Console</b>"]
+
+        C_FORK_A --> BLOCK_SENDER["🚫 Block Sender<br/>in <b>Email Security Control</b><br/>─────────────────<br/>• Block sender address<br/>• Block sender domain<br/>&nbsp;&nbsp;(if not legitimate)<br/>• Update spam / phish filter rules"]
+
+        C_FORK_A --> BLOCK_URLS["🚫 Block URLs, Domains & IPs<br/>in <b>Web Proxy / Gateway</b>,<br/><b>Firewall</b> & <b>DNS Security</b><br/>─────────────────<br/>• Block phishing URLs<br/>• Sinkhole malicious domains<br/>• Block destination IPs"]
+
+        C_FORK_A --> BLOCK_HASH["🚫 Block Attachment Hashes<br/>in <b>EDR Console</b>"]
+
+        C_FORK_A --> SUBMIT_VENDOR["📤 Submit IOCs to Vendors<br/>─────────────────<br/>• Email security vendor<br/>• Web filter vendor<br/>• Google Safe Browsing<br/>• Threat intelligence platforms<br/>• Brand abuse / domain takedown<br/>&nbsp;&nbsp;request (if impersonating brand)"]
+
+        PURGE_EMAILS --> C_JOIN_A[ ]
+        BLOCK_SENDER --> C_JOIN_A
+        BLOCK_URLS --> C_JOIN_A
+        BLOCK_HASH --> C_JOIN_A
+        SUBMIT_VENDOR --> C_JOIN_A
+
+        %% --- Identity & Endpoint Remediation (parallel) ---
+        C_JOIN_A --> C_FORK_B[ ]
+
+        C_FORK_B --> REVOKE_SESSIONS["🔑 Revoke Sessions & Reset Credentials<br/>in <b>Identity Provider</b><br/>─────────────────<br/>• Revoke all active sessions<br/>• Force password reset<br/>• Re-register MFA if compromised<br/>• Revoke suspicious OAuth consents<br/>• Remove unauthorized<br/>&nbsp;&nbsp;mail forwarding / inbox rules<br/>• Remove unauthorized delegates"]
+
+        C_FORK_B --> ISOLATE_ENDPOINT["🔒 Contain Affected Endpoints<br/>via <b>EDR Console</b> &<br/><b>Network Infrastructure</b><br/>─────────────────<br/>• Network containment<br/>• Eradicate malware artifacts<br/>&nbsp;&nbsp;if infection confirmed<br/>• If admin-level compromise:<br/>&nbsp;&nbsp;full wipe & reimage"]
+
+        C_FORK_B --> NOTIFY_USERS["📧 Notify Affected Users<br/>─────────────────<br/>• Inform recipients the email<br/>&nbsp;&nbsp;was malicious phishing<br/>• Instruct: do not click links,<br/>&nbsp;&nbsp;delete the email, report if<br/>&nbsp;&nbsp;credentials were submitted<br/>• Provide password reset<br/>&nbsp;&nbsp;instructions if applicable"]
+
+        REVOKE_SESSIONS --> C_JOIN_B[ ]
+        ISOLATE_ENDPOINT --> C_JOIN_B
+        NOTIFY_USERS --> C_JOIN_B
+    end
+
+    %% ============================================================
+    %% PHASE 6: POST-INCIDENT
+    %% ============================================================
+    subgraph P6["📋 PHASE 6: POST-INCIDENT"]
+        direction TB
+
+        P6_FORK[ ] --> NOTIFY_STAKEHOLDERS["📢 Notify Stakeholders<br/>─────────────────<br/>• Security team<br/>• IT administrators<br/>• Management (if critical / BEC)<br/>• Legal / compliance (if breach<br/>&nbsp;&nbsp;or data exposure)<br/>• Affected business units<br/>• Third parties (if their brand<br/>&nbsp;&nbsp;was impersonated)"]
+
+        P6_FORK --> RECOMMEND["💡 Document Recommendations<br/>─────────────────<br/>• Email filter tuning needed<br/>• Spam / phish policy updates<br/>• Detection rule gaps to close<br/>• New SIEM & EDR rules needed<br/>• DNS / proxy / firewall updates<br/>• User awareness training needs<br/>• Vendor signature gaps<br/>• Infrastructure hardening<br/>• Playbook & runbook updates"]
+
+        NOTIFY_STAKEHOLDERS --> P6_JOIN[ ]
+        RECOMMEND --> P6_JOIN
+
+        P6_JOIN --> SUMMARY["📝 Generate Investigation Summary<br/>─────────────────<br/>• Full email & alert details<br/>• All IOCs & enrichment results<br/>• Campaign scope & blast radius<br/>• User actions validated<br/>• Credential compromise status<br/>• Malware infection status<br/>• Verdict & rationale<br/>• All containment actions taken<br/>• Recommendations"]
+
+        SUMMARY --> TICKET_UPDATE["🎫 Update & Close Case<br/>in <b>ITSM / SOAR Platform</b><br/>─────────────────<br/>• Attach full summary & notes<br/>• Set final classification<br/>• Record MTTD, MTTR, MTTC"]
+
+        TICKET_UPDATE --> CLOSE(["✅ Close Investigation"])
+    end
+
+    %% ============================================================
+    %% PHASE CONNECTIONS
+    %% ============================================================
+    P1_JOIN --> P2_START
+    P2_JOIN --> P3_START
+    SCOPE_UPDATE --> DECISION
+
+    TP_PHISH --> CONTAIN_START
+    C_JOIN_B --> P6_FORK
+
+    TP_SPAM --> P6_FORK
+    FP --> P6_FORK
+    ESCALATE --> SUMMARY
+
+    %% ============================================================
+    %% STYLING
+    %% ============================================================
+    style P1 fill:#1a1a2e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P2 fill:#16213e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P3 fill:#0f3460,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P4 fill:#1a1a2e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P5 fill:#16213e,stroke:#0ea5e9,stroke-width:2px,color:#fff
+    style P6 fill:#0f3460,stroke:#0ea5e9,stroke-width:2px,color:#fff
+
+    style START fill:#0ea5e9,stroke:#0ea5e9,color:#fff
+    style DECISION fill:#0ea5e9,stroke:#fff,color:#fff
+    style TP_PHISH fill:#c0392b,stroke:#e74c3c,color:#fff
+    style TP_SPAM fill:#e67e22,stroke:#f39c12,color:#fff
+    style FP fill:#27ae60,stroke:#2ecc71,color:#fff
+    style ESCALATE fill:#f39c12,stroke:#f1c40f,color:#000
+    style CLOSE fill:#27ae60,stroke:#2ecc71,color:#fff
+
+    style P1_FORK fill:none,stroke:none
+    style P1_JOIN fill:none,stroke:none
+    style P2_START fill:none,stroke:none
+    style P2_FORK fill:none,stroke:none
+    style P2_JOIN fill:none,stroke:none
+    style P3_START fill:none,stroke:none
+    style P3_FORK_A fill:none,stroke:none
+    style P3_JOIN_A fill:none,stroke:none
+    style P3_FORK_B fill:none,stroke:none
+    style P3_JOIN_B fill:none,stroke:none
+    style CONTAIN_START fill:none,stroke:none
+    style C_FORK_A fill:none,stroke:none
+    style C_JOIN_A fill:none,stroke:none
+    style C_FORK_B fill:none,stroke:none
+    style C_JOIN_B fill:none,stroke:none
+    style P6_FORK fill:none,stroke:none
+    style P6_JOIN fill:none,stroke:none

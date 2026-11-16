@@ -1,0 +1,2158 @@
+[
+  {
+    "type": "business",
+    "content": "Comprehensive quality metrics dashboard showing patient safety indicators, readmission rates, and clinical outcomes across all Meridian facilities for Q4 2024.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-12-15",
+    "path": "/departments/clinical_operations/Reports/quality_metrics_dashboard_q4_2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Strategic plan for expanding cardiac surgery services including market analysis, staffing requirements, and projected revenue impact.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-08-22",
+    "path": "/departments/clinical_operations/Strategic_Planning/cardiac_surgery_expansion_plan.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly clinical department performance review covering patient volumes, staff productivity, and operational efficiency metrics.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-11-30",
+    "path": "/departments/clinical_operations/Reports/monthly_clinical_performance_nov2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for emergency department triage protocols and patient flow management.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2023-05-14",
+    "path": "/departments/clinical_operations/Procedures/ed_triage_protocols.docx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical pathway documentation for stroke care management including time-sensitive treatment protocols and outcome tracking.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-03-18",
+    "path": "/departments/clinical_operations/Clinical_Pathways/stroke_care_pathway.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Patient case presentation slides for weekly medical grand rounds covering complex diagnostic challenges.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-10-08",
+    "path": "/departments/clinical_operations/Education/grand_rounds_case_presentation_oct2024.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Resident rotation schedule for internal medicine program showing assignments across different clinical departments for spring 2024.",
+    "owner role": "Clinical Operations - Resident",
+    "created": "2024-02-01",
+    "path": "/departments/clinical_operations/Schedules/resident_rotation_schedule_spring2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical research protocol for diabetes management study including patient inclusion criteria and data collection procedures.",
+    "owner role": "Clinical Operations - Resident",
+    "created": "2023-09-12",
+    "path": "/departments/clinical_operations/Research/diabetes_management_protocol.docx"
+  },
+  {
+    "type": "business",
+    "content": "Nurse practitioner scope of practice guidelines defining clinical responsibilities and prescribing authorities within Meridian network.",
+    "owner role": "Clinical Operations - Nurse Practitioner",
+    "created": "2023-11-20",
+    "path": "/departments/clinical_operations/Policies/np_scope_of_practice_guidelines.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Patient education materials for chronic disease management covering hypertension, diabetes, and heart disease self-care.",
+    "owner role": "Clinical Operations - Nurse Practitioner",
+    "created": "2024-06-05",
+    "path": "/departments/clinical_operations/Patient_Education/chronic_disease_management_materials.docx"
+  },
+  {
+    "type": "business",
+    "content": "Physician assistant clinical competency assessment framework including evaluation criteria and continuing education requirements.",
+    "owner role": "Clinical Operations - Physician Assistant",
+    "created": "2024-01-15",
+    "path": "/departments/clinical_operations/Training/pa_competency_assessment_framework.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Urgent care clinic workflow optimization recommendations focusing on patient throughput and wait time reduction.",
+    "owner role": "Clinical Operations - Physician Assistant",
+    "created": "2024-07-30",
+    "path": "/departments/clinical_operations/Process_Improvement/urgent_care_workflow_optimization.docx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Daily patient census report showing bed occupancy, admissions, and discharges across all hospital units.",
+    "owner role": "Clinical Operations - Medical Assistant",
+    "created": "2024-12-10",
+    "path": "/departments/clinical_operations/Daily_Reports/patient_census_dec10_2024.csv"
+  },
+  {
+    "type": "regular",
+    "content": "Medical equipment inventory tracking spreadsheet documenting maintenance schedules and replacement needs for clinical devices.",
+    "owner role": "Clinical Operations - Medical Assistant",
+    "created": "2024-09-25",
+    "path": "/departments/clinical_operations/Equipment/medical_equipment_inventory_sept2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical care coordination protocols for managing complex patients across multiple specialties and care settings.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-04-12",
+    "path": "/departments/clinical_operations/Coordination/complex_care_coordination_protocols.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Interdisciplinary team meeting notes documenting patient care plans and discharge planning for high-risk cases.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-11-18",
+    "path": "/departments/clinical_operations/Team_Meetings/interdisciplinary_meeting_notes_nov2024.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Surgical outcomes analysis comparing complication rates and patient satisfaction scores for orthopedic procedures.",
+    "owner role": "Clinical Operations - Surgeon",
+    "created": "2024-05-20",
+    "path": "/departments/clinical_operations/Quality_Analysis/surgical_outcomes_orthopedics_2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Operating room utilization report analyzing surgical volume trends and capacity optimization opportunities.",
+    "owner role": "Clinical Operations - Surgeon",
+    "created": "2024-08-14",
+    "path": "/departments/clinical_operations/Reports/or_utilization_analysis_aug2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Hospital medicine service metrics tracking length of stay, readmission rates, and patient satisfaction for inpatient care.",
+    "owner role": "Clinical Operations - Hospitalist",
+    "created": "2024-10-28",
+    "path": "/departments/clinical_operations/Metrics/hospital_medicine_metrics_oct2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical decision support tool implementation guide for evidence-based treatment recommendations in the EHR system.",
+    "owner role": "Clinical Operations - Hospitalist",
+    "created": "2023-12-08",
+    "path": "/departments/clinical_operations/EHR_Tools/clinical_decision_support_guide.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "EHR system optimization analysis identifying workflow inefficiencies and proposing technology solutions to improve clinical documentation.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-07-03",
+    "path": "/departments/clinical_operations/Informatics/ehr_optimization_analysis_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical data analytics dashboard specifications defining key performance indicators and reporting requirements for executive leadership.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-09-16",
+    "path": "/departments/clinical_operations/Analytics/clinical_dashboard_specifications.docx"
+  },
+  {
+    "type": "business",
+    "content": "Infection control surveillance report documenting hospital-acquired infection rates and prevention measure effectiveness.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-06-28",
+    "path": "/departments/clinical_operations/Infection_Control/surveillance_report_june2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical staff competency training curriculum covering new medical procedures and safety protocols.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2023-08-15",
+    "path": "/departments/clinical_operations/Training/staff_competency_curriculum_2023.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Weekly clinical department meeting minutes discussing patient safety incidents and process improvement initiatives.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-11-25",
+    "path": "/departments/clinical_operations/Meetings/weekly_meeting_minutes_nov25_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Medication reconciliation process improvement project results showing reduced medication errors and improved patient safety.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-04-08",
+    "path": "/departments/clinical_operations/Process_Improvement/medication_reconciliation_improvement.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical research ethics committee review guidelines for evaluating research proposals and ensuring patient protection.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2023-06-22",
+    "path": "/departments/clinical_operations/Ethics/research_ethics_review_guidelines.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Physician performance evaluation template including clinical quality metrics, patient satisfaction scores, and peer review criteria.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2023-10-12",
+    "path": "/departments/clinical_operations/Performance/physician_evaluation_template.docx"
+  },
+  {
+    "type": "business",
+    "content": "Telemedicine program expansion plan outlining technology requirements, clinical workflows, and reimbursement strategies.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-02-14",
+    "path": "/departments/clinical_operations/Telemedicine/program_expansion_plan.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical laboratory quality assurance procedures documenting test validation protocols and proficiency testing requirements.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2023-07-18",
+    "path": "/departments/clinical_operations/Laboratory/qa_procedures_2023.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Radiology department workflow analysis identifying bottlenecks in imaging services and recommendations for improvement.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-03-05",
+    "path": "/departments/clinical_operations/Radiology/workflow_analysis_march2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Emergency preparedness clinical response plan for mass casualty events including triage protocols and resource allocation.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2023-09-28",
+    "path": "/departments/clinical_operations/Emergency_Preparedness/mass_casualty_response_plan.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Nursing staff scheduling optimization model balancing patient acuity levels with appropriate skill mix and coverage requirements.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-05-31",
+    "path": "/departments/clinical_operations/Staffing/nursing_schedule_optimization.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical documentation improvement initiative results showing enhanced coding accuracy and revenue capture.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-08-07",
+    "path": "/departments/clinical_operations/Documentation/cdi_initiative_results_2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Peer review committee findings for adverse events investigation including root cause analysis and corrective action plans.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-01-29",
+    "path": "/departments/clinical_operations/Peer_Review/adverse_events_investigation_q1_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical pharmacy protocols for medication administration and drug interaction monitoring in critical care units.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2023-11-14",
+    "path": "/departments/clinical_operations/Pharmacy/critical_care_medication_protocols.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Patient experience improvement action plan addressing survey feedback and implementing service excellence initiatives.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-06-12",
+    "path": "/departments/clinical_operations/Patient_Experience/improvement_action_plan_2024.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Medical resident education curriculum covering clinical skills, patient communication, and professional development topics.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-07-22",
+    "path": "/departments/clinical_operations/Education/resident_curriculum_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical care guidelines for managing pediatric patients in the emergency department including age-specific protocols.",
+    "owner role": "Clinical Operations - Nurse Practitioner",
+    "created": "2023-04-17",
+    "path": "/departments/clinical_operations/Guidelines/pediatric_emergency_care_guidelines.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Surgical site infection prevention bundle implementation tracking compliance rates and outcome improvements.",
+    "owner role": "Clinical Operations - Surgeon",
+    "created": "2024-09-09",
+    "path": "/departments/clinical_operations/Infection_Prevention/ssi_prevention_bundle_tracking.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Clinical staff credentialing and privileging documentation including background verification and competency assessments.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-10-15",
+    "path": "/departments/clinical_operations/Credentialing/staff_credentialing_documentation.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Discharge planning protocols ensuring appropriate care transitions and reducing readmission risk for complex patients.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2023-12-20",
+    "path": "/departments/clinical_operations/Discharge_Planning/discharge_protocols_2023.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical quality improvement project tracking multiple initiatives including fall prevention, pressure ulcer reduction, and medication safety.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-11-05",
+    "path": "/departments/clinical_operations/Quality_Improvement/qi_project_tracking_nov2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Medical staff bylaws and regulations governing clinical practice standards and professional conduct within Meridian network.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2023-03-10",
+    "path": "/departments/clinical_operations/Governance/medical_staff_bylaws_2023.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical research data management procedures ensuring data integrity and compliance with regulatory requirements.",
+    "owner role": "Clinical Operations - Resident",
+    "created": "2024-08-28",
+    "path": "/departments/clinical_operations/Research/data_management_procedures.docx"
+  },
+  {
+    "type": "business",
+    "content": "Outpatient clinic efficiency metrics analyzing appointment scheduling, wait times, and provider productivity across specialties.",
+    "owner role": "Clinical Operations - Physician Assistant",
+    "created": "2024-04-25",
+    "path": "/departments/clinical_operations/Outpatient/clinic_efficiency_metrics_april2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Medical device training materials for new equipment implementation including safety procedures and competency validation.",
+    "owner role": "Clinical Operations - Medical Assistant",
+    "created": "2024-01-08",
+    "path": "/departments/clinical_operations/Training/medical_device_training_materials.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Clinical incident reporting system data analysis identifying trends in patient safety events and prevention strategies.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-12-02",
+    "path": "/departments/clinical_operations/Safety/incident_reporting_analysis_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Hospitalist service line business plan including patient volume projections, staffing models, and financial performance targets.",
+    "owner role": "Clinical Operations - Hospitalist",
+    "created": "2024-02-28",
+    "path": "/departments/clinical_operations/Business_Planning/hospitalist_service_plan_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical pathway effectiveness evaluation measuring adherence rates and patient outcomes for pneumonia treatment protocols.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-06-18",
+    "path": "/departments/clinical_operations/Evaluation/pneumonia_pathway_effectiveness.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Medical conference presentation slides on innovative surgical techniques and their impact on patient recovery times.",
+    "owner role": "Clinical Operations - Surgeon",
+    "created": "2024-10-03",
+    "path": "/departments/clinical_operations/Conferences/innovative_surgical_techniques_presentation.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical integration strategic roadmap outlining care coordination improvements and technology investments for 2025-2027.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-11-12",
+    "path": "/departments/clinical_operations/Strategy/clinical_integration_roadmap_2025-2027.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Nurse practitioner continuing education requirements documentation including CME credits and specialty certification maintenance.",
+    "owner role": "Clinical Operations - Nurse Practitioner",
+    "created": "2023-05-30",
+    "path": "/departments/clinical_operations/Education/np_continuing_education_requirements.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Malpractice risk assessment report analyzing claims history and implementing preventive measures to reduce liability exposure.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-07-16",
+    "path": "/departments/clinical_operations/Risk_Management/malpractice_risk_assessment_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical performance dashboard showing key indicators for patient safety, quality metrics, and operational efficiency across departments.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-09-30",
+    "path": "/departments/clinical_operations/Dashboards/clinical_performance_dashboard_sept2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Medical record documentation standards ensuring compliance with regulatory requirements and supporting quality patient care.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2023-08-02",
+    "path": "/departments/clinical_operations/Documentation/medical_record_standards_2023.docx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Clinical staff orientation checklist covering hospital policies, safety procedures, and department-specific training requirements.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-03-22",
+    "path": "/departments/clinical_operations/Orientation/staff_orientation_checklist_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Value-based care contract performance metrics tracking quality measures and cost savings for Medicare Advantage populations.",
+    "owner role": "Clinical Operations - Hospitalist",
+    "created": "2024-05-14",
+    "path": "/departments/clinical_operations/Value_Based_Care/contract_performance_metrics_may2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical decision-making guidelines for managing patients with multiple comorbidities including treatment prioritization strategies.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-01-31",
+    "path": "/departments/clinical_operations/Guidelines/multiple_comorbidities_management.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Physician compensation model analysis comparing productivity metrics, quality incentives, and market benchmarks for competitive positioning.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-08-21",
+    "path": "/departments/clinical_operations/Compensation/physician_compensation_analysis_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical research portfolio overview documenting active studies, enrollment targets, and anticipated publication timeline.",
+    "owner role": "Clinical Operations - Resident",
+    "created": "2024-04-03",
+    "path": "/departments/clinical_operations/Research/research_portfolio_overview_2024.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Patient safety culture survey results showing staff perceptions of safety climate and recommendations for improvement.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-10-22",
+    "path": "/departments/clinical_operations/Safety/safety_culture_survey_results_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Medical equipment maintenance log tracking service schedules, repairs, and replacement planning for critical care devices.",
+    "owner role": "Clinical Operations - Medical Assistant",
+    "created": "2024-12-05",
+    "path": "/departments/clinical_operations/Equipment/maintenance_log_december2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Specialty clinic expansion feasibility study analyzing market demand, resource requirements, and revenue projections for cardiology services.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-06-26",
+    "path": "/departments/clinical_operations/Feasibility/cardiology_clinic_expansion_study.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical workflow optimization recommendations for reducing patient wait times and improving throughput in ambulatory surgery.",
+    "owner role": "Clinical Operations - Surgeon",
+    "created": "2024-09-11",
+    "path": "/departments/clinical_operations/Workflow/ambulatory_surgery_optimization.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Medical staff recruitment strategy targeting high-demand specialties with competitive compensation packages and retention incentives.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-03-15",
+    "path": "/departments/clinical_operations/Recruitment/medical_staff_recruitment_strategy.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical informatics project plan for implementing AI-powered diagnostic tools to enhance clinical decision-making capabilities.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-11-28",
+    "path": "/departments/clinical_operations/Informatics/ai_diagnostic_tools_project_plan.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Physician assistant scope expansion proposal outlining additional clinical privileges and collaborative practice opportunities.",
+    "owner role": "Clinical Operations - Physician Assistant",
+    "created": "2024-07-09",
+    "path": "/departments/clinical_operations/Scope_Practice/pa_scope_expansion_proposal.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Clinical committee structure and charter defining roles, responsibilities, and reporting relationships for quality oversight.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2023-10-05",
+    "path": "/departments/clinical_operations/Governance/clinical_committee_charter_2023.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Population health management dashboard tracking chronic disease outcomes and preventive care measures for assigned patient populations.",
+    "owner role": "Clinical Operations - Nurse Practitioner",
+    "created": "2024-08-13",
+    "path": "/departments/clinical_operations/Population_Health/chronic_disease_dashboard_aug2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Medical education curriculum assessment evaluating resident learning objectives and clinical competency development progress.",
+    "owner role": "Clinical Operations - Attending Physician",
+    "created": "2024-05-07",
+    "path": "/departments/clinical_operations/Education/curriculum_assessment_may2024.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Clinical quality assurance audit findings documenting compliance gaps and corrective action plans for regulatory standards.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-09-24",
+    "path": "/departments/clinical_operations/Audits/qa_audit_findings_sept2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Interdisciplinary care team effectiveness metrics measuring collaboration scores and patient outcome improvements.",
+    "owner role": "Clinical Operations - Clinical Coordinator",
+    "created": "2024-02-20",
+    "path": "/departments/clinical_operations/Team_Effectiveness/interdisciplinary_metrics_feb2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical research ethics training materials covering informed consent procedures, data protection, and regulatory compliance requirements.",
+    "owner role": "Clinical Operations - Resident",
+    "created": "2023-07-25",
+    "path": "/departments/clinical_operations/Training/research_ethics_training_materials.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Medical staff meeting agenda and discussion topics for monthly clinical department leadership review.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-12-01",
+    "path": "/departments/clinical_operations/Meetings/medical_staff_meeting_agenda_dec2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Clinical excellence recognition program criteria and nomination process for outstanding physician and nursing performance.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-04-16",
+    "path": "/departments/clinical_operations/Recognition/clinical_excellence_program_criteria.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Patient care coordination software implementation guide including workflow integration and user training requirements.",
+    "owner role": "Clinical Operations - Clinical Informaticist",
+    "created": "2024-10-14",
+    "path": "/departments/clinical_operations/Software/care_coordination_implementation_guide.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Hospital medicine service financial analysis showing revenue trends, cost management opportunities, and profitability projections.",
+    "owner role": "Clinical Operations - Hospitalist",
+    "created": "2024-06-11",
+    "path": "/departments/clinical_operations/Financial/hospital_medicine_financial_analysis.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly nursing quality metrics including patient satisfaction scores, medication error rates, and fall prevention statistics. Contains performance benchmarks and trending analysis for all nursing units.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-11-01",
+    "path": "/departments/nursing/Reports/nursing_quality_metrics_november2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Evidence-based nursing practice guidelines for post-operative care management. Includes assessment protocols, pain management strategies, and discharge planning procedures.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-03-15",
+    "path": "/departments/nursing/Policies/postoperative_care_guidelines.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive staffing analysis showing nurse-to-patient ratios, overtime trends, and recruitment needs across all units. Projects staffing requirements for Q1 2025.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-12-05",
+    "path": "/departments/nursing/Staffing/nursing_staffing_analysis_q4_2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Performance improvement plan documentation for nursing staff member including specific competency gaps and remediation timeline. Contains sensitive personnel information.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-08-22",
+    "path": "/departments/nursing/HR/performance_improvement_plan_08222024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Training materials for new hire orientation covering nursing documentation standards, EHR navigation, and HIPAA compliance. Includes competency checklists and assessment forms.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-01-10",
+    "path": "/departments/nursing/Training/new_hire_orientation_materials.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly budget variance report comparing actual nursing department expenses to budgeted amounts. Details overtime costs, agency staffing, and supply expenditures.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-10-31",
+    "path": "/departments/nursing/Finance/budget_variance_october2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Daily shift report template for charge nurses documenting patient acuity, staffing levels, and significant events. Used for continuity of care between shifts.",
+    "owner role": "Nursing - Charge Nurse",
+    "created": "2023-05-20",
+    "path": "/departments/nursing/Templates/daily_shift_report_template.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Medication administration competency assessment checklist for registered nurses. Covers five rights of medication administration, high-alert medications, and error prevention strategies.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-06-12",
+    "path": "/departments/nursing/Competency/medication_administration_competency.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Nursing sensitive quality indicators dashboard tracking pressure ulcer rates, catheter-associated infections, and patient falls. Includes benchmark comparisons and action plans.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-09-15",
+    "path": "/departments/nursing/Quality/nursing_quality_indicators_q3_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Infection prevention protocols specific to nursing care including hand hygiene compliance, personal protective equipment use, and isolation procedures. Updated with latest CDC guidelines.",
+    "owner role": "Nursing - Registered Nurse",
+    "created": "2024-02-28",
+    "path": "/departments/nursing/Infection_Control/nursing_infection_prevention_protocols.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Annual nursing professional development plan outlining continuing education requirements, specialty certification goals, and career advancement pathways. Includes budget allocation for training programs.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-01-05",
+    "path": "/departments/nursing/Professional_Development/annual_development_plan_2024.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Incident report investigation findings regarding medication error with recommendations for system improvements. Contains detailed root cause analysis and corrective action plan.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-07-18",
+    "path": "/departments/nursing/Safety/incident_investigation_report_07182024.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Weekly nursing unit census tracking patient admissions, discharges, and acuity levels. Used for daily staffing decisions and resource allocation.",
+    "owner role": "Nursing - Charge Nurse",
+    "created": "2024-12-02",
+    "path": "/departments/nursing/Census/weekly_unit_census_dec2024.csv"
+  },
+  {
+    "type": "regular",
+    "content": "Evidence-based practice research summary on fall prevention interventions in hospitalized patients. Includes literature review findings and implementation recommendations.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-04-25",
+    "path": "/departments/nursing/Research/fall_prevention_ebp_review.docx"
+  },
+  {
+    "type": "business",
+    "content": "Nursing department strategic plan for 2025-2027 focusing on recruitment, retention, and quality improvement initiatives. Outlines measurable goals and resource requirements.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-11-20",
+    "path": "/departments/nursing/Strategic_Planning/nursing_strategic_plan_2025-2027.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Patient care documentation standards and guidelines for nursing staff. Covers charting requirements, legal considerations, and best practices for accurate record keeping.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2023-09-10",
+    "path": "/departments/nursing/Documentation/patient_care_documentation_standards.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly nursing turnover analysis tracking resignation rates, exit interview themes, and retention strategies. Includes comparison to industry benchmarks and action plans.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-10-15",
+    "path": "/departments/nursing/HR/nursing_turnover_analysis_october2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Nursing unit meeting minutes discussing policy updates, quality improvement initiatives, and staff concerns. Includes action items and follow-up assignments.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-11-12",
+    "path": "/departments/nursing/Meetings/unit_meeting_minutes_november2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Pain assessment and management protocols for nursing staff including validated pain scales, non-pharmacological interventions, and opioid stewardship guidelines.",
+    "owner role": "Nursing - Registered Nurse",
+    "created": "2024-05-08",
+    "path": "/departments/nursing/Clinical_Protocols/pain_management_protocols.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Disciplinary action documentation for nursing staff member involving patient safety violation. Contains investigation details, corrective measures, and monitoring plan.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-03-30",
+    "path": "/departments/nursing/HR/disciplinary_action_03302024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Nursing competency tracking spreadsheet monitoring annual requirements completion including BLS certification, HIPAA training, and specialty skills validation.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-12-01",
+    "path": "/departments/nursing/Competency/annual_competency_tracking_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Nursing handoff communication protocol using SBAR format to ensure safe patient transitions between shifts and units. Includes templates and training materials.",
+    "owner role": "Nursing - Charge Nurse",
+    "created": "2023-11-15",
+    "path": "/departments/nursing/Communication/handoff_communication_protocol.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Daily nursing assignment sheets for ICU showing patient assignments, acuity scores, and special care requirements. Used for shift planning and workload distribution.",
+    "owner role": "Nursing - Charge Nurse",
+    "created": "2024-12-10",
+    "path": "/departments/nursing/Assignments/icu_assignments_december2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Nursing recruitment and retention presentation for hospital leadership outlining current challenges, proposed solutions, and budget impact. Includes market analysis and competitor comparison.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-08-05",
+    "path": "/departments/nursing/Presentations/recruitment_retention_strategy.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Critical care nursing protocols covering ventilator management, hemodynamic monitoring, and emergency procedures. Includes quick reference guides and decision trees.",
+    "owner role": "Nursing - Registered Nurse",
+    "created": "2024-01-22",
+    "path": "/departments/nursing/Critical_Care/critical_care_protocols.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Nursing department performance dashboard showing key metrics including patient satisfaction, quality indicators, and financial performance. Updated monthly for leadership review.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-11-30",
+    "path": "/departments/nursing/Dashboards/nursing_performance_dashboard_nov2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Nursing skills checklist for certified nursing assistants covering basic patient care, vital signs, and safety procedures. Used for initial competency validation and annual review.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-02-14",
+    "path": "/departments/nursing/Competency/cna_skills_checklist.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Nursing peer review documentation for quality of care concerns including clinical assessment, recommendations, and follow-up plan. Contains sensitive clinical information.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-09-28",
+    "path": "/departments/nursing/Peer_Review/peer_review_case_09282024.docx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Nursing supply inventory tracking medical supplies, equipment, and medication stock levels by unit. Used for daily operations and reorder management.",
+    "owner role": "Nursing - Licensed Practical Nurse",
+    "created": "2024-12-08",
+    "path": "/departments/nursing/Inventory/supply_inventory_december2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Nursing workload analysis study examining patient acuity, nursing hours per patient day, and optimal staffing models. Includes recommendations for staffing improvements.",
+    "owner role": "Nursing - Chief Nursing Officer",
+    "created": "2024-06-30",
+    "path": "/departments/nursing/Analytics/nursing_workload_analysis_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Nursing emergency response procedures for medical codes, natural disasters, and security incidents. Includes role assignments and communication protocols.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2023-12-05",
+    "path": "/departments/nursing/Emergency_Procedures/nursing_emergency_response.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Nursing education budget proposal for 2025 including continuing education, certification programs, and simulation training equipment. Details cost-benefit analysis and ROI projections.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-10-20",
+    "path": "/departments/nursing/Budget/education_budget_proposal_2025.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Wound care management guidelines for nursing staff covering assessment, treatment protocols, and documentation requirements. Includes photos and decision algorithms.",
+    "owner role": "Nursing - Registered Nurse",
+    "created": "2024-07-12",
+    "path": "/departments/nursing/Clinical_Guidelines/wound_care_management.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Nursing schedule templates for different units showing shift patterns, weekend coverage, and holiday staffing. Used for creating monthly work schedules.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-01-30",
+    "path": "/departments/nursing/Scheduling/schedule_templates.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Nursing quality improvement project tracking sheet monitoring ongoing initiatives, timelines, and outcomes. Includes project status updates and resource allocation.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-11-15",
+    "path": "/departments/nursing/Quality_Improvement/qi_project_tracker_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Nursing preceptor program guidelines for mentoring new graduates and experienced nurses transitioning to new units. Includes competency checklists and evaluation tools.",
+    "owner role": "Nursing - Nurse Educator",
+    "created": "2024-04-10",
+    "path": "/departments/nursing/Preceptor/preceptor_program_guidelines.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Nursing staff performance evaluations for annual review cycle including competency assessments, goal setting, and development plans. Contains confidential personnel information.",
+    "owner role": "Nursing - Nurse Manager",
+    "created": "2024-05-25",
+    "path": "/departments/nursing/HR/annual_performance_evaluations_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Nursing department financial summary showing budget performance, cost per patient day, and variance analysis. Prepared for monthly finance committee review.",
+    "owner role": "Nursing - Nursing Director",
+    "created": "2024-12-03",
+    "path": "/departments/nursing/Finance/monthly_financial_summary_november2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Patient safety checklist for nursing staff covering medication reconciliation, fall risk assessment, and infection prevention measures. Updated with latest safety standards.",
+    "owner role": "Nursing - Charge Nurse",
+    "created": "2024-08-15",
+    "path": "/departments/nursing/Safety/patient_safety_checklist.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Annual organizational chart showing reporting structures and staffing levels across all administrative departments. Includes headcount data and budget allocations for each role.",
+    "owner role": "Administration - VP Administration",
+    "created": "2024-01-15",
+    "path": "/departments/administration/Organizational_Structure/org_chart_2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Strategic planning document outlining administrative goals, resource allocation, and operational improvements for the next three years. Contains sensitive budget projections and staffing plans.",
+    "owner role": "Administration - VP Administration",
+    "created": "2023-11-22",
+    "path": "/departments/administration/Strategic_Planning/admin_strategic_plan_2024-2026.docx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly dashboard tracking key administrative metrics including patient registration times, appointment scheduling efficiency, and medical records processing volumes. Includes trend analysis and performance indicators.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2024-10-05",
+    "path": "/departments/administration/Reports/monthly_admin_metrics_october2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for front desk operations including patient check-in processes, insurance verification steps, and appointment scheduling protocols. Updated to reflect new EHR system workflows.",
+    "owner role": "Administration - Office Manager",
+    "created": "2024-03-18",
+    "path": "/departments/administration/Policies/front_desk_operations_manual.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Quarterly analysis of administrative staffing levels, overtime costs, and productivity metrics across all clinic locations. Includes recommendations for staffing optimization.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2024-07-12",
+    "path": "/departments/administration/HR_Analytics/staffing_analysis_q2_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Training materials for new administrative staff covering HIPAA compliance, patient privacy protocols, and electronic health record system basics. Includes interactive exercises and assessment questions.",
+    "owner role": "Administration - Administrative Coordinator",
+    "created": "2024-02-28",
+    "path": "/departments/administration/Training/new_hire_orientation_2024.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Weekly schedule template for medical secretaries showing coverage assignments, break rotations, and backup responsibilities across all departments. Includes holiday and vacation coverage protocols.",
+    "owner role": "Administration - Medical Secretary",
+    "created": "2024-09-03",
+    "path": "/departments/administration/Scheduling/secretary_schedule_template.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Patient satisfaction survey results focusing on administrative services including registration, appointment scheduling, and billing inquiries. Contains improvement recommendations and action items.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2024-08-20",
+    "path": "/departments/administration/Quality_Improvement/patient_satisfaction_admin_services_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Daily visitor log tracking all non-patient visitors to the facility including vendors, consultants, and family members. Maintained for security and contact tracing purposes.",
+    "owner role": "Administration - Receptionist",
+    "created": "2024-12-01",
+    "path": "/departments/administration/Security/visitor_log_december2024.csv"
+  },
+  {
+    "type": "confidential",
+    "content": "Medical records audit findings and corrective action plan addressing documentation deficiencies and compliance issues. Contains specific patient case references and staff performance concerns.",
+    "owner role": "Administration - Health Information Manager",
+    "created": "2024-05-14",
+    "path": "/departments/administration/Compliance/medical_records_audit_may2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Annual budget proposal for administrative operations including personnel costs, technology upgrades, and facility improvements. Contains detailed cost-benefit analysis for proposed initiatives.",
+    "owner role": "Administration - VP Administration",
+    "created": "2023-09-30",
+    "path": "/departments/administration/Budget/admin_budget_proposal_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Updated phone directory listing all department extensions, after-hours contact numbers, and emergency escalation procedures. Includes mobile numbers for key administrative staff.",
+    "owner role": "Administration - Office Manager",
+    "created": "2024-11-15",
+    "path": "/departments/administration/Communication/staff_directory_november2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Physician credentialing status report showing pending applications, renewal deadlines, and compliance issues. Includes timeline for board certifications and malpractice insurance renewals.",
+    "owner role": "Administration - Credentialing Specialist",
+    "created": "2024-10-22",
+    "path": "/departments/administration/Credentialing/physician_credentialing_status_october2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Meeting minutes from monthly administrative staff meeting covering policy updates, system changes, and operational improvements. Includes action items and responsibility assignments.",
+    "owner role": "Administration - Administrative Coordinator",
+    "created": "2024-11-08",
+    "path": "/departments/administration/Meetings/admin_staff_meeting_november2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Medical records retention and disposal schedule complying with state regulations and HIPAA requirements. Outlines timeline for different document types and secure destruction procedures.",
+    "owner role": "Administration - Medical Records Clerk",
+    "created": "2024-01-10",
+    "path": "/departments/administration/Records_Management/retention_schedule_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Performance improvement plan template for administrative staff including goal setting, progress tracking, and evaluation criteria. Used for addressing performance deficiencies and professional development.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2023-12-05",
+    "path": "/departments/administration/HR/performance_improvement_template.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Incident report regarding data breach in patient registration system including root cause analysis and remediation steps. Contains details of affected patient records and notification procedures.",
+    "owner role": "Administration - Health Information Manager",
+    "created": "2024-06-18",
+    "path": "/departments/administration/Incident_Reports/data_breach_incident_june2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Standard forms package for patient registration including insurance verification forms, privacy notices, and consent documents. Updated to comply with latest regulatory requirements.",
+    "owner role": "Administration - Medical Secretary",
+    "created": "2024-04-12",
+    "path": "/departments/administration/Forms/patient_registration_forms_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Workflow analysis documenting patient flow from registration through discharge identifying bottlenecks and improvement opportunities. Includes time-motion study results and efficiency recommendations.",
+    "owner role": "Administration - Administrative Coordinator",
+    "created": "2024-08-07",
+    "path": "/departments/administration/Process_Improvement/patient_flow_analysis_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Equipment inventory list for administrative areas including computers, printers, phones, and office furniture. Tracks purchase dates, warranty information, and replacement schedules.",
+    "owner role": "Administration - Office Manager",
+    "created": "2024-09-25",
+    "path": "/departments/administration/Inventory/office_equipment_inventory_2024.csv"
+  },
+  {
+    "type": "regular",
+    "content": "Emergency contact information for all administrative staff including primary and secondary contacts, medical conditions, and special instructions. Maintained for workplace safety and emergency response.",
+    "owner role": "Administration - Receptionist",
+    "created": "2024-07-30",
+    "path": "/departments/administration/Emergency/staff_emergency_contacts_2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Cost analysis comparing outsourced versus in-house medical transcription services including quality metrics, turnaround times, and financial impact. Contains vendor evaluation and recommendations.",
+    "owner role": "Administration - Health Information Manager",
+    "created": "2024-03-25",
+    "path": "/departments/administration/Vendor_Analysis/transcription_services_comparison_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Quality assurance checklist for medical records documentation ensuring completeness, accuracy, and compliance with coding standards. Used for routine audits and staff training purposes.",
+    "owner role": "Administration - Medical Records Clerk",
+    "created": "2024-06-03",
+    "path": "/departments/administration/Quality_Assurance/medical_records_qa_checklist.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Presentation on administrative technology upgrades including new patient portal features, EHR system enhancements, and workflow automation tools. Prepared for executive leadership review.",
+    "owner role": "Administration - VP Administration",
+    "created": "2024-10-10",
+    "path": "/departments/administration/Technology/tech_upgrade_presentation_2024.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Credentialing committee meeting minutes discussing physician application reviews, privileging decisions, and quality concerns. Contains sensitive peer review information and disciplinary actions.",
+    "owner role": "Administration - Credentialing Specialist",
+    "created": "2024-09-12",
+    "path": "/departments/administration/Credentialing/credentialing_committee_minutes_september2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Administrative policy manual covering dress code, attendance, communication protocols, and professional conduct standards. Includes procedures for reporting concerns and grievance processes.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2023-08-15",
+    "path": "/departments/administration/Policies/administrative_policy_manual_2023.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive IT strategic plan for 2024-2026 including EHR system upgrades, cybersecurity initiatives, and digital transformation roadmap. Details budget allocations and implementation timelines for major technology projects.",
+    "owner role": "IT - Chief Information Officer",
+    "created": "2024-01-15",
+    "path": "/departments/it/Strategic_Planning/it_strategic_plan_2024-2026.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Security incident response procedures for healthcare data breaches and HIPAA compliance violations. Contains escalation protocols and contact information for regulatory reporting.",
+    "owner role": "IT - IT Director",
+    "created": "2023-08-22",
+    "path": "/departments/it/Security/incident_response_procedures.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Network infrastructure assessment report evaluating current capacity and recommending upgrades for hospital and clinic locations. Includes bandwidth utilization analysis and cost projections.",
+    "owner role": "IT - Network Engineer",
+    "created": "2024-03-10",
+    "path": "/departments/it/Infrastructure/network_assessment_report_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Monthly help desk ticket metrics including resolution times, user satisfaction scores, and common issue categories. Provides performance benchmarking against industry standards.",
+    "owner role": "IT - Help Desk Technician",
+    "created": "2024-11-01",
+    "path": "/departments/it/Reports/helpdesk_metrics_october2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "EHR system optimization project plan for improving clinical workflow efficiency and reducing physician documentation burden. Outlines customization requirements and training schedules.",
+    "owner role": "IT - Clinical Systems Analyst",
+    "created": "2024-06-18",
+    "path": "/departments/it/Projects/ehr_optimization_project_plan.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "System backup verification logs for all critical healthcare applications including EHR, PACS, and laboratory systems. Documents successful backup completion and recovery testing results.",
+    "owner role": "IT - Systems Administrator",
+    "created": "2024-12-15",
+    "path": "/departments/it/Backups/backup_verification_december2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Vendor evaluation matrix comparing EHR system providers for potential system replacement or upgrade. Includes cost analysis, feature comparison, and implementation timelines.",
+    "owner role": "IT - IT Manager",
+    "created": "2024-09-05",
+    "path": "/departments/it/Vendor_Analysis/ehr_vendor_comparison_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "User account provisioning and deprovisioning procedures for new hires and departing employees. Covers access management for clinical and administrative systems.",
+    "owner role": "IT - IT Support Specialist",
+    "created": "2023-11-12",
+    "path": "/departments/it/Procedures/user_account_management.md"
+  },
+  {
+    "type": "confidential",
+    "content": "Cybersecurity risk assessment identifying vulnerabilities in medical device networks and patient data systems. Contains detailed remediation recommendations and compliance gaps.",
+    "owner role": "IT - IT Director",
+    "created": "2024-07-30",
+    "path": "/departments/it/Security/cybersecurity_risk_assessment_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical decision support system configuration guide for implementing evidence-based alerts and order sets in the EHR. Includes workflow diagrams and testing protocols.",
+    "owner role": "IT - Clinical Systems Analyst",
+    "created": "2024-04-22",
+    "path": "/departments/it/Clinical_Systems/cds_configuration_guide.docx"
+  },
+  {
+    "type": "regular",
+    "content": "IT asset inventory tracking all hardware and software across hospital and clinic locations. Includes warranty information, maintenance schedules, and replacement planning.",
+    "owner role": "IT - Systems Administrator",
+    "created": "2024-10-08",
+    "path": "/departments/it/Inventory/it_asset_inventory_2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Disaster recovery testing results for critical healthcare systems including failover procedures and recovery time objectives. Documents compliance with regulatory requirements for business continuity.",
+    "owner role": "IT - IT Manager",
+    "created": "2024-05-14",
+    "path": "/departments/it/Disaster_Recovery/dr_testing_results_may2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Network monitoring dashboard configuration and alert thresholds for healthcare network infrastructure. Provides real-time visibility into system performance and availability metrics.",
+    "owner role": "IT - Network Engineer",
+    "created": "2023-12-03",
+    "path": "/departments/it/Monitoring/network_monitoring_dashboard_config.md"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive analysis of revenue cycle performance metrics including days in A/R, denial rates, and collection percentages for Q4 2024. Contains recommendations for process improvements and benchmark comparisons.",
+    "owner role": "Finance & Billing - Revenue Cycle Analyst",
+    "created": "2024-12-15",
+    "path": "/departments/finance_billing/Reports/revenue_cycle_analysis_q4_2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Detailed financial statements and budget variance analysis for Meridian Healthcare Partners fiscal year 2024. Includes P&L statements, cash flow analysis, and executive summary.",
+    "owner role": "Finance & Billing - VP Finance",
+    "created": "2024-11-30",
+    "path": "/departments/finance_billing/Financial_Statements/annual_financial_report_2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly billing reconciliation report showing charge capture accuracy, coding compliance rates, and rejected claims analysis for November 2024. Includes action items for billing team.",
+    "owner role": "Finance & Billing - Billing Manager",
+    "created": "2024-12-05",
+    "path": "/departments/finance_billing/Reconciliation/monthly_billing_reconciliation_nov2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Updated medical coding guidelines and ICD-10 mapping for cardiology procedures effective January 2025. Contains coding examples and documentation requirements.",
+    "owner role": "Finance & Billing - Medical Coder",
+    "created": "2024-12-20",
+    "path": "/departments/finance_billing/Coding_Guidelines/cardiology_coding_updates_2025.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Accounts receivable aging report detailing outstanding patient balances and insurance claims by payer category. Includes collection priority rankings and follow-up schedules.",
+    "owner role": "Finance & Billing - Accounts Receivable Specialist",
+    "created": "2024-12-18",
+    "path": "/departments/finance_billing/AR_Reports/ar_aging_december2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Training materials for new billing specialists covering EHR billing workflows, insurance verification procedures, and patient communication protocols. Includes practice scenarios and quizzes.",
+    "owner role": "Finance & Billing - Senior Billing Specialist",
+    "created": "2023-08-14",
+    "path": "/departments/finance_billing/Training/billing_specialist_training_manual.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Quarterly financial performance dashboard showing key metrics including operating margin, EBITDA, and department-level profitability analysis. Contains trend analysis and projections.",
+    "owner role": "Finance & Billing - Financial Analyst",
+    "created": "2024-10-15",
+    "path": "/departments/finance_billing/Dashboards/financial_performance_q3_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for insurance prior authorization requests and appeals process. Outlines required documentation, timelines, and escalation procedures.",
+    "owner role": "Finance & Billing - Billing Specialist",
+    "created": "2023-03-22",
+    "path": "/departments/finance_billing/Procedures/prior_authorization_sop.md"
+  },
+  {
+    "type": "confidential",
+    "content": "Detailed payer contract analysis showing reimbursement rates, payment terms, and contract performance metrics for major insurance carriers. Includes negotiation strategies.",
+    "owner role": "Finance & Billing - Finance Director",
+    "created": "2024-09-10",
+    "path": "/departments/finance_billing/Contracts/payer_contract_analysis_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly general ledger reconciliation and journal entries for October 2024. Includes account balance verification and variance explanations.",
+    "owner role": "Finance & Billing - Accountant",
+    "created": "2024-11-08",
+    "path": "/departments/finance_billing/Accounting/gl_reconciliation_october2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Comprehensive denial management workflow documenting root cause analysis procedures and appeal submission guidelines. Contains denial code reference tables and resolution tracking.",
+    "owner role": "Finance & Billing - Revenue Cycle Analyst",
+    "created": "2023-11-17",
+    "path": "/departments/finance_billing/Procedures/denial_management_workflow.docx"
+  },
+  {
+    "type": "business",
+    "content": "Weekly cash flow projection and collection forecasting model showing expected receipts by payer type. Includes sensitivity analysis and collection assumptions.",
+    "owner role": "Finance & Billing - Financial Analyst",
+    "created": "2024-12-23",
+    "path": "/departments/finance_billing/Projections/weekly_cash_flow_forecast.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Patient financial assistance policy implementation guide detailing charity care eligibility criteria and application processes. Contains staff training requirements and documentation standards.",
+    "owner role": "Finance & Billing - Billing Manager",
+    "created": "2023-05-30",
+    "path": "/departments/finance_billing/Policies/financial_assistance_implementation.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Daily charge capture audit results showing missed charges and coding accuracy rates across clinical departments. Includes recommendations for physician education.",
+    "owner role": "Finance & Billing - Medical Coder",
+    "created": "2024-12-19",
+    "path": "/departments/finance_billing/Audits/charge_capture_audit_december2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Annual budget planning presentation for fiscal year 2025 including departmental allocations, capital expenditure requests, and strategic initiatives funding. Contains executive recommendations.",
+    "owner role": "Finance & Billing - VP Finance",
+    "created": "2024-08-25",
+    "path": "/departments/finance_billing/Budget_Planning/fy2025_budget_presentation.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Insurance verification checklist and procedures for patient registration staff. Outlines required steps for eligibility verification and benefit confirmation.",
+    "owner role": "Finance & Billing - Senior Billing Specialist",
+    "created": "2023-01-12",
+    "path": "/departments/finance_billing/Procedures/insurance_verification_checklist.md"
+  },
+  {
+    "type": "business",
+    "content": "Monthly bad debt analysis and write-off recommendations for uncollectible accounts. Includes aging analysis and collection effort documentation requirements.",
+    "owner role": "Finance & Billing - Accounts Receivable Specialist",
+    "created": "2024-11-28",
+    "path": "/departments/finance_billing/Collections/bad_debt_analysis_november2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Executive compensation analysis and benchmarking study comparing Meridian's leadership compensation to regional healthcare competitors. Contains salary recommendations and bonus structures.",
+    "owner role": "Finance & Billing - Finance Director",
+    "created": "2024-07-18",
+    "path": "/departments/finance_billing/Compensation/executive_comp_analysis_2024.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Monthly coding productivity report showing coding volume, accuracy rates, and turnaround times by coder. Includes performance metrics and quality indicators.",
+    "owner role": "Finance & Billing - Medical Coder",
+    "created": "2024-12-02",
+    "path": "/departments/finance_billing/Productivity/coding_productivity_november2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Revenue integrity assessment identifying charge capture gaps and coding optimization opportunities across service lines. Contains financial impact analysis and implementation timeline.",
+    "owner role": "Finance & Billing - Revenue Cycle Analyst",
+    "created": "2024-06-14",
+    "path": "/departments/finance_billing/Projects/revenue_integrity_assessment_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Patient payment plan agreement templates and collection policy guidelines for billing staff. Outlines payment options, hardship considerations, and legal compliance requirements.",
+    "owner role": "Finance & Billing - Billing Specialist",
+    "created": "2022-12-08",
+    "path": "/departments/finance_billing/Templates/payment_plan_templates.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Comprehensive salary benchmarking analysis for nursing positions across northeastern healthcare systems. Includes market data and compensation recommendations for 2024.",
+    "owner role": "HR - VP Human Resources",
+    "created": "2024-02-15",
+    "path": "/departments/hr/Compensation/nursing_salary_benchmark_analysis_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly recruitment metrics dashboard showing time-to-fill, cost-per-hire, and source effectiveness for healthcare positions. Covers January 2024 recruitment activities.",
+    "owner role": "HR - Recruiter",
+    "created": "2024-02-05",
+    "path": "/departments/hr/Reports/recruitment_metrics_january2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Updated employee handbook incorporating new HIPAA privacy policies and remote work guidelines for administrative staff. Effective March 2024.",
+    "owner role": "HR - HR Director",
+    "created": "2024-02-28",
+    "path": "/departments/hr/Policies/employee_handbook_2024_v3.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Training curriculum for new physician onboarding program including medical staff bylaws, EHR training, and department-specific protocols. Designed for 2024 cohorts.",
+    "owner role": "HR - Training Coordinator",
+    "created": "2024-01-12",
+    "path": "/departments/hr/Training/physician_onboarding_curriculum_2024.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Investigation report and resolution documentation for workplace harassment complaint filed in Q3 2023. Contains sensitive employee information and corrective actions.",
+    "owner role": "HR - Employee Relations Specialist",
+    "created": "2023-09-22",
+    "path": "/departments/hr/Employee_Relations/harassment_investigation_case_2023-047.docx"
+  },
+  {
+    "type": "business",
+    "content": "Benefits enrollment summary and cost analysis for 2024 open enrollment period. Includes participation rates by employee category and projected costs.",
+    "owner role": "HR - Benefits Coordinator",
+    "created": "2023-12-18",
+    "path": "/departments/hr/Benefits/open_enrollment_summary_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Standardized interview questions and evaluation rubrics for registered nurse positions. Updated to include competency-based behavioral questions.",
+    "owner role": "HR - HR Manager",
+    "created": "2024-03-10",
+    "path": "/departments/hr/Recruitment/rn_interview_guide_2024.docx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Payroll processing checklist and timeline for bi-weekly payroll cycles. Includes deadlines for time entry, approvals, and direct deposit processing.",
+    "owner role": "HR - Payroll Specialist",
+    "created": "2024-01-08",
+    "path": "/departments/hr/Payroll/payroll_processing_checklist.md"
+  },
+  {
+    "type": "business",
+    "content": "Annual turnover analysis by department and position level with exit interview themes and retention recommendations. Covers fiscal year 2023 data.",
+    "owner role": "HR - HR Generalist",
+    "created": "2024-01-30",
+    "path": "/departments/hr/Analytics/annual_turnover_analysis_fy2023.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Continuing education tracking spreadsheet for nursing staff showing CEU completion status and upcoming renewal dates. Updated monthly through December 2024.",
+    "owner role": "HR - Training Coordinator",
+    "created": "2024-12-15",
+    "path": "/departments/hr/Training/nursing_ceu_tracking_december2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Performance improvement plan template and process documentation for managers. Includes legal compliance requirements and progressive discipline guidelines.",
+    "owner role": "HR - HR Manager",
+    "created": "2023-11-05",
+    "path": "/departments/hr/Performance_Management/pip_template_and_process.docx"
+  },
+  {
+    "type": "business",
+    "content": "Healthcare benefits comparison analysis evaluating three insurance carriers for 2025 renewal. Includes cost projections and coverage gap analysis.",
+    "owner role": "HR - Benefits Coordinator",
+    "created": "2024-08-20",
+    "path": "/departments/hr/Benefits/insurance_carrier_comparison_2025.pptx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Weekly overtime report showing department-level overtime hours and costs for the week ending December 20, 2024. Generated from payroll system data.",
+    "owner role": "HR - Payroll Specialist",
+    "created": "2024-12-21",
+    "path": "/departments/hr/Reports/overtime_report_week_ending_122024.csv"
+  },
+  {
+    "type": "confidential",
+    "content": "Comprehensive HIPAA compliance audit findings and remediation action plan for 2024. Includes identified privacy violations, corrective measures, and timeline for implementation.",
+    "owner role": "Compliance & Risk - Chief Compliance Officer",
+    "created": "2024-09-15",
+    "path": "/departments/compliance_risk/Audits/hipaa_compliance_audit_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly compliance dashboard showing key performance indicators for privacy breaches, training completion rates, and policy adherence metrics. Tracks departmental compliance scores across all Meridian facilities.",
+    "owner role": "Compliance & Risk - Compliance Director",
+    "created": "2024-12-01",
+    "path": "/departments/compliance_risk/Reports/monthly_compliance_dashboard_december2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Updated corporate compliance policies and procedures manual covering anti-kickback, Stark Law, billing compliance, and fraud prevention. Effective January 2024 with annual review requirements.",
+    "owner role": "Compliance & Risk - Compliance Manager",
+    "created": "2023-12-20",
+    "path": "/departments/compliance_risk/Policies/corporate_compliance_manual_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Risk assessment matrix evaluating cybersecurity, operational, financial, and regulatory risks across Meridian's healthcare network. Includes risk mitigation strategies and assigned ownership.",
+    "owner role": "Compliance & Risk - Risk Manager",
+    "created": "2024-06-10",
+    "path": "/departments/compliance_risk/Risk_Assessment/enterprise_risk_matrix_2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Investigation report for potential HIPAA violation involving unauthorized access to patient records by former employee. Contains witness statements, timeline, and disciplinary recommendations.",
+    "owner role": "Compliance & Risk - Privacy Officer",
+    "created": "2024-08-22",
+    "path": "/departments/compliance_risk/Investigations/privacy_breach_investigation_case_2024-031.docx"
+  },
+  {
+    "type": "business",
+    "content": "Quality assurance review of medication administration processes across all Meridian facilities. Identifies compliance gaps with Joint Commission standards and improvement opportunities.",
+    "owner role": "Compliance & Risk - Quality Assurance Specialist",
+    "created": "2024-10-05",
+    "path": "/departments/compliance_risk/Quality_Reviews/medication_safety_qa_review_october2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Annual compliance training curriculum covering HIPAA, fraud prevention, workplace safety, and ethical conduct. Includes module descriptions, learning objectives, and completion tracking requirements.",
+    "owner role": "Compliance & Risk - Compliance Analyst",
+    "created": "2024-01-15",
+    "path": "/departments/compliance_risk/Training/annual_compliance_training_curriculum_2024.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Internal audit findings for revenue cycle compliance including billing accuracy, documentation requirements, and coding practices. Provides recommendations for process improvements and staff training.",
+    "owner role": "Compliance & Risk - Internal Auditor",
+    "created": "2024-07-18",
+    "path": "/departments/compliance_risk/Audits/revenue_cycle_internal_audit_july2024.docx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Incident reporting data for Q3 2024 including patient safety events, medication errors, and near-miss occurrences. Raw data export from incident management system for trend analysis.",
+    "owner role": "Compliance & Risk - Quality Assurance Specialist",
+    "created": "2024-10-12",
+    "path": "/departments/compliance_risk/Data/incident_reports_q3_2024.csv"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for conducting compliance investigations including evidence collection, interview protocols, and documentation requirements. Updated to reflect current regulatory guidance.",
+    "owner role": "Compliance & Risk - Compliance Director",
+    "created": "2024-03-08",
+    "path": "/departments/compliance_risk/Procedures/investigation_procedures_2024.md"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive analysis of regulatory changes affecting healthcare compliance in 2025 including CMS updates, state licensing requirements, and Joint Commission standards. Provides implementation roadmap for Meridian facilities.",
+    "owner role": "Compliance & Risk - Chief Compliance Officer",
+    "created": "2024-11-30",
+    "path": "/departments/compliance_risk/Regulatory_Updates/regulatory_impact_analysis_2025.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly inventory report tracking pharmaceutical stock levels, usage patterns, and reorder requirements for all pharmacy locations. Includes controlled substance tracking and expiration date monitoring.",
+    "owner role": "Pharmacy - Pharmacy Director",
+    "created": "2024-11-15",
+    "path": "/departments/pharmacy/Reports/monthly_inventory_report_november2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Detailed analysis of controlled substance dispensing patterns and DEA compliance metrics for Q3 2024. Contains sensitive regulatory compliance data and audit findings.",
+    "owner role": "Pharmacy - Pharmacy Director",
+    "created": "2024-10-08",
+    "path": "/departments/pharmacy/Compliance/controlled_substance_audit_q3_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for medication reconciliation processes during patient admission and discharge. Includes workflow diagrams and staff responsibilities.",
+    "owner role": "Pharmacy - Clinical Pharmacist",
+    "created": "2023-08-22",
+    "path": "/departments/pharmacy/Procedures/medication_reconciliation_sop.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive formulary review recommendations for 2024 including cost analysis and therapeutic alternatives. Prepared for pharmacy and therapeutics committee review.",
+    "owner role": "Pharmacy - Clinical Pharmacist",
+    "created": "2024-01-12",
+    "path": "/departments/pharmacy/Formulary/formulary_review_recommendations_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Training materials covering IV compounding techniques, sterile preparation protocols, and USP 797 compliance requirements. Includes competency assessment criteria.",
+    "owner role": "Pharmacy - Staff Pharmacist",
+    "created": "2024-03-05",
+    "path": "/departments/pharmacy/Training/sterile_compounding_training_2024.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Daily medication error log tracking incidents, root causes, and corrective actions implemented. Used for quality improvement and staff education purposes.",
+    "owner role": "Pharmacy - Staff Pharmacist",
+    "created": "2024-12-10",
+    "path": "/departments/pharmacy/Quality/medication_error_log_december2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Antibiotic stewardship program metrics including usage statistics, cost savings, and resistance pattern trends for Q4 2024. Prepared for infectious disease committee.",
+    "owner role": "Pharmacy - Clinical Pharmacist",
+    "created": "2024-12-18",
+    "path": "/departments/pharmacy/Stewardship/antibiotic_stewardship_metrics_q4_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Pharmacy technician competency checklist covering medication preparation, inventory management, and customer service skills. Used for annual performance evaluations.",
+    "owner role": "Pharmacy - Pharmacy Technician",
+    "created": "2023-06-14",
+    "path": "/departments/pharmacy/HR/technician_competency_checklist.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Documentation of pharmacy intern rotation objectives, learning outcomes, and evaluation criteria for clinical pharmacy experience. Includes preceptor guidelines.",
+    "owner role": "Pharmacy - Pharmacy Intern",
+    "created": "2024-09-03",
+    "path": "/departments/pharmacy/Education/intern_rotation_guidelines_2024.md"
+  },
+  {
+    "type": "business",
+    "content": "Vendor evaluation matrix comparing pharmaceutical wholesalers on pricing, delivery reliability, and service quality metrics. Supports contract negotiation decisions.",
+    "owner role": "Pharmacy - Pharmacy Director",
+    "created": "2024-07-25",
+    "path": "/departments/pharmacy/Procurement/vendor_evaluation_matrix_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Clinical intervention tracking system capturing pharmacist recommendations, physician acceptance rates, and patient outcome improvements. Used for demonstrating clinical value.",
+    "owner role": "Pharmacy - Clinical Pharmacist",
+    "created": "2024-11-28",
+    "path": "/departments/pharmacy/Clinical/intervention_tracking_november2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive monthly laboratory quality metrics including turnaround times, specimen rejection rates, and critical value notification compliance for December 2024.",
+    "owner role": "Laboratory - Lab Director",
+    "created": "2025-01-05",
+    "path": "/departments/laboratory/Reports/monthly_quality_metrics_december2024.xlsx"
+  },
+  {
+    "type": "confidential",
+    "content": "Laboratory proficiency testing results and corrective action plans for external quality assurance programs including CAP and CLIA compliance status.",
+    "owner role": "Laboratory - Lab Manager",
+    "created": "2024-11-15",
+    "path": "/departments/laboratory/Quality_Assurance/proficiency_testing_results_q4_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Standard operating procedures for hematology analyzer maintenance, calibration protocols, and troubleshooting guidelines for laboratory staff.",
+    "owner role": "Laboratory - Senior Lab Technologist",
+    "created": "2024-08-20",
+    "path": "/departments/laboratory/Procedures/hematology_analyzer_sop.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Daily chemistry panel test results and quality control data including glucose, BUN, creatinine, and electrolyte measurements for patient samples.",
+    "owner role": "Laboratory - Medical Lab Technologist",
+    "created": "2024-12-18",
+    "path": "/departments/laboratory/Test_Results/chemistry_panel_results_20241218.csv"
+  },
+  {
+    "type": "business",
+    "content": "Laboratory inventory management spreadsheet tracking reagent expiration dates, stock levels, and reorder points for critical testing supplies.",
+    "owner role": "Laboratory - Lab Technician",
+    "created": "2024-10-30",
+    "path": "/departments/laboratory/Inventory/reagent_inventory_tracking_q4_2024.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Phlebotomy training materials covering proper venipuncture techniques, patient identification protocols, and specimen collection best practices.",
+    "owner role": "Laboratory - Phlebotomist",
+    "created": "2024-06-12",
+    "path": "/departments/laboratory/Training/phlebotomy_training_manual_2024.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Anatomical pathology case review documentation including tissue specimen analysis, diagnostic findings, and treatment recommendations for complex cases.",
+    "owner role": "Laboratory - Pathologist",
+    "created": "2024-09-25",
+    "path": "/departments/laboratory/Pathology_Cases/case_review_september2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Laboratory budget variance analysis comparing actual expenses to projected costs for equipment maintenance, supplies, and staffing for fiscal year 2024.",
+    "owner role": "Laboratory - Lab Director",
+    "created": "2024-12-03",
+    "path": "/departments/laboratory/Financial/budget_variance_analysis_fy2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Microbiology culture and sensitivity testing protocols including specimen processing guidelines, antimicrobial susceptibility testing procedures, and reporting standards.",
+    "owner role": "Laboratory - Senior Lab Technologist",
+    "created": "2024-07-08",
+    "path": "/departments/laboratory/Procedures/microbiology_culture_protocols.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Laboratory information system upgrade project timeline, implementation phases, and staff training schedule for new LIS deployment in 2025.",
+    "owner role": "Laboratory - Lab Manager",
+    "created": "2024-11-28",
+    "path": "/departments/laboratory/Projects/lis_upgrade_project_plan_2025.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Weekly laboratory workload statistics tracking test volumes, staffing levels, and productivity metrics across all laboratory departments and shifts.",
+    "owner role": "Laboratory - Lab Manager",
+    "created": "2025-01-10",
+    "path": "/departments/laboratory/Analytics/weekly_workload_stats_jan2025.csv"
+  },
+  {
+    "type": "business",
+    "content": "Laboratory safety incident investigation report documenting chemical exposure event, root cause analysis, and corrective actions implemented to prevent recurrence.",
+    "owner role": "Laboratory - Lab Director",
+    "created": "2024-05-14",
+    "path": "/departments/laboratory/Safety/safety_incident_report_may2024.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Laboratory competency assessment checklist for new medical laboratory technologists covering technical skills evaluation and certification requirements.",
+    "owner role": "Laboratory - Lab Manager",
+    "created": "2024-03-22",
+    "path": "/departments/laboratory/Training/mlt_competency_assessment.md"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive analysis of radiology department productivity metrics including exam volumes, turnaround times, and technologist utilization rates for Q4 2024.",
+    "owner role": "Radiology - Radiology Director",
+    "created": "2024-12-15",
+    "path": "/departments/radiology/Reports/radiology_productivity_analysis_q4_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for MRI safety protocols including patient screening, contrast administration, and emergency procedures.",
+    "owner role": "Radiology - MRI Technologist",
+    "created": "2023-08-22",
+    "path": "/departments/radiology/Procedures/mri_safety_protocols_2023.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Monthly quality assurance report documenting equipment performance issues, image quality assessments, and corrective actions taken for CT scanners.",
+    "owner role": "Radiology - Senior Radiology Technologist",
+    "created": "2024-11-30",
+    "path": "/departments/radiology/QA/ct_qa_report_november2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Training presentation covering new PACS system features, workflow improvements, and integration with EHR for radiology staff.",
+    "owner role": "Radiology - Radiology Director",
+    "created": "2024-03-14",
+    "path": "/departments/radiology/Training/pacs_system_upgrade_training.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Daily equipment maintenance checklist for CT scanners including calibration checks, phantom testing, and routine cleaning procedures.",
+    "owner role": "Radiology - CT Technologist",
+    "created": "2024-01-08",
+    "path": "/departments/radiology/Maintenance/ct_daily_maintenance_checklist.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Radiologist reading assignments and coverage schedule for all imaging modalities across Meridian Healthcare Partners facilities for January 2025.",
+    "owner role": "Radiology - Radiologist",
+    "created": "2024-12-20",
+    "path": "/departments/radiology/Scheduling/radiologist_coverage_january2025.xlsx"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Documentation of contrast media inventory levels, usage patterns, and vendor pricing comparisons for annual procurement planning.",
+    "owner role": "Radiology - Senior Radiology Technologist",
+    "created": "2024-09-12",
+    "path": "/departments/radiology/Inventory/contrast_media_inventory_september2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Strategic planning document outlining radiology department expansion goals, equipment replacement timeline, and staffing projections for 2025-2027.",
+    "owner role": "Radiology - Radiology Director",
+    "created": "2024-10-05",
+    "path": "/departments/radiology/Strategic_Planning/radiology_strategic_plan_2025-2027.docx"
+  },
+  {
+    "type": "regular",
+    "content": "Competency assessment forms and evaluation criteria for new radiology technologists covering imaging protocols, patient positioning, and radiation safety.",
+    "owner role": "Radiology - Senior Radiology Technologist",
+    "created": "2023-05-18",
+    "path": "/departments/radiology/Training/technologist_competency_assessment.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Incident report documentation and root cause analysis for MRI safety event involving metal object detection failure and subsequent corrective measures.",
+    "owner role": "Radiology - MRI Technologist",
+    "created": "2024-07-29",
+    "path": "/departments/radiology/Incidents/mri_safety_incident_072924.docx"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive patient satisfaction survey results for Q3 2024 including HCAHPS scores and improvement recommendations. Analysis covers all service areas and patient demographics.",
+    "owner role": "Patient Services - Patient Services Director",
+    "created": "2024-10-15",
+    "path": "/departments/patient_services/Reports/patient_satisfaction_survey_q3_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for patient registration including insurance verification, demographic collection, and consent documentation. Updated to reflect 2024 regulatory changes.",
+    "owner role": "Patient Services - Patient Services Manager",
+    "created": "2024-02-12",
+    "path": "/departments/patient_services/Procedures/patient_registration_procedures.docx"
+  },
+  {
+    "type": "confidential",
+    "content": "Case documentation for patient grievance #2024-156 regarding billing dispute and communication breakdown. Includes investigation findings and resolution plan.",
+    "owner role": "Patient Services - Patient Advocate",
+    "created": "2024-07-28",
+    "path": "/departments/patient_services/Grievances/patient_grievance_2024-156.docx"
+  },
+  {
+    "type": "business",
+    "content": "Monthly access metrics dashboard showing appointment scheduling efficiency, wait times, and patient flow statistics. Data covers all outpatient clinics for November 2024.",
+    "owner role": "Patient Services - Patient Access Representative",
+    "created": "2024-12-03",
+    "path": "/departments/patient_services/Analytics/access_metrics_november2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Training materials for new patient access staff covering EHR navigation, insurance verification protocols, and customer service standards. Includes competency assessment forms.",
+    "owner role": "Patient Services - Patient Services Manager",
+    "created": "2023-08-14",
+    "path": "/departments/patient_services/Training/new_staff_orientation_materials.pptx"
+  },
+  {
+    "type": "business",
+    "content": "Care coordination workflow documentation outlining discharge planning processes and community resource referral procedures. Designed to improve continuity of care transitions.",
+    "owner role": "Patient Services - Care Coordinator",
+    "created": "2023-11-22",
+    "path": "/departments/patient_services/Workflows/care_coordination_protocols.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Directory of community social services resources including housing assistance, transportation programs, and mental health services. Updated quarterly for patient referrals.",
+    "owner role": "Patient Services - Social Worker",
+    "created": "2024-09-10",
+    "path": "/departments/patient_services/Resources/community_resources_directory.md"
+  },
+  {
+    "type": "confidential",
+    "content": "Social work assessment documentation for high-risk patient cases requiring intensive case management and safety planning. Contains sensitive patient information and intervention strategies.",
+    "owner role": "Patient Services - Social Worker",
+    "created": "2024-05-17",
+    "path": "/departments/patient_services/Case_Management/high_risk_assessments_may2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Language services utilization report showing interpreter usage patterns by department and language type. Includes cost analysis and recommendations for service optimization.",
+    "owner role": "Patient Services - Interpreter",
+    "created": "2024-01-25",
+    "path": "/departments/patient_services/Reports/interpreter_services_analysis_2023.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Patient advocacy program outcomes tracking patient complaint resolution times and satisfaction scores. Data compiled from January through October 2024 cases.",
+    "owner role": "Patient Services - Patient Advocate",
+    "created": "2024-11-08",
+    "path": "/departments/patient_services/Outcomes/advocacy_program_metrics_2024.csv"
+  },
+  {
+    "type": "confidential",
+    "content": "Comprehensive strategic plan for Meridian Healthcare Partners covering the 2024-2026 period including market expansion, service line development, and financial projections. Contains sensitive competitive analysis and acquisition targets.",
+    "owner role": "Executive - CEO",
+    "created": "2024-01-15",
+    "path": "/departments/executive/Strategic_Planning/meridian_strategic_plan_2024-2026.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Monthly executive dashboard presenting key performance indicators across all hospital facilities including patient volumes, revenue metrics, and quality scores. Includes comparative analysis against regional benchmarks.",
+    "owner role": "Executive - Chief Operating Officer",
+    "created": "2024-11-30",
+    "path": "/departments/executive/Reports/executive_dashboard_november2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Presentation materials for the quarterly board meeting covering financial performance, clinical outcomes, regulatory compliance status, and strategic initiatives progress. Prepared for December 2024 board session.",
+    "owner role": "Executive - Board Secretary",
+    "created": "2024-12-05",
+    "path": "/departments/executive/Board_Materials/q4_2024_board_presentation.pptx"
+  },
+  {
+    "type": "confidential",
+    "content": "Executive compensation analysis and recommendations for senior leadership team including benchmarking data from comparable healthcare organizations. Contains salary and incentive structure proposals for 2025.",
+    "owner role": "Executive - VP Human Resources",
+    "created": "2024-10-20",
+    "path": "/departments/executive/Compensation/executive_compensation_review_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Annual budget summary for fiscal year 2025 presenting consolidated financial projections across all service lines and facilities. Includes capital expenditure plans and revenue growth targets.",
+    "owner role": "Executive - Chief Financial Officer",
+    "created": "2024-09-15",
+    "path": "/departments/executive/Budget/fy2025_annual_budget_summary.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Meeting minutes from the monthly executive leadership team meeting held in October 2024. Documents discussion of operational updates, policy changes, and departmental initiatives.",
+    "owner role": "Executive - Executive Assistant",
+    "created": "2024-10-18",
+    "path": "/departments/executive/Meeting_Minutes/executive_team_meeting_october2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Digital transformation roadmap outlining technology initiatives for 2024-2025 including EHR optimization, telehealth expansion, and cybersecurity enhancements. Contains implementation timelines and budget allocations.",
+    "owner role": "Executive - Chief Information Officer",
+    "created": "2024-03-22",
+    "path": "/departments/executive/IT_Strategy/digital_transformation_roadmap_2024.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Quarterly compliance report summarizing regulatory audit findings, corrective action plans, and HIPAA compliance status across all Meridian facilities. Includes recommendations for process improvements.",
+    "owner role": "Executive - Chief Compliance Officer",
+    "created": "2024-07-31",
+    "path": "/departments/executive/Compliance/q2_2024_compliance_report.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Contact directory for all executive team members including direct phone numbers, email addresses, and emergency contact information. Updated quarterly to maintain accuracy.",
+    "owner role": "Executive - Chief of Staff",
+    "created": "2024-12-01",
+    "path": "/departments/executive/Contact_Lists/executive_contact_directory_q4_2024.csv"
+  },
+  {
+    "type": "business",
+    "content": "Clinical quality improvement initiative summary documenting patient safety metrics, quality outcomes, and physician engagement programs. Outlines strategies to enhance care delivery across the healthcare network.",
+    "owner role": "Executive - Chief Medical Officer",
+    "created": "2024-08-14",
+    "path": "/departments/executive/Quality_Initiatives/clinical_quality_improvement_plan_2024.md"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive safety inspection report covering all Meridian Healthcare Partners facilities with compliance findings and remediation timelines. Includes OSHA compliance status and regulatory recommendations.",
+    "owner role": "Facilities - Safety Officer",
+    "created": "2024-11-15",
+    "path": "/departments/facilities/Safety/annual_safety_inspection_report_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Detailed maintenance schedules for all biomedical equipment across the healthcare network including calibration dates and service intervals. Critical for patient safety and regulatory compliance.",
+    "owner role": "Facilities - Biomedical Equipment Technician",
+    "created": "2024-12-01",
+    "path": "/departments/facilities/Equipment/biomedical_equipment_maintenance_schedule_2025.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Daily work orders and maintenance requests for the week of December 16-20, 2024. Includes priority levels and assigned technicians for each facility location.",
+    "owner role": "Facilities - Maintenance Supervisor",
+    "created": "2024-12-16",
+    "path": "/departments/facilities/Work_Orders/weekly_maintenance_requests_121624.csv"
+  },
+  {
+    "type": "confidential",
+    "content": "Budget allocation and expenditure analysis for facilities department capital improvements in FY2024. Contains sensitive financial data and vendor contract information.",
+    "owner role": "Facilities - Facilities Director",
+    "created": "2024-10-30",
+    "path": "/departments/facilities/Budget/capital_improvements_budget_fy2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Environmental services protocols for infection control and cleaning procedures specific to healthcare environments. Includes COVID-19 enhanced cleaning standards.",
+    "owner role": "Facilities - Environmental Services Supervisor",
+    "created": "2024-03-12",
+    "path": "/departments/facilities/Environmental/infection_control_cleaning_protocols.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Monthly facility utilization report showing space usage, occupancy rates, and capacity planning data for all Meridian locations. Used for operational planning and efficiency improvements.",
+    "owner role": "Facilities - Facilities Manager",
+    "created": "2024-11-28",
+    "path": "/departments/facilities/Reports/facility_utilization_november2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Emergency generator testing results and backup power system performance data for all critical care areas. Includes compliance documentation for Joint Commission standards.",
+    "owner role": "Facilities - Maintenance Technician",
+    "created": "2024-09-15",
+    "path": "/departments/facilities/Emergency_Systems/generator_testing_q3_2024.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Training presentation covering proper handling and disposal of medical waste, sharps containers, and hazardous materials. Includes regulatory compliance requirements for healthcare facilities.",
+    "owner role": "Facilities - Environmental Services Supervisor",
+    "created": "2024-06-18",
+    "path": "/departments/facilities/Training/medical_waste_handling_training_2024.pptx"
+  },
+  {
+    "type": "regular",
+    "content": "Vendor performance evaluation for contracted cleaning services including quality scores and compliance metrics. Documents service level agreements and improvement recommendations.",
+    "owner role": "Facilities - Facilities Manager",
+    "created": "2024-08-22",
+    "path": "/departments/facilities/Vendor_Management/cleaning_contractor_evaluation_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "HVAC system performance data and air quality monitoring results for operating rooms and patient care areas. Critical for maintaining sterile environments and patient safety.",
+    "owner role": "Facilities - Maintenance Supervisor",
+    "created": "2024-07-10",
+    "path": "/departments/facilities/HVAC/air_quality_monitoring_q2_2024.xlsx"
+  },
+  {
+    "type": "regular",
+    "content": "Standard operating procedures for environmental services staff including room turnover protocols and terminal cleaning procedures. Ensures consistent service delivery across all facilities.",
+    "owner role": "Facilities - Environmental Services Worker",
+    "created": "2023-11-05",
+    "path": "/departments/facilities/Procedures/environmental_services_sop.md"
+  },
+  {
+    "type": "business",
+    "content": "Fire safety system inspection records and emergency evacuation plan updates for all Meridian facilities. Includes sprinkler system testing and alarm functionality verification.",
+    "owner role": "Facilities - Safety Officer",
+    "created": "2024-05-14",
+    "path": "/departments/facilities/Safety/fire_safety_inspection_may2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Facilities security assessment report identifying vulnerabilities and recommended improvements for physical security systems. Contains sensitive information about access controls and surveillance systems.",
+    "owner role": "Facilities - Facilities Director",
+    "created": "2024-02-28",
+    "path": "/departments/facilities/Security/security_assessment_q1_2024.docx"
+  },
+  {
+    "type": "business",
+    "content": "Comprehensive employee handbook outlining company policies, benefits, workplace guidelines, and code of conduct for all Meridian Healthcare Partners staff.",
+    "owner role": "HR - HR Director",
+    "created": "2024-01-15",
+    "path": "/shared/HR/employee_handbook_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Corporate code of conduct establishing ethical standards, professional behavior expectations, and compliance requirements for all employees.",
+    "owner role": "Compliance & Risk - Chief Compliance Officer",
+    "created": "2023-03-10",
+    "path": "/shared/policies/code_of_conduct_2023.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Information technology security policy detailing data protection protocols, access controls, and cybersecurity requirements for healthcare systems.",
+    "owner role": "IT - Chief Information Officer",
+    "created": "2024-06-20",
+    "path": "/shared/policies/it_security_policy_v4.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Employee expense reimbursement policy covering allowable expenses, submission procedures, and approval workflows for business-related costs.",
+    "owner role": "Finance & Billing - VP Finance",
+    "created": "2023-11-08",
+    "path": "/shared/policies/expense_reimbursement_policy.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Corporate travel policy outlining booking procedures, accommodation guidelines, and expense limits for business travel.",
+    "owner role": "Administration - VP Administration",
+    "created": "2024-02-14",
+    "path": "/shared/policies/travel_policy_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Brand guidelines document establishing visual identity standards, logo usage requirements, and marketing materials consistency for Meridian Healthcare Partners.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2023-05-22",
+    "path": "/shared/branding/brand_guidelines_v3.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Corporate logo files and usage guide providing approved logo variations, color specifications, and placement guidelines for marketing materials.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2023-05-22",
+    "path": "/shared/branding/logo_usage_guide.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "PowerPoint and Word document templates with Meridian Healthcare Partners branding for consistent presentation and communication materials.",
+    "owner role": "Administration - Administrative Director",
+    "created": "2024-01-30",
+    "path": "/shared/templates/corporate_presentation_templates.zip"
+  },
+  {
+    "type": "regular",
+    "content": "Monthly company newsletter featuring organizational updates, employee recognition, healthcare industry news, and upcoming events.",
+    "owner role": "Executive - Chief of Staff",
+    "created": "2024-12-01",
+    "path": "/shared/communications/monthly_newsletter_december2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Meeting minutes from quarterly all-hands meeting covering strategic initiatives, financial performance, and organizational changes.",
+    "owner role": "Executive - Executive Assistant",
+    "created": "2024-10-15",
+    "path": "/shared/communications/all_hands_meeting_q3_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Current organizational chart showing reporting relationships, department structures, and leadership hierarchy across Meridian Healthcare Partners.",
+    "owner role": "HR - HR Director",
+    "created": "2024-09-12",
+    "path": "/shared/communications/organizational_chart_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Emergency response procedures manual outlining protocols for medical emergencies, natural disasters, and security incidents affecting healthcare operations.",
+    "owner role": "Facilities - Safety Officer",
+    "created": "2024-03-18",
+    "path": "/shared/emergency/emergency_response_procedures.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Detailed floor plans for all Meridian Healthcare Partners facilities including hospital wings, outpatient clinics, and administrative offices.",
+    "owner role": "Facilities - Facilities Director",
+    "created": "2023-08-25",
+    "path": "/shared/facilities/facility_floor_plans_2023.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "HIPAA compliance guidelines and training materials covering patient privacy protection, data security, and regulatory requirements for healthcare staff.",
+    "owner role": "Compliance & Risk - Privacy Officer",
+    "created": "2024-04-05",
+    "path": "/shared/compliance/hipaa_compliance_guide_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Joint Commission accreditation standards and preparation materials for upcoming survey including quality metrics and compliance requirements.",
+    "owner role": "Compliance & Risk - Chief Compliance Officer",
+    "created": "2024-07-10",
+    "path": "/shared/compliance/joint_commission_standards_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "New employee onboarding guide covering orientation schedule, required training modules, and department-specific introduction procedures.",
+    "owner role": "HR - Training Coordinator",
+    "created": "2024-05-08",
+    "path": "/shared/HR/new_employee_onboarding_guide.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Comprehensive benefits overview document detailing health insurance options, retirement plans, paid time off policies, and employee assistance programs.",
+    "owner role": "HR - Benefits Coordinator",
+    "created": "2024-11-01",
+    "path": "/shared/HR/benefits_overview_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Annual performance review process guidelines including evaluation criteria, review timeline, and goal-setting procedures for all departments.",
+    "owner role": "HR - HR Manager",
+    "created": "2023-12-15",
+    "path": "/shared/HR/performance_review_process_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Infection control policies and procedures manual covering isolation protocols, personal protective equipment requirements, and outbreak management.",
+    "owner role": "Clinical Operations - Medical Director",
+    "created": "2024-08-14",
+    "path": "/shared/clinical/infection_control_manual_2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Medication safety protocols including high-alert medication lists, administration guidelines, and error reporting procedures for clinical staff.",
+    "owner role": "Pharmacy - Pharmacy Director",
+    "created": "2024-06-30",
+    "path": "/shared/clinical/medication_safety_protocols.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Patient safety event reporting system user guide covering incident classification, reporting procedures, and follow-up investigation processes.",
+    "owner role": "Compliance & Risk - Quality Assurance Specialist",
+    "created": "2024-09-20",
+    "path": "/shared/quality/patient_safety_reporting_guide.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Corporate communication style guide establishing tone, messaging standards, and approved terminology for internal and external communications.",
+    "owner role": "Executive - Chief of Staff",
+    "created": "2023-07-12",
+    "path": "/shared/communications/communication_style_guide.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Directory of all department contacts including phone numbers, email addresses, and physical locations for internal communication purposes.",
+    "owner role": "Administration - Office Manager",
+    "created": "2024-10-05",
+    "path": "/shared/communications/internal_directory_2024.xlsx"
+  },
+  {
+    "type": "business",
+    "content": "Information security incident response plan detailing procedures for data breaches, cyberattacks, and system compromises in healthcare environments.",
+    "owner role": "IT - IT Director",
+    "created": "2024-04-22",
+    "path": "/shared/IT/security_incident_response_plan.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "IT service catalog listing available technology services, support procedures, and service level agreements for all departments.",
+    "owner role": "IT - IT Manager",
+    "created": "2024-08-01",
+    "path": "/shared/IT/it_service_catalog_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Clinical documentation improvement guidelines covering medical record completeness, coding accuracy, and physician query processes.",
+    "owner role": "Administration - Health Information Manager",
+    "created": "2024-05-15",
+    "path": "/shared/clinical/clinical_documentation_guidelines.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Workplace violence prevention policy and procedures including threat assessment, de-escalation techniques, and emergency response protocols.",
+    "owner role": "Facilities - Safety Officer",
+    "created": "2023-09-18",
+    "path": "/shared/safety/workplace_violence_prevention.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Revenue cycle management policies covering patient registration, insurance verification, billing procedures, and collections processes.",
+    "owner role": "Finance & Billing - Finance Director",
+    "created": "2024-02-28",
+    "path": "/shared/finance/revenue_cycle_policies_2024.pdf"
+  },
+  {
+    "type": "confidential",
+    "content": "Executive compensation and benefits package details for senior leadership positions including salary ranges and incentive structures.",
+    "owner role": "HR - VP Human Resources",
+    "created": "2024-01-10",
+    "path": "/shared/HR/executive_compensation_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Environmental sustainability initiatives and green practices guide for reducing healthcare facility environmental impact and waste management.",
+    "owner role": "Facilities - Facilities Director",
+    "created": "2023-10-30",
+    "path": "/shared/sustainability/environmental_initiatives_2023.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Quality improvement program framework outlining performance metrics, improvement methodologies, and reporting structures for patient care quality.",
+    "owner role": "Compliance & Risk - Compliance Director",
+    "created": "2024-03-25",
+    "path": "/shared/quality/quality_improvement_framework.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Professional development and continuing education policy covering training requirements, tuition reimbursement, and certification maintenance for healthcare staff.",
+    "owner role": "HR - Training Coordinator",
+    "created": "2024-07-08",
+    "path": "/shared/HR/professional_development_policy.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Vendor management policy establishing procurement procedures, contract approval processes, and vendor performance evaluation criteria.",
+    "owner role": "Administration - VP Administration",
+    "created": "2023-12-05",
+    "path": "/shared/policies/vendor_management_policy.pdf"
+  },
+  {
+    "type": "unlabeled",
+    "content": "Annual company calendar featuring important dates, holiday schedules, training deadlines, and organizational events for planning purposes.",
+    "owner role": "Executive - Executive Assistant",
+    "created": "2024-12-10",
+    "path": "/shared/communications/annual_calendar_2025.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Patient rights and responsibilities document outlining healthcare service expectations, privacy rights, and complaint procedures for patient care.",
+    "owner role": "Patient Services - Patient Services Director",
+    "created": "2024-06-12",
+    "path": "/shared/patient_services/patient_rights_responsibilities.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Business continuity plan detailing operational procedures during emergencies, system outages, and disaster recovery protocols for healthcare services.",
+    "owner role": "Executive - Chief Operating Officer",
+    "created": "2024-04-18",
+    "path": "/shared/emergency/business_continuity_plan_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Employee recognition program guidelines covering nomination procedures, award criteria, and celebration events for outstanding performance.",
+    "owner role": "HR - Employee Relations Specialist",
+    "created": "2023-11-20",
+    "path": "/shared/HR/employee_recognition_program.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Medical staff bylaws governing physician privileges, credentialing requirements, peer review processes, and medical staff governance structure.",
+    "owner role": "Clinical Operations - Chief Medical Officer",
+    "created": "2024-01-25",
+    "path": "/shared/medical_staff/medical_staff_bylaws_2024.pdf"
+  },
+  {
+    "type": "regular",
+    "content": "Corporate social responsibility report highlighting community health initiatives, charitable activities, and public health partnerships.",
+    "owner role": "Executive - CEO",
+    "created": "2024-11-15",
+    "path": "/shared/communications/csr_report_2024.pdf"
+  },
+  {
+    "type": "business",
+    "content": "Data governance policy establishing data management standards, access controls, and data quality requirements for electronic health records and business systems.",
+    "owner role": "IT - Clinical Systems Analyst",
+    "created": "2024-08-30",
+    "path": "/shared/IT/data_governance_policy_2024.pdf"
+  }
+]
